@@ -44,12 +44,20 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.85);backdro
 /* ─── MAIN CONTENT ─── */
 main{max-width:1280px;margin:0 auto;padding:1.25rem}
 
-/* ─── CATEGORY SECTION (grid) ─── */
-.sec{margin-bottom:2rem}
-.sec-hd{display:flex;align-items:baseline;gap:.5rem;margin-bottom:.7rem}
+/* ─── CATEGORY SECTION (shelf) ─── */
+.sec{margin-bottom:1.6rem}
+.sec-hd{display:flex;align-items:baseline;gap:.5rem;margin-bottom:.6rem}
 .sec-hd h2{font-size:.95rem;font-weight:700;color:var(--text);letter-spacing:-.01em}
 .sec-hd span{font-size:.68rem;color:var(--text-ter);font-weight:500}
-.sec-gr{display:grid;grid-template-columns:repeat(auto-fill,minmax(145px,1fr));gap:.65rem}
+.sh-wrap{position:relative;display:flex;align-items:center}
+.sh{display:flex;gap:.65rem;overflow-x:auto;scroll-behavior:smooth;scrollbar-width:none;-webkit-overflow-scrolling:touch;width:100%;padding:2px 0}
+.sh::-webkit-scrollbar{display:none}
+.sh .bk{flex:0 0 calc(20% - 0.52rem);min-width:130px}
+.sa{position:absolute;z-index:2;width:34px;height:34px;border-radius:50%;border:none;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.1);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:.75rem;color:var(--text);transition:all var(--trans);flex-shrink:0;opacity:0}
+.sh-wrap:hover .sa,.sa.shown{opacity:1}
+.sa:hover{box-shadow:0 4px 16px rgba(0,0,0,.16)}
+.sa:disabled{opacity:0!important;pointer-events:none}
+.sa.sl{left:-14px}.sa.sr{right:-14px}
 
 /* ─── BOOK CARD ─── */
 .bk{cursor:pointer;transition:transform var(--trans);position:relative}
@@ -65,7 +73,6 @@ main{max-width:1280px;margin:0 auto;padding:1.25rem}
 
 /* ─── SEARCH MODE ─── */
 #resView{display:none}
-#resView .sec-gr{grid-template-columns:repeat(auto-fill,minmax(140px,1fr))}
 
 /* ─── EMPTY ─── */
 .empty{text-align:center;padding:3rem 1rem;color:var(--text-ter)}
@@ -113,12 +120,16 @@ main{max-width:1280px;margin:0 auto;padding:1.25rem}
 @keyframes sp{to{transform:rotate(360deg)}}
 
 /* ─── RESPONSIVE ─── */
-@media(max-width:800px){.sec-gr{grid-template-columns:repeat(auto-fill,minmax(115px,1fr));gap:.5rem}.detail-cvr{width:100px}}
+@media(max-width:800px){
+  .sh .bk{flex:0 0 calc(33.33% - 0.52rem);min-width:120px}
+  .detail-cvr{width:100px}
+}
 @media(max-width:480px){
   .hdr{padding:.5rem .7rem}.hdr-top{gap:.4rem}.brand h1{font-size:.8rem}.brand small{font-size:.55rem}.brand-ico{width:30px;height:30px;font-size:.85rem}
   .stat{font-size:.6rem}.srch input{font-size:.72rem}
-  .sec-gr{grid-template-columns:repeat(auto-fill,minmax(90px,1fr));gap:.4rem}
+  .sh .bk{flex:0 0 calc(50% - 0.52rem);min-width:90px}
   .bk-ttl{font-size:.58rem}.bk-sub{font-size:.5rem}
+  .sa{width:28px;height:28px;font-size:.65rem}.sa.sl{left:-10px}.sa.sr{right:-10px}
   .detail-top{flex-direction:column;align-items:center;text-align:center;padding:1.25rem 1rem .5rem}
   .detail-cvr{width:130px}.detail-body{padding:0 1rem 1rem}.detail-cl{top:6px;right:6px}
 }
@@ -208,7 +219,9 @@ function buildSecs(){
   const el=document.getElementById('secs');
   el.innerHTML=order.map(c=>{
     const books=all.filter(b=>b.categories.includes(c));
-    return `<div class="sec"><div class="sec-hd"><h2>📚 ${esc(c)}</h2><span>${books.length}</span></div><div class="sec-gr">${books.map(b=>card(b)).join('')}</div></div>`;
+    const cards=books.map(b=>card(b)).join('');
+    const few=books.length<=5;
+    return '<div class="sec"><div class="sec-hd"><h2>📚 ${esc(c)}</h2><span>${books.length}</span></div><div class="sh-wrap"><button class="sa sl" onclick="scrollS(this,-1)"'+(few?' disabled':'')+'>◀</button><div class="sh">${cards}</div><button class="sa sr" onclick="scrollS(this,1)"'+(few?' disabled':'')+'>▶</button></div></div>';
   }).join('');
   document.getElementById('seen').textContent=all.length;
 }
@@ -225,6 +238,14 @@ function card(b){
 }
 
 function esc(s){const d=document.createElement('div');d.textContent=s;return d.innerHTML}
+
+/* ─── SHELF SCROLL ─── */
+function scrollS(btn,dir){
+  const sh=btn.closest('.sh-wrap').querySelector('.sh');
+  const card=sh.querySelector('.bk');if(!card)return;
+  const gap=parseFloat(getComputedStyle(sh).gap)||10;
+  sh.scrollBy({left:dir*(card.offsetWidth+gap)*5,behavior:'smooth'});
+}
 
 /* ─── DETAIL OVERLAY ─── */
 function openD(el){
@@ -270,8 +291,9 @@ function onSearch(){
   document.getElementById('resView').style.display='block';
   const res=all.filter(b=>b.name.toLowerCase().includes(q));
   document.getElementById('seen').textContent=res.length;
+  const cards=res.map(b=>card(b)).join('');
   document.getElementById('resView').innerHTML=res.length
-    ? `<div class="sec"><div class="sec-hd"><h2>🔍 Hasil</h2><span>${res.length}</span></div><div class="sec-gr">${res.map(b=>card(b)).join('')}</div></div>`
+    ? '<div class="sec"><div class="sec-hd"><h2>🔍 Hasil</h2><span>${res.length}</span></div><div class="sh-wrap"><button class="sa sl" onclick="scrollS(this,-1)">◀</button><div class="sh">${cards}</div><button class="sa sr" onclick="scrollS(this,1)">▶</button></div></div>'
     : '<div class="empty"><i>📭</i><p>Tidak ditemukan.</p></div>';
 }
 function showAll(){
@@ -289,7 +311,8 @@ function filterCat(c){
   document.getElementById('q').value='';
   const res=all.filter(b=>b.categories.includes(c));
   document.getElementById('seen').textContent=res.length;
-  document.getElementById('resView').innerHTML=`<div class="sec"><div class="sec-hd"><h2>📚 ${esc(c)}</h2><span>${res.length}</span></div><div class="sec-gr">${res.map(b=>card(b)).join('')}</div></div>`;
+  const cards=res.map(b=>card(b)).join('');
+  document.getElementById('resView').innerHTML='<div class="sec"><div class="sec-hd"><h2>📚 ${esc(c)}</h2><span>${res.length}</span></div><div class="sh-wrap"><button class="sa sl" onclick="scrollS(this,-1)">◀</button><div class="sh">${cards}</div><button class="sa sr" onclick="scrollS(this,1)">▶</button></div></div>';
 }
 
 /* ─── KEYBOARD ─── */
