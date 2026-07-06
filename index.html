@@ -221,7 +221,7 @@ function buildSecs(){
     const books=all.filter(b=>b.categories.includes(c));
     const cards=books.map(b=>card(b)).join('');
     const few=books.length<=5;
-    return '<div class="sec"><div class="sec-hd"><h2>📚 ${esc(c)}</h2><span>${books.length}</span></div><div class="sh-wrap"><button class="sa sl" onclick="scrollS(this,-1)"'+(few?' disabled':'')+'>◀</button><div class="sh">${cards}</div><button class="sa sr" onclick="scrollS(this,1)"'+(few?' disabled':'')+'>▶</button></div></div>';
+    return `<div class="sec"><div class="sec-hd"><h2>📚 ${esc(c)}</h2><span>${books.length}</span></div><div class="sh-wrap"><button class="sa sl" onclick="scrollS(this,-1)"${few?' disabled':''}>◀</button><div class="sh">${cards}</div><button class="sa sr" onclick="scrollS(this,1)"${few?' disabled':''}>▶</button></div></div>`;
   }).join('');
   document.getElementById('seen').textContent=all.length;
 }
@@ -293,7 +293,7 @@ function onSearch(){
   document.getElementById('seen').textContent=res.length;
   const cards=res.map(b=>card(b)).join('');
   document.getElementById('resView').innerHTML=res.length
-    ? '<div class="sec"><div class="sec-hd"><h2>🔍 Hasil</h2><span>${res.length}</span></div><div class="sh-wrap"><button class="sa sl" onclick="scrollS(this,-1)">◀</button><div class="sh">${cards}</div><button class="sa sr" onclick="scrollS(this,1)">▶</button></div></div>'
+    ? `<div class="sec"><div class="sec-hd"><h2>🔍 Hasil</h2><span>${res.length}</span></div><div class="sh-wrap"><button class="sa sl" onclick="scrollS(this,-1)">◀</button><div class="sh">${cards}</div><button class="sa sr" onclick="scrollS(this,1)">▶</button></div></div>`
     : '<div class="empty"><i>📭</i><p>Tidak ditemukan.</p></div>';
 }
 function showAll(){
@@ -312,7 +312,7 @@ function filterCat(c){
   const res=all.filter(b=>b.categories.includes(c));
   document.getElementById('seen').textContent=res.length;
   const cards=res.map(b=>card(b)).join('');
-  document.getElementById('resView').innerHTML='<div class="sec"><div class="sec-hd"><h2>📚 ${esc(c)}</h2><span>${res.length}</span></div><div class="sh-wrap"><button class="sa sl" onclick="scrollS(this,-1)">◀</button><div class="sh">${cards}</div><button class="sa sr" onclick="scrollS(this,1)">▶</button></div></div>';
+  document.getElementById('resView').innerHTML=`<div class="sec"><div class="sec-hd"><h2>📚 ${esc(c)}</h2><span>${res.length}</span></div><div class="sh-wrap"><button class="sa sl" onclick="scrollS(this,-1)">◀</button><div class="sh">${cards}</div><button class="sa sr" onclick="scrollS(this,1)">▶</button></div></div>`;
 }
 
 /* ─── KEYBOARD ─── */
