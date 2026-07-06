@@ -3,373 +3,480 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>E Book SovianaCSP - Koleksi Ebook</title>
+<title>E Book SovianaCSP — Koleksi Digital</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   :root {
-    --bg: #0f172a;
-    --bg-card: #1e293b;
-    --bg-card-hover: #273548;
-    --text: #e2e8f0;
-    --text-muted: #94a3b8;
-    --primary: #3b82f6;
-    --primary-hover: #2563eb;
-    --accent: #06b6d4;
-    --border: #334155;
-    --shadow: 0 4px 6px -1px rgba(0,0,0,.3);
+    --bg: #f5f3f0;
+    --surface: #ffffff;
+    --surface-hover: #faf8f6;
+    --border: #e8e4df;
+    --text: #1c1917;
+    --text-secondary: #78716c;
+    --text-tertiary: #a8a29e;
+    --primary: #4f46e5;
+    --primary-hover: #4338ca;
+    --primary-light: #eef2ff;
+    --accent: #f59e0b;
+    --shadow-sm: 0 1px 2px rgba(0,0,0,.05);
+    --shadow-md: 0 4px 12px rgba(0,0,0,.08);
+    --shadow-lg: 0 12px 40px rgba(0,0,0,.12);
     --radius: 12px;
-    --tag-bg: rgba(59,130,246,.15);
-    --tag-text: #93c5fd;
-    --tag-border: rgba(59,130,246,.3);
+    --radius-sm: 8px;
+    --radius-full: 999px;
+    --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --transition: .25s cubic-bezier(.4,0,.2,1);
   }
-  * { margin:0; padding:0; box-sizing:border-box; }
+  html { scroll-behavior: smooth; }
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: var(--font);
     background: var(--bg);
     color: var(--text);
     line-height: 1.6;
     min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
   }
 
-  /* Header */
+  /* ─── Header ─── */
   header {
-    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    background: var(--surface);
     border-bottom: 1px solid var(--border);
-    padding: 2rem 1.5rem 1.5rem;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    backdrop-filter: blur(12px);
+    position: sticky; top: 0; z-index: 50;
+    backdrop-filter: blur(16px);
+    background: rgba(255,255,255,.85);
   }
   .header-inner {
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1280px; margin: 0 auto; padding: 1rem 1.5rem;
   }
-  h1 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    background: linear-gradient(135deg, #60a5fa, #06b6d4);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
-  h1 small { font-size: .85rem; color: var(--text-muted); -webkit-text-fill-color: var(--text-muted); }
-  .subtitle {
-    color: var(--text-muted);
-    font-size: .9rem;
-    margin-top: .25rem;
-  }
-  .controls {
-    display: flex;
-    gap: .75rem;
-    margin-top: 1rem;
+  .header-top {
+    display: flex; align-items: center; gap: 1rem;
     flex-wrap: wrap;
+  }
+  .brand {
+    display: flex; align-items: center; gap: .75rem;
+    text-decoration: none; color: inherit;
+    flex-shrink: 0;
+  }
+  .brand-icon {
+    width: 40px; height: 40px;
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.2rem; color: white;
+    box-shadow: 0 2px 8px rgba(79,70,229,.3);
+  }
+  .brand-text h1 {
+    font-size: 1.1rem; font-weight: 700; line-height: 1.2;
+  }
+  .brand-text small {
+    font-size: .75rem; color: var(--text-secondary); font-weight: 400;
   }
   .search-wrap {
-    flex: 1;
-    min-width: 200px;
-    position: relative;
+    flex: 1; min-width: 200px; position: relative;
   }
   .search-wrap input {
-    width: 100%;
-    padding: .65rem 1rem .65rem 2.5rem;
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    background: var(--bg-card);
-    color: var(--text);
-    font-size: .9rem;
-    outline: none;
-    transition: border .2s;
+    width: 100%; padding: .6rem 1rem .6rem 2.5rem;
+    border: 1.5px solid var(--border); border-radius: var(--radius-full);
+    background: var(--bg); color: var(--text);
+    font-size: .875rem; font-family: var(--font);
+    outline: none; transition: border var(--transition);
   }
-  .search-wrap input:focus { border-color: var(--primary); }
+  .search-wrap input:focus {
+    border-color: var(--primary); background: var(--surface);
+    box-shadow: 0 0 0 3px rgba(79,70,229,.1);
+  }
   .search-wrap .icon {
-    position: absolute;
-    left: .75rem;
-    top: 50%;
-    transform: translateY(-50%);
-    color: var(--text-muted);
-    font-size: 1rem;
+    position: absolute; left: .85rem; top: 50%;
+    transform: translateY(-50%); color: var(--text-tertiary);
+    font-size: .9rem; pointer-events: none;
   }
   .stats {
-    display: flex;
-    align-items: center;
-    gap: .5rem;
-    font-size: .85rem;
-    color: var(--text-muted);
-    white-space: nowrap;
+    font-size: .8rem; color: var(--text-tertiary);
+    white-space: nowrap; padding: .25rem .75rem;
+    background: var(--bg); border-radius: var(--radius-full);
   }
+  .stats strong { color: var(--text); font-weight: 600; }
 
-  /* Category filters */
+  /* ─── Category Filters ─── */
+  .cat-scroll {
+    margin-top: .75rem; overflow-x: auto;
+    -webkit-overflow-scrolling: touch; scrollbar-width: none;
+  }
+  .cat-scroll::-webkit-scrollbar { display: none; }
   .cat-filters {
-    display: flex;
-    gap: .5rem;
-    flex-wrap: wrap;
-    margin-top: .75rem;
+    display: flex; gap: .4rem; padding-bottom: .25rem;
+    white-space: nowrap;
   }
   .cat-btn {
-    padding: .35rem .85rem;
-    border-radius: 20px;
-    border: 1px solid var(--border);
-    background: transparent;
-    color: var(--text-muted);
-    font-size: .8rem;
-    cursor: pointer;
-    transition: all .2s;
-    white-space: nowrap;
+    padding: .3rem .85rem; border-radius: var(--radius-full);
+    border: 1.5px solid var(--border);
+    background: transparent; color: var(--text-secondary);
+    font-size: .78rem; font-family: var(--font); font-weight: 500;
+    cursor: pointer; transition: all var(--transition);
+    flex-shrink: 0;
   }
-  .cat-btn:hover { border-color: var(--primary); color: var(--text); }
+  .cat-btn:hover {
+    border-color: var(--primary); color: var(--primary);
+    background: var(--primary-light);
+  }
   .cat-btn.active {
-    background: var(--primary);
-    border-color: var(--primary);
+    background: var(--primary); border-color: var(--primary);
     color: white;
   }
 
-  /* Grid */
+  /* ─── Main ─── */
   main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1.5rem;
+    max-width: 1280px; margin: 0 auto; padding: 1.5rem;
   }
+  .section-label {
+    font-size: .75rem; font-weight: 600; text-transform: uppercase;
+    letter-spacing: .05em; color: var(--text-tertiary);
+    margin-bottom: .75rem;
+  }
+
+  /* ─── Book Grid ─── */
   .book-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 1rem;
   }
   .book-card {
-    background: var(--bg-card);
+    background: var(--surface);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    padding: 1.25rem;
-    transition: all .2s;
-    display: flex;
-    flex-direction: column;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all var(--transition);
+    position: relative;
+    display: flex; flex-direction: column;
+    -webkit-user-select: none; user-select: none;
   }
   .book-card:hover {
-    background: var(--bg-card-hover);
+    transform: translateY(-3px);
     border-color: var(--primary);
-    transform: translateY(-2px);
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow-md);
   }
-  .book-card .pdf-icon {
-    width: 36px;
-    height: 36px;
-    background: #dc2626;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: .7rem;
-    font-weight: 700;
-    color: white;
-    flex-shrink: 0;
-  }
-  .book-card .docx-icon { background: #2563eb; }
-  .book-card .txt-icon { background: #64748b; }
-  .book-card .card-top {
-    display: flex;
-    gap: .75rem;
-    align-items: flex-start;
+  .book-card:active { transform: translateY(-1px); }
+
+  /* Book icon placeholder */
+  .book-cover {
+    width: 100%; aspect-ratio: 3/4;
+    background: linear-gradient(145deg, #f0edf8, #e4e0f0);
+    border-radius: var(--radius-sm);
+    display: flex; align-items: center; justify-content: center;
     margin-bottom: .75rem;
+    position: relative; overflow: hidden;
+    transition: transform var(--transition);
   }
-  .book-card .card-title {
-    font-size: .9rem;
-    font-weight: 500;
-    line-height: 1.4;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+  .book-card:hover .book-cover { transform: scale(1.02); }
+  .book-cover svg {
+    width: 48px; height: 48px; opacity: .4;
+  }
+  .book-cover .ext-badge {
+    position: absolute; top: .5rem; right: .5rem;
+    font-size: .65rem; font-weight: 700;
+    padding: .2rem .5rem; border-radius: 4px;
+    background: rgba(255,255,255,.9); color: var(--text-secondary);
+    backdrop-filter: blur(4px);
+  }
+  .book-cover .ext-badge.docx { color: #2563eb; }
+  .book-cover .ext-badge.txt { color: #64748b; }
+
+  .book-card .title {
+    font-size: .8rem; font-weight: 600; line-height: 1.4;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+    overflow: hidden; margin-bottom: .4rem;
   }
   .book-card .tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: .35rem;
-    margin-bottom: .75rem;
-    min-height: 1.5rem;
+    display: flex; flex-wrap: wrap; gap: .25rem;
+    min-height: 1.2rem;
   }
   .book-card .tag {
-    font-size: .7rem;
-    padding: .15rem .5rem;
-    border-radius: 4px;
-    background: var(--tag-bg);
-    color: var(--tag-text);
-    border: 1px solid var(--tag-border);
+    font-size: .65rem; padding: .1rem .45rem;
+    border-radius: 4px; background: var(--primary-light);
+    color: var(--primary); font-weight: 500;
   }
-  .book-card .card-actions {
-    margin-top: auto;
-    padding-top: .5rem;
-  }
-  .book-card .dl-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: .4rem;
-    padding: .5rem 1rem;
-    border-radius: 8px;
-    background: var(--primary);
-    color: white;
-    text-decoration: none;
-    font-size: .8rem;
-    font-weight: 500;
-    transition: background .2s;
-    width: 100%;
-    justify-content: center;
-  }
-  .book-card .dl-btn:hover { background: var(--primary-hover); }
 
-  /* Empty state */
-  .empty {
-    text-align: center;
-    padding: 3rem 1rem;
-    color: var(--text-muted);
-    grid-column: 1 / -1;
+  /* ─── Empty ─── */
+  .empty-state {
+    grid-column: 1 / -1; text-align: center;
+    padding: 4rem 1rem; color: var(--text-tertiary);
   }
-  .empty .emoji { font-size: 3rem; margin-bottom: 1rem; }
-  .empty p { font-size: 1rem; }
+  .empty-state .ico { font-size: 3rem; margin-bottom: .75rem; }
+  .empty-state p { font-size: .95rem; }
 
-  /* Footer */
+  /* ─── Modal Reader ─── */
+  .reader-overlay {
+    position: fixed; inset: 0; z-index: 200;
+    background: rgba(0,0,0,.6);
+    backdrop-filter: blur(8px);
+    display: flex; flex-direction: column;
+    opacity: 0; pointer-events: none;
+    transition: opacity .3s ease;
+  }
+  .reader-overlay.open {
+    opacity: 1; pointer-events: auto;
+  }
+  .reader-header {
+    display: flex; align-items: center; gap: .75rem;
+    padding: .75rem 1.25rem;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
+  }
+  .reader-header .book-title {
+    flex: 1; font-size: .9rem; font-weight: 600;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .reader-header .close-btn {
+    width: 32px; height: 32px; border: none; border-radius: 50%;
+    background: var(--bg); color: var(--text-secondary);
+    cursor: pointer; font-size: 1.1rem;
+    display: flex; align-items: center; justify-content: center;
+    transition: all var(--transition); flex-shrink: 0;
+  }
+  .reader-header .close-btn:hover {
+    background: #fee2e2; color: #ef4444;
+  }
+  .reader-body {
+    flex: 1; display: flex; flex-direction: column;
+    background: #e8e4df;
+  }
+  .reader-body iframe {
+    width: 100%; flex: 1; border: none;
+    background: white;
+  }
+  .reader-loading {
+    position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    flex-direction: column; gap: .75rem;
+    color: var(--text-tertiary); font-size: .85rem;
+  }
+  .reader-loading .spinner {
+    width: 28px; height: 28px;
+    border: 3px solid var(--border); border-top-color: var(--primary);
+    border-radius: 50%; animation: spin .8s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ─── Footer ─── */
   footer {
-    text-align: center;
-    padding: 2rem;
-    color: var(--text-muted);
-    font-size: .8rem;
+    text-align: center; padding: 2rem;
+    color: var(--text-tertiary); font-size: .78rem;
     border-top: 1px solid var(--border);
-    margin-top: 2rem;
   }
   footer a { color: var(--primary); text-decoration: none; }
   footer a:hover { text-decoration: underline; }
 
-  @media (max-width: 640px) {
-    header { padding: 1rem; }
-    h1 { font-size: 1.2rem; }
-    .book-grid { grid-template-columns: 1fr; }
+  /* ─── Scrollbar ─── */
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: #d4d0ca; border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: #a8a29e; }
+
+  /* ─── Responsive ─── */
+  @media (max-width: 768px) {
+    .header-inner { padding: .75rem 1rem; }
+    .header-top { gap: .6rem; }
+    .brand-icon { width: 34px; height: 34px; font-size: 1rem; }
+    .brand-text h1 { font-size: .95rem; }
+    .brand-text small { font-size: .7rem; }
+    .stats { display: none; }
+    .book-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: .75rem; }
+    .book-card { padding: .75rem; }
+    .reader-header { padding: .5rem 1rem; }
+    .reader-header .book-title { font-size: .8rem; }
+  }
+  @media (max-width: 480px) {
+    .book-grid { grid-template-columns: repeat(2, 1fr); gap: .6rem; }
+    .book-card .title { font-size: .72rem; }
+    .cat-btn { font-size: .7rem; padding: .25rem .7rem; }
   }
 </style>
 </head>
 <body>
 
+<!-- ═══ HEADER ═══ -->
 <header>
   <div class="header-inner">
-    <h1>📚 E Book SovianaCSP <small>Koleksi Ebook</small></h1>
-    <p class="subtitle">
-      <span id="totalBooks">0</span> ebook &bullet; Klik tombol untuk membuka di Google Drive
-    </p>
-    <div class="controls">
+    <div class="header-top">
+      <a class="brand" href="#">
+        <div class="brand-icon">📖</div>
+        <div class="brand-text">
+          <h1>E Book SovianaCSP</h1>
+          <small>Koleksi Digital</small>
+        </div>
+      </a>
       <div class="search-wrap">
         <span class="icon">🔍</span>
-        <input type="text" id="searchInput" placeholder="Cari ebook..." oninput="renderBooks()">
+        <input type="text" id="searchInput" placeholder="Cari judul ebook..." autocomplete="off" oninput="render()">
       </div>
       <div class="stats">
-        <span id="visibleCount">0</span>/<span id="totalCount">0</span> buku
+        <strong id="visibleCount">0</strong> / <span id="totalCount">0</span>
       </div>
     </div>
-    <div class="cat-filters" id="catFilters"></div>
+    <div class="cat-scroll">
+      <div class="cat-filters" id="catFilters"></div>
+    </div>
   </div>
 </header>
 
+<!-- ═══ MAIN ═══ -->
 <main>
+  <div class="section-label" id="sectionLabel">Semua Ebook</div>
   <div class="book-grid" id="bookGrid"></div>
 </main>
 
+<!-- ═══ FOOTER ═══ -->
 <footer>
-  <p>Data dari <a href="https://drive.google.com/drive/folders/1_fFMqj47iydyqS6JlqzaekL_a8rD9D-S" target="_blank">Google Drive &rarr;</a></p>
-  <p style="margin-top:.25rem">Dibuat dengan ❤️ &bullet; Hosting gratis di GitHub Pages</p>
+  <p>
+    Data dari <a href="https://drive.google.com/drive/folders/1_fFMqj47iydyqS6JlqzaekL_a8rD9D-S" target="_blank">Google Drive</a>
+    · Hosting <a href="https://github.com/fariqsalafy/ebook-collection" target="_blank">GitHub Pages</a>
+  </p>
 </footer>
 
-<script>
-let allBooks = [];
-let activeCategory = 'Semua';
+<!-- ═══ READER MODAL ═══ -->
+<div class="reader-overlay" id="readerOverlay">
+  <div class="reader-header">
+    <span class="book-title" id="readerTitle">Memuat...</span>
+    <button class="close-btn" onclick="closeReader()" aria-label="Tutup">✕</button>
+  </div>
+  <div class="reader-body" id="readerBody">
+    <div class="reader-loading" id="readerLoading">
+      <div class="spinner"></div>
+      <span>Memuat ebook...</span>
+    </div>
+    <iframe id="readerFrame" allow="autoplay" allowfullscreen></iframe>
+  </div>
+</div>
 
-// Fetch the JSON
+<script>
+/* ─── Data ─── */
+let allBooks = [];
+let activeCat = 'Semua';
+
 fetch('books.json')
   .then(r => r.json())
-  .then(data => {
-    allBooks = data.books;
-    document.getElementById('totalBooks').textContent = data.total;
-    document.getElementById('totalCount').textContent = data.total;
-    buildCategories();
-    renderBooks();
+  .then(d => {
+    allBooks = d.books;
+    document.getElementById('totalCount').textContent = d.total;
+    buildCats();
+    render();
   })
-  .catch(err => {
+  .catch(() => {
     document.getElementById('bookGrid').innerHTML =
-      '<div class="empty"><div class="emoji">😅</div><p>Gagal memuat data. Coba refresh halaman.</p></div>';
-    console.error(err);
+      '<div class="empty-state"><div class="ico">😵</div><p>Gagal memuat data. Coba refresh.</p></div>';
   });
 
-function buildCategories() {
-  const counts = {};
-  allBooks.forEach(b => b.categories.forEach(c => { counts[c] = (counts[c] || 0) + 1; }));
-  const sorted = Object.entries(counts).sort((a,b) => b[1]-a[1]);
-  const container = document.getElementById('catFilters');
-  const allBtn = document.createElement('button');
-  allBtn.className = 'cat-btn active';
-  allBtn.textContent = `Semua (${allBooks.length})`;
-  allBtn.dataset.cat = 'Semua';
-  allBtn.onclick = () => setCategory('Semua');
-  container.appendChild(allBtn);
-  sorted.forEach(([cat, count]) => {
-    const btn = document.createElement('button');
-    btn.className = 'cat-btn';
-    btn.textContent = `${cat} (${count})`;
-    btn.dataset.cat = cat;
-    btn.onclick = () => setCategory(cat);
-    container.appendChild(btn);
+/* ─── Categories ─── */
+function buildCats() {
+  const map = {};
+  allBooks.forEach(b => b.categories.forEach(c => { map[c] = (map[c] || 0) + 1; }));
+  const sorted = Object.entries(map).sort((a,b) => b[1]-a[1]);
+  const el = document.getElementById('catFilters');
+  const allBtn = btn('Semua', allBooks.length, true);
+  allBtn.onclick = () => pick('Semua');
+  el.appendChild(allBtn);
+  sorted.forEach(([c,n]) => {
+    const b = btn(c, n, false);
+    b.onclick = () => pick(c);
+    el.appendChild(b);
   });
 }
-
-function setCategory(cat) {
-  activeCategory = cat;
-  document.querySelectorAll('.cat-btn').forEach(b => {
-    b.classList.toggle('active', b.dataset.cat === cat);
-  });
-  renderBooks();
+function btn(label, count, active) {
+  const b = document.createElement('button');
+  b.className = 'cat-btn' + (active ? ' active' : '');
+  b.textContent = `${label} ${count}`;
+  b.dataset.cat = label;
+  return b;
+}
+function pick(cat) {
+  activeCat = cat;
+  document.querySelectorAll('.cat-btn').forEach(b => b.classList.toggle('active', b.dataset.cat === cat));
+  document.getElementById('sectionLabel').textContent = cat === 'Semua' ? 'Semua Ebook' : cat;
+  render();
 }
 
-function renderBooks() {
+/* ─── Render ─── */
+function render() {
   const q = document.getElementById('searchInput').value.toLowerCase().trim();
   const grid = document.getElementById('bookGrid');
 
-  let filtered = allBooks.filter(b => {
-    if (activeCategory !== 'Semua' && !b.categories.includes(activeCategory)) return false;
+  let list = allBooks.filter(b => {
+    if (activeCat !== 'Semua' && !b.categories.includes(activeCat)) return false;
     if (q && !b.name.toLowerCase().includes(q)) return false;
     return true;
   });
 
-  document.getElementById('visibleCount').textContent = filtered.length;
+  document.getElementById('visibleCount').textContent = list.length;
 
-  if (filtered.length === 0) {
-    grid.innerHTML = '<div class="empty"><div class="emoji">📭</div><p>Tidak ada ebook yang cocok dengan pencarianmu.</p></div>';
+  if (!list.length) {
+    grid.innerHTML = '<div class="empty-state"><div class="ico">📭</div><p>Tidak ada ebook yang cocok.</p></div>';
     return;
   }
 
-  const icons = { pdf: 'PDF', docx: 'DOCX', txt: 'TXT' };
-  const iconClasses = { pdf: 'pdf-icon', docx: 'docx-icon', txt: 'txt-icon' };
-
-  grid.innerHTML = filtered.map(b => {
-    const ext = b.ext || 'pdf';
-    const icon = icons[ext] || 'FILE';
-    const cls = iconClasses[ext] || 'pdf-icon';
-    const tags = b.categories.slice(0, 3).map(c => `<span class="tag">${c}</span>`).join('');
-    return `
-      <div class="book-card">
-        <div class="card-top">
-          <div class="${cls}">${icon}</div>
-          <div class="card-title">${escapeHtml(b.name)}</div>
-        </div>
-        <div class="tags">${tags}</div>
-        <div class="card-actions">
-          <a href="${b.url}" class="dl-btn" target="_blank" rel="noopener">
-            📂 Buka di Google Drive
-          </a>
-        </div>
+  grid.innerHTML = list.map(b => {
+    const ext = (b.ext || 'pdf').toLowerCase();
+    return `<div class="book-card" onclick="openReader('${b.id}','${esc(b.name)}')" role="button" tabindex="0">
+      <div class="book-cover">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5A2.5 2.5 0 0 1 4 19.5Z"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/></svg>
+        <span class="ext-badge ${ext}">${ext.toUpperCase()}</span>
       </div>
-    `;
+      <div class="title">${esc(b.name)}</div>
+      <div class="tags">${b.categories.slice(0,2).map(c => `<span class="tag">${esc(c)}</span>`).join('')}</div>
+    </div>`;
   }).join('');
 }
 
-function escapeHtml(text) {
-  const div = document.createElement('div');
-  div.textContent = text;
-  return div.innerHTML;
+function esc(s) {
+  const d = document.createElement('div');
+  d.textContent = s; return d.innerHTML;
 }
+
+/* ─── Reader ─── */
+let currentBookId = null;
+
+function openReader(id, title) {
+  currentBookId = id;
+  document.getElementById('readerTitle').textContent = title;
+  const frame = document.getElementById('readerFrame');
+  const loading = document.getElementById('readerLoading');
+  frame.src = '';
+  loading.style.display = 'flex';
+  frame.style.display = 'none';
+  document.getElementById('readerOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+
+  // set src after a tick so loading shows
+  setTimeout(() => {
+    frame.src = `https://drive.google.com/file/d/${id}/preview`;
+    frame.onload = () => {
+      loading.style.display = 'none';
+      frame.style.display = 'block';
+    };
+  }, 300);
+}
+
+function closeReader() {
+  document.getElementById('readerOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+  setTimeout(() => {
+    document.getElementById('readerFrame').src = '';
+    currentBookId = null;
+  }, 300);
+}
+
+// keyboard escape
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeReader();
+});
+
+// close on backdrop click
+document.getElementById('readerOverlay').addEventListener('click', e => {
+  if (e.target === document.getElementById('readerOverlay')) closeReader();
+});
 </script>
 
 </body>
