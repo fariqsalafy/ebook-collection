@@ -1,11 +1,13 @@
 {
   "folder_name": "E Book SovianaCSP",
   "folder_url": "https://drive.google.com/drive/folders/1_fFMqj47iydyqS6JlqzaekL_a8rD9D-S",
-  "total": 362,
+  "total": 361,
   "books": [
     {
       "id": "1D68lLTfBtShf4qM1sggF4bwoi8sTDJOE",
       "name": "#Bebastakut Hamil Dan Melahirkan",
+      "author": "Yesie Aprillia",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "[ID] #Bebastakut Hamil Dan Melahirkan - Yesie Aprillia.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1D68lLTfBtShf4qM1sggF4bwoi8sTDJOE&sz=w400",
@@ -16,6 +18,8 @@
     {
       "id": "10gddTRu13S61iVhFfjwcZ-ZFDqqHA-Vh",
       "name": "100 Resep Nasi Goreng",
+      "author": "",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "100 Resep Nasi Goreng.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=10gddTRu13S61iVhFfjwcZ-ZFDqqHA-Vh&sz=w400",
@@ -27,6 +31,8 @@
     {
       "id": "1-uzSv9pG0tcODHDYGzjy5bgjNS39BIGv",
       "name": "100 Resep Tumisan ala Rumahan (Indriani)",
+      "author": "",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "100 Resep Tumisan ala Rumahan (Indriani) (1).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1-uzSv9pG0tcODHDYGzjy5bgjNS39BIGv&sz=w400",
@@ -37,6 +43,8 @@
     {
       "id": "16HVX150Kf_LJSOQ-j2hyW4nZ3C6-Ss1J",
       "name": "1000 Resep Chinese Food",
+      "author": "",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "1000 Resep Chinese Food.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=16HVX150Kf_LJSOQ-j2hyW4nZ3C6-Ss1J&sz=w400",
@@ -46,7 +54,9 @@
     },
     {
       "id": "1wLwjR3ncZarw9PzspYBWri808EYn1mkn",
-      "name": "1000 Useful Words (Dawn Sirett)",
+      "name": "1000 Useful Words",
+      "author": "Dawn Sirett",
+      "desc": "Buku dengan kategori Umum.",
       "file": "1000 Useful Words (Dawn Sirett).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1wLwjR3ncZarw9PzspYBWri808EYn1mkn&sz=w400",
@@ -56,7 +66,9 @@
     },
     {
       "id": "16eDVDHtAo14d8PXT8d60drSuhXd0RZ-r",
-      "name": "101 Menu MPASI Sehat oleh Ayu Bulan Febry",
+      "name": "101 Menu MPASI Sehat",
+      "author": "Ayu Bulan Febry",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "[ID] 101 Menu MPASI Sehat oleh Ayu Bulan Febry.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=16eDVDHtAo14d8PXT8d60drSuhXd0RZ-r&sz=w400",
@@ -69,6 +81,8 @@
     {
       "id": "1y9EVPKiQrYQ4XjWwr2jo9D9wn_sq7Y2B",
       "name": "108 Resep Masakan Ayam Pop",
+      "author": "Dyah Tyas",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "108 Resep Masakan Ayam Pop - Dyah Tyas.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1y9EVPKiQrYQ4XjWwr2jo9D9wn_sq7Y2B&sz=w400",
@@ -77,8 +91,22 @@
       ]
     },
     {
+      "id": "1WYccUREfQyRFbbGUUR3DhsNuJRW-nfnB",
+      "name": "112. b",
+      "author": "Bahasa",
+      "desc": "Buku dengan kategori Umum.",
+      "file": "112. b.indo The things you can see only when you slow down (Bahasa).pdf",
+      "ext": "pdf",
+      "thumb": "https://drive.google.com/thumbnail?id=1WYccUREfQyRFbbGUUR3DhsNuJRW-nfnB&sz=w400",
+      "categories": [
+        "Umum"
+      ]
+    },
+    {
       "id": "1oon1-v3h8UUeo5RD06pGS3LQt9qt0iqM",
       "name": "125 Contekan Iklan",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "125 Contekan Iklan.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1oon1-v3h8UUeo5RD06pGS3LQt9qt0iqM&sz=w400",
@@ -87,8 +115,22 @@
       ]
     },
     {
+      "id": "1ew3tRSgmOPnCK-Sat4l3sNhnTbcgtNkx",
+      "name": "1439. b",
+      "author": "Royce Christyn",
+      "desc": "Buku dengan kategori Umum.",
+      "file": "1439. b. indo Scripting The Life You Want - Royce Christyn.pdf",
+      "ext": "pdf",
+      "thumb": "https://drive.google.com/thumbnail?id=1ew3tRSgmOPnCK-Sat4l3sNhnTbcgtNkx&sz=w400",
+      "categories": [
+        "Umum"
+      ]
+    },
+    {
       "id": "1pkb89l_rUCIyKmi_fSaOgPdqG2AlQT4b",
       "name": "17 Teknik Closing",
+      "author": "",
+      "desc": "Wawasan seputar bisnis, marketing, dan keuangan pribadi.",
       "file": "17  Teknik Closing.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1pkb89l_rUCIyKmi_fSaOgPdqG2AlQT4b&sz=w400",
@@ -99,6 +141,8 @@
     {
       "id": "1iImsAnR5CkxEjnW-xyeAvcpTW2GQOBn1",
       "name": "200+ MAKANAN SEHAT BAYI _ BALITA",
+      "author": "",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "200+ MAKANAN SEHAT BAYI _ BALITA.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1iImsAnR5CkxEjnW-xyeAvcpTW2GQOBn1&sz=w400",
@@ -111,6 +155,8 @@
     {
       "id": "1rDiuuklcs3lFFe7i96T3JfNAeVR8iPkA",
       "name": "241 Resep Makanan Favorit Antigagal",
+      "author": "",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "241 Resep Makanan Favorit Antigagal.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1rDiuuklcs3lFFe7i96T3JfNAeVR8iPkA&sz=w400",
@@ -121,6 +167,8 @@
     {
       "id": "1aECQmN5RRh0UcDV99-X-wJjLADhTpVpj",
       "name": "25 Menu Sehat _ Lezat Bento Kantor",
+      "author": "Nuraini Wahyuningsih",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "25 Menu Sehat _ Lezat Bento Kantor - Nuraini Wahyuningsih.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1aECQmN5RRh0UcDV99-X-wJjLADhTpVpj&sz=w400",
@@ -131,7 +179,9 @@
     },
     {
       "id": "1xUH4cXYqsb1kD2bE9gRG_F5zbxOKq7Mm",
-      "name": "280 Resep Kue _ Jajanan Khas Indonesia - Lilly T Erwin",
+      "name": "280 Resep Kue _ Jajanan Khas Indonesia",
+      "author": "Lilly T Erwin",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "280 Resep Kue _ Jajanan Khas Indonesia - Lilly T Erwin.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1xUH4cXYqsb1kD2bE9gRG_F5zbxOKq7Mm&sz=w400",
@@ -142,6 +192,8 @@
     {
       "id": "19ZBTXOkJ0rrSQ60QaL0OduNLEwLE2XPe",
       "name": "30 hari bebas hutang",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "30 hari bebas hutang.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=19ZBTXOkJ0rrSQ60QaL0OduNLEwLE2XPe&sz=w400",
@@ -151,7 +203,9 @@
     },
     {
       "id": "1W1dufIpCZGE1N4NNaltGNAYSpvIkWuFd",
-      "name": "30 Hari Jago Jualan (Dewa Eka Prayoga)",
+      "name": "30 Hari Jago Jualan",
+      "author": "Dewa Eka Prayoga",
+      "desc": "Wawasan seputar bisnis, marketing, dan keuangan pribadi.",
       "file": "30 Hari Jago Jualan (Dewa Eka Prayoga).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1W1dufIpCZGE1N4NNaltGNAYSpvIkWuFd&sz=w400",
@@ -162,6 +216,8 @@
     {
       "id": "1R-7zRu4iSlsWNjv1s1ngF878rAFjJ2g2",
       "name": "33 Cara Kaya Ala Bob Sadino Motivasi Bisnis",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "33 Cara Kaya Ala Bob Sadino Motivasi Bisnis.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1R-7zRu4iSlsWNjv1s1ngF878rAFjJ2g2&sz=w400",
@@ -172,7 +228,9 @@
     },
     {
       "id": "1rHzsBtoEjA9g7fbXhaUG6Jt1XK6FtRme",
-      "name": "35 Resep Finger Food Bebas Gluten untuk MPASI - Hindah J Muaris",
+      "name": "35 Resep Finger Food Bebas Gluten untuk MPASI",
+      "author": "Hindah J Muaris",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "[ID] 35 Resep Finger Food Bebas Gluten untuk MPASI - Hindah J Muaris.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1rHzsBtoEjA9g7fbXhaUG6Jt1XK6FtRme&sz=w400",
@@ -183,7 +241,9 @@
     },
     {
       "id": "1NYHZMuyMzbMptGuSYvX-i2I8d1NJhfXp",
-      "name": "365 Hari MPASI Plus Makanan Pendamping ASI untuk Anak Usia 6-18 Bulan oleh Lies Setyarini",
+      "name": "365 Hari MPASI Plus Makanan Pendamping ASI untuk Anak Usia 6-18 Bulan",
+      "author": "Lies Setyarini",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "[ID] 365 Hari MPASI Plus Makanan Pendamping ASI untuk Anak Usia 6-18 Bulan oleh Lies Setyarini.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1NYHZMuyMzbMptGuSYvX-i2I8d1NJhfXp&sz=w400",
@@ -193,8 +253,35 @@
       ]
     },
     {
+      "id": "17zQp7I07k0-HAhCSvheS8UQm-vXNkqOb",
+      "name": "370",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
+      "file": "370. Jack Canfield, Dkk - Malaikat Di Tengah Kita_ Chicken Soup For The Soul (BM).pdf",
+      "ext": "pdf",
+      "thumb": "https://drive.google.com/thumbnail?id=17zQp7I07k0-HAhCSvheS8UQm-vXNkqOb&sz=w400",
+      "categories": [
+        "Umum"
+      ]
+    },
+    {
+      "id": "1yoInsEDrcsygkv14L5qbw-RGNl1tocj5",
+      "name": "433",
+      "author": "Mengubah Pola Berpikir Untuk Perubahan Besar Dalam Hidup Anda By Carol S Dweck",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
+      "file": "433. [ID] Mindset - Mengubah Pola Berpikir Untuk Perubahan Besar Dalam Hidup Anda By Carol S Dweck.pdf",
+      "ext": "pdf",
+      "thumb": "https://drive.google.com/thumbnail?id=1yoInsEDrcsygkv14L5qbw-RGNl1tocj5&sz=w400",
+      "categories": [
+        "Psikologi & Self-Help",
+        "Menjahit & Busana"
+      ]
+    },
+    {
       "id": "11ETy_DQywKCuGFNqSihcU0bDkcGtPzY8",
-      "name": "456 Fakta tentang ASI dan Menyusui - dr. Meta Hanindita, Sp.A.(K)",
+      "name": "456 Fakta tentang ASI dan Menyusui - dr. Meta Hanindita, Sp.A",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "[ID] 456 Fakta tentang ASI dan Menyusui - dr. Meta Hanindita, Sp.A.(K).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=11ETy_DQywKCuGFNqSihcU0bDkcGtPzY8&sz=w400",
@@ -203,8 +290,22 @@
       ]
     },
     {
+      "id": "1PVIVvGbXZQ5YXMywLbzeSofdGTJltnqg",
+      "name": "492",
+      "author": "Jeon Seunghwan Bahasa Indonesia",
+      "desc": "Buku pelajaran, kurikulum, dan referensi pendidikan.",
+      "file": "492. Ketika Aku Tak Tahu Apa Yang Aku Inginkan - Jeon Seunghwan Bahasa Indonesia.pdf",
+      "ext": "pdf",
+      "thumb": "https://drive.google.com/thumbnail?id=1PVIVvGbXZQ5YXMywLbzeSofdGTJltnqg&sz=w400",
+      "categories": [
+        "Pendidikan & Sekolah"
+      ]
+    },
+    {
       "id": "1WYxCD-R5-t78Ngi0UQLz6-W1WRHi6JcM",
       "name": "50 Buku Bisnis Pilihan yang Wajib Dibaca",
+      "author": "",
+      "desc": "Wawasan seputar bisnis, marketing, dan keuangan pribadi.",
       "file": "50 Buku Bisnis Pilihan yang Wajib Dibaca.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1WYxCD-R5-t78Ngi0UQLz6-W1WRHi6JcM&sz=w400",
@@ -214,7 +315,9 @@
     },
     {
       "id": "1PRWJ-mO0LEGZV2Rsggf-CenCd_fYH2yQ",
-      "name": "50 Resep Sehat Makanan Lezat Serba Kukus (Tuti Soenardi)",
+      "name": "50 Resep Sehat Makanan Lezat Serba Kukus",
+      "author": "Tuti Soenardi",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "50 Resep Sehat Makanan Lezat Serba Kukus (Tuti Soenardi).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1PRWJ-mO0LEGZV2Rsggf-CenCd_fYH2yQ&sz=w400",
@@ -226,6 +329,8 @@
     {
       "id": "1p22sQu6pnVtD0vIoH7K2azEg8-M778pU",
       "name": "500 Resep Masakan Terfavorit",
+      "author": "Sisca Soewitomo",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "500 Resep Masakan Terfavorit - Sisca Soewitomo.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1p22sQu6pnVtD0vIoH7K2azEg8-M778pU&sz=w400",
@@ -234,8 +339,34 @@
       ]
     },
     {
+      "id": "1EoJFqVaB3c1qOk1NzvNpEcB2QJEiK8li",
+      "name": "562",
+      "author": "Bagaimana Rutinitas Dan Kebiasaan Dapat Mempengaruhi Kehidupan",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
+      "file": "562. Is It Bad Or Good Habits - Bagaimana Rutinitas Dan Kebiasaan Dapat Mempengaruhi Kehidupan.pdf",
+      "ext": "pdf",
+      "thumb": "https://drive.google.com/thumbnail?id=1EoJFqVaB3c1qOk1NzvNpEcB2QJEiK8li&sz=w400",
+      "categories": [
+        "Psikologi & Self-Help"
+      ]
+    },
+    {
+      "id": "18Yopu--3lkwmJxLYBvj0xF54NrsNewjP",
+      "name": "583",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
+      "file": "583. [ENG] Ikigai - Hector G, Francesc Miralles.pdf",
+      "ext": "pdf",
+      "thumb": "https://drive.google.com/thumbnail?id=18Yopu--3lkwmJxLYBvj0xF54NrsNewjP&sz=w400",
+      "categories": [
+        "Umum"
+      ]
+    },
+    {
       "id": "15_CuDRtxf7mMi7IpCMwk0E2umAnyRSH0",
       "name": "60 Resep Roti Favorit dari Ahli Bakery Ternama",
+      "author": "Hadi Tuwendi",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "60 Resep Roti Favorit dari Ahli Bakery Ternama - Hadi Tuwendi.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=15_CuDRtxf7mMi7IpCMwk0E2umAnyRSH0&sz=w400",
@@ -246,6 +377,8 @@
     {
       "id": "1bdOljgq5CkJ9flQfK4067EZ2iyEEVw1k",
       "name": "7 Jurus NLP Agar Anak Ketagihan Belajar",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "7 Jurus NLP Agar Anak Ketagihan Belajar.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1bdOljgq5CkJ9flQfK4067EZ2iyEEVw1k&sz=w400",
@@ -256,6 +389,8 @@
     {
       "id": "1EVEKOtOXhdWPyr2z-1_VTDXOCaavWzfW",
       "name": "7 keajaiban rezeki",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "7 keajaiban rezeki.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1EVEKOtOXhdWPyr2z-1_VTDXOCaavWzfW&sz=w400",
@@ -266,6 +401,8 @@
     {
       "id": "1i6J-i4jWfnrjR0bB4F2nC6Z94Vh45c9o",
       "name": "7 Prajurit Bapak",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "7 Prajurit Bapak - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1i6J-i4jWfnrjR0bB4F2nC6Z94Vh45c9o&sz=w400",
@@ -274,8 +411,47 @@
       ]
     },
     {
+      "id": "1TyCAWCgQSafKLcN9sl6o62sS8m1Adymh",
+      "name": "717",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
+      "file": "717. [ENG] MANIPULATION (DARK PSYCHOLOGY TO MANIPULATE AND CONTROL PEOPLE) - ARTHUR HORN.pdf",
+      "ext": "pdf",
+      "thumb": "https://drive.google.com/thumbnail?id=1TyCAWCgQSafKLcN9sl6o62sS8m1Adymh&sz=w400",
+      "categories": [
+        "Umum"
+      ]
+    },
+    {
+      "id": "1G720t-CKRqjyP0yz7bJMy5ts4ycWZqYN",
+      "name": "719",
+      "author": "",
+      "desc": "Karya fiksi dan novel dari berbagai genre.",
+      "file": "719. [ID] KEAJAIBAN TOKO KELONTONG NAMIYA - KEIGO HIGASHINO.pdf",
+      "ext": "pdf",
+      "thumb": "https://drive.google.com/thumbnail?id=1G720t-CKRqjyP0yz7bJMy5ts4ycWZqYN&sz=w400",
+      "categories": [
+        "Novel & Fiksi"
+      ]
+    },
+    {
+      "id": "1jT4Bh56XmLYV1lzEtUxi2JU-h27PW8N1",
+      "name": "725",
+      "author": "Alvin Hartanto",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
+      "file": "725. [ID] Bukan Buku Diet - Alvin Hartanto.pdf",
+      "ext": "pdf",
+      "thumb": "https://drive.google.com/thumbnail?id=1jT4Bh56XmLYV1lzEtUxi2JU-h27PW8N1&sz=w400",
+      "categories": [
+        "Memasak & Resep",
+        "Kesehatan & Kecantikan"
+      ]
+    },
+    {
       "id": "1q0GId5U9Ewq55daA73Z33l7CGR0BXdvS",
       "name": "75 Trik Rahasia",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "75 Trik Rahasia - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1q0GId5U9Ewq55daA73Z33l7CGR0BXdvS&sz=w400",
@@ -285,8 +461,23 @@
       ]
     },
     {
+      "id": "130o_GZp9M9nbA0GUiIzi2Kw7JnFsI_oM",
+      "name": "767",
+      "author": "Tim Psikologi Salemba",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
+      "file": "767. Big Psikotest Terlengkap (Tim Psikologi Salemba).pdf",
+      "ext": "pdf",
+      "thumb": "https://drive.google.com/thumbnail?id=130o_GZp9M9nbA0GUiIzi2Kw7JnFsI_oM&sz=w400",
+      "categories": [
+        "Psikologi & Self-Help",
+        "Psikotes & Bahasa"
+      ]
+    },
+    {
       "id": "1V6-eITyW6CG8W_sfHk7XWbvEhJatz7Wx",
       "name": "78 Resep Mpasi",
+      "author": "SFILE.MOBI",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "78 Resep Mpasi (SFILE.MOBI).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1V6-eITyW6CG8W_sfHk7XWbvEhJatz7Wx&sz=w400",
@@ -296,8 +487,71 @@
       ]
     },
     {
+      "id": "1qsEGdIfqFjFGkv5AvMYTfkvZ2Q3YCxzI",
+      "name": "800",
+      "author": "",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
+      "file": "800. [ID] Atomic Habits GÇô James Clear.pdf",
+      "ext": "pdf",
+      "thumb": "https://drive.google.com/thumbnail?id=1qsEGdIfqFjFGkv5AvMYTfkvZ2Q3YCxzI&sz=w400",
+      "categories": [
+        "Psikologi & Self-Help"
+      ]
+    },
+    {
+      "id": "1McT5-OtYJtuhIN3uuiMCyzgYPjSl646P",
+      "name": "802",
+      "author": "Oh Su Hyang",
+      "desc": "Buku motivasi, keterampilan diri, dan pengembangan potensi.",
+      "file": "802. [ID] Bicara Itu Ada Seninya - Oh Su Hyang.pdf",
+      "ext": "pdf",
+      "thumb": "https://drive.google.com/thumbnail?id=1McT5-OtYJtuhIN3uuiMCyzgYPjSl646P&sz=w400",
+      "categories": [
+        "Pengembangan Diri"
+      ]
+    },
+    {
+      "id": "11jzRi1wFqShW7FL_kLsiv6ZSitZeXahg",
+      "name": "803",
+      "author": "Stoisisme",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
+      "file": "803. [ID] Filosofi Teras - Stoisisme.pdf",
+      "ext": "pdf",
+      "thumb": "https://drive.google.com/thumbnail?id=11jzRi1wFqShW7FL_kLsiv6ZSitZeXahg&sz=w400",
+      "categories": [
+        "Psikologi & Self-Help"
+      ]
+    },
+    {
+      "id": "1nuZcv4fN0rGlbZH6QMNNREbO3BZ7iiB8",
+      "name": "[ 126 ]",
+      "author": "Inspirasi Tanpa Menggurui",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
+      "file": "[ 126 ] - Inspirasi Tanpa Menggurui.pdf",
+      "ext": "pdf",
+      "thumb": "https://drive.google.com/thumbnail?id=1nuZcv4fN0rGlbZH6QMNNREbO3BZ7iiB8&sz=w400",
+      "categories": [
+        "Parenting & Anak"
+      ]
+    },
+    {
+      "id": "1ttiYQhFTIEuOrgSuGR7FlUylZcEtDp-w",
+      "name": "[ID] Dr",
+      "author": "Maria Montessori",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
+      "file": "[ID] Dr. Montessori’s Own Handbook oleh Maria Montessori.pdf",
+      "ext": "pdf",
+      "thumb": "https://drive.google.com/thumbnail?id=1ttiYQhFTIEuOrgSuGR7FlUylZcEtDp-w&sz=w400",
+      "categories": [
+        "Parenting & Anak",
+        "Psikotes & Bahasa"
+      ]
+    },
+    {
       "id": "1RT9XpJn_u2IbJ-Ng1oD5v3i9AAolMSSe",
       "name": "A Gentle Reminder",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "A Gentle Reminder.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1RT9XpJn_u2IbJ-Ng1oD5v3i9AAolMSSe&sz=w400",
@@ -308,6 +562,8 @@
     {
       "id": "1PhdiSNhYDPo5RSi-LMhF9NfMXDH62vaA",
       "name": "A Whole New Mind (Pemikiran yang Benar-Benar Baru dan Komplet) Bagaimana Para Pengguna Otak Kanan Mampu Menguasai Masa Depan",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "A Whole New Mind (Pemikiran yang Benar-Benar Baru dan Komplet) Bagaimana Para Pengguna Otak Kanan Mampu Menguasai Masa Depan.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1PhdiSNhYDPo5RSi-LMhF9NfMXDH62vaA&sz=w400",
@@ -318,6 +574,8 @@
     {
       "id": "1NfzTflpixzPI7fB8Xxx5-suqTnYGBXUm",
       "name": "abdul_dan_harimau",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "abdul_dan_harimau.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1NfzTflpixzPI7fB8Xxx5-suqTnYGBXUm&sz=w400",
@@ -328,6 +586,8 @@
     {
       "id": "1FlvZgTwA-WPLbvEApau25Zwk5DLmMKGo",
       "name": "Akses KURSUS KOPI KEKINIAN",
+      "author": "",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "Akses KURSUS KOPI KEKINIAN.txt",
       "ext": "txt",
       "thumb": "https://drive.google.com/thumbnail?id=1FlvZgTwA-WPLbvEApau25Zwk5DLmMKGo&sz=w400",
@@ -338,6 +598,8 @@
     {
       "id": "1o-_LVQETQ99tmBP9XMUHEYAyEjdmUULD",
       "name": "Akses Link THDJ Personal Branding untuk MLM",
+      "author": "",
+      "desc": "Wawasan seputar bisnis, marketing, dan keuangan pribadi.",
       "file": "Akses Link THDJ Personal Branding untuk MLM.txt",
       "ext": "txt",
       "thumb": "https://drive.google.com/thumbnail?id=1o-_LVQETQ99tmBP9XMUHEYAyEjdmUULD&sz=w400",
@@ -348,6 +610,8 @@
     {
       "id": "14sWU24iNCCuHK6vl78UDa5AzkI8-zclC",
       "name": "Akses THDJ Teknik Follow up Closing",
+      "author": "",
+      "desc": "Wawasan seputar bisnis, marketing, dan keuangan pribadi.",
       "file": "Akses THDJ Teknik Follow up Closing.txt",
       "ext": "txt",
       "thumb": "https://drive.google.com/thumbnail?id=14sWU24iNCCuHK6vl78UDa5AzkI8-zclC&sz=w400",
@@ -357,7 +621,9 @@
     },
     {
       "id": "1oeCPSXrCCmqealKj2P7P7IH_QnWxze8e",
-      "name": "Aktivitas Montessori Stimulasi Indra dan Bahasa - Ivy Maya Savitri",
+      "name": "Aktivitas Montessori Stimulasi Indra dan Bahasa",
+      "author": "Ivy Maya Savitri",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "[ID] Aktivitas Montessori Stimulasi Indra dan Bahasa - Ivy Maya Savitri.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1oeCPSXrCCmqealKj2P7P7IH_QnWxze8e&sz=w400",
@@ -368,7 +634,9 @@
     },
     {
       "id": "1mLnRAjxA7R8FWMAGLquoWNvLOKWpC0S2",
-      "name": "All That You Deserve (Jacqueline Whitney)",
+      "name": "All That You Deserve",
+      "author": "Jacqueline Whitney",
+      "desc": "Buku dengan kategori Umum.",
       "file": "All That You Deserve (Jacqueline Whitney).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1mLnRAjxA7R8FWMAGLquoWNvLOKWpC0S2&sz=w400",
@@ -379,6 +647,8 @@
     {
       "id": "1uZHCQSyU4u2RVH5FYFFThheLAepYHkNv",
       "name": "ALMOND",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "ALMOND.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1uZHCQSyU4u2RVH5FYFFThheLAepYHkNv&sz=w400",
@@ -388,7 +658,9 @@
     },
     {
       "id": "13NVwb-4SvUdyyJ3eZwxb_Lv7IQZq6dXZ",
-      "name": "Anti galau Mendidik Anak - Tim Konten Afra Kids",
+      "name": "Anti galau Mendidik Anak",
+      "author": "Tim Konten Afra Kids",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Anti galau Mendidik Anak - Tim Konten Afra Kids.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=13NVwb-4SvUdyyJ3eZwxb_Lv7IQZq6dXZ&sz=w400",
@@ -398,7 +670,9 @@
     },
     {
       "id": "1_3zIrlsjeBFQ6Yfq9UX6s0HrbUV3bjbj",
-      "name": "Anti Stres Menyusui - dr. Asti Praborini Sp.A., IBCLC",
+      "name": "Anti Stres Menyusui - dr. Asti Praborini Sp.A",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "Anti Stres Menyusui - dr. Asti Praborini Sp.A., IBCLC.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1_3zIrlsjeBFQ6Yfq9UX6s0HrbUV3bjbj&sz=w400",
@@ -408,7 +682,9 @@
     },
     {
       "id": "1rD8-GPb0hujZsun6Yi1ZDGT-pCBRcaGo",
-      "name": "Asmaraloka (Arata Kim)",
+      "name": "Asmaraloka",
+      "author": "Arata Kim",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Asmaraloka (Arata Kim).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1rD8-GPb0hujZsun6Yi1ZDGT-pCBRcaGo&sz=w400",
@@ -417,18 +693,10 @@
       ]
     },
     {
-      "id": "1qsEGdIfqFjFGkv5AvMYTfkvZ2Q3YCxzI",
-      "name": "Atomic Habits GÇô James Clear",
-      "file": "800. [ID] Atomic Habits GÇô James Clear.pdf",
-      "ext": "pdf",
-      "thumb": "https://drive.google.com/thumbnail?id=1qsEGdIfqFjFGkv5AvMYTfkvZ2Q3YCxzI&sz=w400",
-      "categories": [
-        "Psikologi & Self-Help"
-      ]
-    },
-    {
       "id": "16foO9uJdZZd0sqYQ2yZGb2WSUMa_A0eV",
       "name": "Ayah",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Ayah - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=16foO9uJdZZd0sqYQ2yZGb2WSUMa_A0eV&sz=w400",
@@ -439,6 +707,8 @@
     {
       "id": "1O9IxsS3hz1pxFSiIg1VDIdCcEEP1fldh",
       "name": "Baby-led Parenting",
+      "author": "Gill Rapley _ Tracey Murkett",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "[ID] Baby-led Parenting by Gill Rapley _ Tracey Murkett.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1O9IxsS3hz1pxFSiIg1VDIdCcEEP1fldh&sz=w400",
@@ -449,6 +719,8 @@
     {
       "id": "1RFzMCsp0oyqbNGzIARzZkouPRLWrerhr",
       "name": "Baca Buku Ini Saat Engkau Lelah",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Baca Buku Ini Saat Engkau Lelah - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1RFzMCsp0oyqbNGzIARzZkouPRLWrerhr&sz=w400",
@@ -459,6 +731,8 @@
     {
       "id": "1gCUGmzQgSXTwNTVKpKtfQnxiJq6Lme9v",
       "name": "Bahasa-Indonesia BG-KLS-VII",
+      "author": "",
+      "desc": "Buku pelajaran, kurikulum, dan referensi pendidikan.",
       "file": "Bahasa-Indonesia-BG-KLS-VII.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1gCUGmzQgSXTwNTVKpKtfQnxiJq6Lme9v&sz=w400",
@@ -469,6 +743,8 @@
     {
       "id": "1n5VlAKnfOxpBvCM5_C3NlOIvXHJPZ_yI",
       "name": "Bahasa-Indonesia BS-KLS-VII",
+      "author": "",
+      "desc": "Buku pelajaran, kurikulum, dan referensi pendidikan.",
       "file": "Bahasa-Indonesia-BS-KLS-VII.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1n5VlAKnfOxpBvCM5_C3NlOIvXHJPZ_yI&sz=w400",
@@ -478,7 +754,9 @@
     },
     {
       "id": "11Z9jEzpNKehdoo0KUMZ-LkD795zx2t0J",
-      "name": "Bahtera Rumah Tangga by Jack Canfield, Dkk. - Chicken Soup For The Soul",
+      "name": "Bahtera Rumah Tangga by Jack Canfield, Dkk",
+      "author": "Chicken Soup For The Soul",
+      "desc": "Buku dengan kategori Umum.",
       "file": "369.  Bahtera Rumah Tangga by Jack Canfield, Dkk. - Chicken Soup For The Soul.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=11Z9jEzpNKehdoo0KUMZ-LkD795zx2t0J&sz=w400",
@@ -488,7 +766,9 @@
     },
     {
       "id": "1CJGG8YrDIMtzKN1JdjFjpWxYfC526r4N",
-      "name": "Bank Soal Psikotes Matematika (Bagus Triyanto, ST, M.M)",
+      "name": "Bank Soal Psikotes Matematika (Bagus Triyanto, ST, M",
+      "author": "",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
       "file": "Bank Soal Psikotes Matematika (Bagus Triyanto, ST, M.M).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1CJGG8YrDIMtzKN1JdjFjpWxYfC526r4N&sz=w400",
@@ -499,7 +779,9 @@
     },
     {
       "id": "1w4sHowj3f7Mod7K7lkd_xDNfC2LrEUkI",
-      "name": "Becoming A Money Magnet Mengungkap Rahasia Bagaimana Membuat Uang Mengejar Anda (Adi W. Gunawan)",
+      "name": "Becoming A Money Magnet Mengungkap Rahasia Bagaimana Membuat Uang Mengejar Anda",
+      "author": "Adi W. Gunawan",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "Becoming A Money Magnet Mengungkap Rahasia Bagaimana Membuat Uang Mengejar Anda (Adi W. Gunawan).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1w4sHowj3f7Mod7K7lkd_xDNfC2LrEUkI&sz=w400",
@@ -512,6 +794,8 @@
     {
       "id": "1YRAViVK9dCjeI2FV__WRYqQnhIczHTjF",
       "name": "Belajar Menjahit untuk Pemula 1",
+      "author": "",
+      "desc": "Panduan menjahit, pola busana, dan desain pakaian.",
       "file": "#1 [ID] Belajar Menjahit untuk Pemula 1.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1YRAViVK9dCjeI2FV__WRYqQnhIczHTjF&sz=w400",
@@ -522,6 +806,8 @@
     {
       "id": "1IALqpsumnkjrqBqitNwNMPF452ecBCjb",
       "name": "benda_benda_berta",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "benda_benda_berta.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1IALqpsumnkjrqBqitNwNMPF452ecBCjb&sz=w400",
@@ -532,6 +818,8 @@
     {
       "id": "1sFnm2Jw6UYgkkIpa6pf4R1Ee2TwFCpQE",
       "name": "Berani bahagia",
+      "author": "Ichiro Kishimi",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
       "file": "Berani bahagia - Ichiro Kishimi.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1sFnm2Jw6UYgkkIpa6pf4R1Ee2TwFCpQE&sz=w400",
@@ -540,18 +828,10 @@
       ]
     },
     {
-      "id": "162kUgWNyi5DQ_ru3OmvM4DOyBcaQ0aKo",
-      "name": "Berani Tidak Disukai",
-      "file": "Berani Tidak Disukai - eBookWave.pdf",
-      "ext": "pdf",
-      "thumb": "https://drive.google.com/thumbnail?id=162kUgWNyi5DQ_ru3OmvM4DOyBcaQ0aKo&sz=w400",
-      "categories": [
-        "Psikologi & Self-Help"
-      ]
-    },
-    {
       "id": "12LEhvTb5F0KieiLmov9O7i6S0fnr9r5a",
-      "name": "Berani Tidak Disukai (Ichiro Kishimi)",
+      "name": "Berani Tidak Disukai",
+      "author": "Ichiro Kishimi",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
       "file": "Berani Tidak Disukai (Ichiro Kishimi).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=12LEhvTb5F0KieiLmov9O7i6S0fnr9r5a&sz=w400",
@@ -562,6 +842,8 @@
     {
       "id": "1ct2jKO95VgxA4nvY1DP9h6nuxKpajBlH",
       "name": "Berdamai dengan Diri Sendiri",
+      "author": "",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
       "file": "Berdamai dengan Diri Sendiri.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1ct2jKO95VgxA4nvY1DP9h6nuxKpajBlH&sz=w400",
@@ -572,6 +854,8 @@
     {
       "id": "16opAm6_C9vaXh5IRdOdvsGCsLP5pmUwz",
       "name": "Berdamai Dengan Kehilangan",
+      "author": "",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
       "file": "Berdamai Dengan Kehilangan - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=16opAm6_C9vaXh5IRdOdvsGCsLP5pmUwz&sz=w400",
@@ -581,7 +865,9 @@
     },
     {
       "id": "1AVOiGT6VNxIqkr5mXhRhIx9CafcCWO8I",
-      "name": "Berkata Baik atau Diam 294 Adab Kebiasaan Rasulullah SAW. (Ninik Handrini)",
+      "name": "Berkata Baik atau Diam 294 Adab Kebiasaan Rasulullah SAW",
+      "author": "Ninik Handrini",
+      "desc": "Buku keislaman, spiritualitas, dan penguatan iman.",
       "file": "Berkata Baik atau Diam 294 Adab Kebiasaan Rasulullah SAW. (Ninik Handrini).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1AVOiGT6VNxIqkr5mXhRhIx9CafcCWO8I&sz=w400",
@@ -592,6 +878,8 @@
     {
       "id": "1s4tI_QYP8U7Ka5afvPI5-s6hqq2V8R9r",
       "name": "BERPIKIR DAN BERJIWA BESAR",
+      "author": "",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
       "file": "BERPIKIR DAN BERJIWA BESAR.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1s4tI_QYP8U7Ka5afvPI5-s6hqq2V8R9r&sz=w400",
@@ -602,6 +890,8 @@
     {
       "id": "12nnDMRZvxngdNC__Su0aoKyNX6jWX0l5",
       "name": "Best Of The Best TOEFL (DS Prasetyono, Panca Prastowo)",
+      "author": "",
+      "desc": "Buku latihan psikotes, CPNS, TOEFL, dan pembelajaran bahasa.",
       "file": "Best Of The Best TOEFL (DS Prasetyono, Panca Prastowo).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=12nnDMRZvxngdNC__Su0aoKyNX6jWX0l5&sz=w400",
@@ -610,29 +900,10 @@
       ]
     },
     {
-      "id": "1McT5-OtYJtuhIN3uuiMCyzgYPjSl646P",
-      "name": "Bicara Itu Ada Seninya - Oh Su Hyang",
-      "file": "802. [ID] Bicara Itu Ada Seninya - Oh Su Hyang.pdf",
-      "ext": "pdf",
-      "thumb": "https://drive.google.com/thumbnail?id=1McT5-OtYJtuhIN3uuiMCyzgYPjSl646P&sz=w400",
-      "categories": [
-        "Pengembangan Diri"
-      ]
-    },
-    {
-      "id": "130o_GZp9M9nbA0GUiIzi2Kw7JnFsI_oM",
-      "name": "Big Psikotest Terlengkap (Tim Psikologi Salemba)",
-      "file": "767. Big Psikotest Terlengkap (Tim Psikologi Salemba).pdf",
-      "ext": "pdf",
-      "thumb": "https://drive.google.com/thumbnail?id=130o_GZp9M9nbA0GUiIzi2Kw7JnFsI_oM&sz=w400",
-      "categories": [
-        "Psikologi & Self-Help",
-        "Psikotes & Bahasa"
-      ]
-    },
-    {
       "id": "1h01KWPQSQE6hO8PpPcTuHQNXd4UwSGSx",
       "name": "biji_semangka_ajaib",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "biji_semangka_ajaib.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1h01KWPQSQE6hO8PpPcTuHQNXd4UwSGSx&sz=w400",
@@ -643,6 +914,8 @@
     {
       "id": "1O0FF5WINvs3GuftDN3_hZ9sfyYcb1PiT",
       "name": "bili_dan_soli",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "bili_dan_soli.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1O0FF5WINvs3GuftDN3_hZ9sfyYcb1PiT&sz=w400",
@@ -652,7 +925,9 @@
     },
     {
       "id": "17_x-rZMhfmXEqEy7r29IOw6328T1hgCg",
-      "name": "Bingung Memulai MPASI - Fitra Sukrita Irsal",
+      "name": "Bingung Memulai MPASI",
+      "author": "Fitra Sukrita Irsal",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "[ID] Bingung Memulai MPASI - Fitra Sukrita Irsal.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=17_x-rZMhfmXEqEy7r29IOw6328T1hgCg&sz=w400",
@@ -663,6 +938,8 @@
     {
       "id": "184QzpTzbteJP_I2rLNrJ5VnjRL6de3_n",
       "name": "Bisnis Laris Manis Frozen Food",
+      "author": "",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "Bisnis Laris Manis Frozen Food.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=184QzpTzbteJP_I2rLNrJ5VnjRL6de3_n&sz=w400",
@@ -674,6 +951,8 @@
     {
       "id": "1BP-s1oakwDtQZtNphRSNURugxVkMKSFJ",
       "name": "Bisnis Menu Diet Sehat",
+      "author": "Eko Siswanto",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "Bisnis Menu Diet Sehat - Eko Siswanto.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1BP-s1oakwDtQZtNphRSNURugxVkMKSFJ&sz=w400",
@@ -686,6 +965,8 @@
     {
       "id": "16oRoUWDUGXCbaHfh965Kg_k7segn8lon",
       "name": "Bringing Up Bebe",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "[ID] Bringing Up Bebe.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=16oRoUWDUGXCbaHfh965Kg_k7segn8lon&sz=w400",
@@ -696,6 +977,8 @@
     {
       "id": "1Waf4jPUW_7pbC34ojUwjm4Ixgr-_RV1F",
       "name": "Brownies Legendaris Untuk Usaha Boga Ala @Freezybrowniezz",
+      "author": "Dian Perwitasari",
+      "desc": "Buku dengan kategori Umum.",
       "file": "[ID] Brownies Legendaris Untuk Usaha Boga Ala @Freezybrowniezz by Dian Perwitasari.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1Waf4jPUW_7pbC34ojUwjm4Ixgr-_RV1F&sz=w400",
@@ -704,19 +987,10 @@
       ]
     },
     {
-      "id": "1jT4Bh56XmLYV1lzEtUxi2JU-h27PW8N1",
-      "name": "Bukan Buku Diet",
-      "file": "725. [ID] Bukan Buku Diet - Alvin Hartanto.pdf",
-      "ext": "pdf",
-      "thumb": "https://drive.google.com/thumbnail?id=1jT4Bh56XmLYV1lzEtUxi2JU-h27PW8N1&sz=w400",
-      "categories": [
-        "Memasak & Resep",
-        "Kesehatan & Kecantikan"
-      ]
-    },
-    {
       "id": "1V5I3SJ3WT8I1aWFeKX9frvysCP_HamDB",
       "name": "Buku Anti Malas dan Suka Menunda",
+      "author": "",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "Buku Anti Malas dan Suka Menunda.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1V5I3SJ3WT8I1aWFeKX9frvysCP_HamDB&sz=w400",
@@ -727,6 +1001,8 @@
     {
       "id": "1c2uGXlBzj8oStndMV47q8GlHW0nMx9--",
       "name": "Buku Induk Doa dan Zikir",
+      "author": "",
+      "desc": "Buku keislaman, spiritualitas, dan penguatan iman.",
       "file": "[ID] Buku Induk Doa dan Zikir.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1c2uGXlBzj8oStndMV47q8GlHW0nMx9--&sz=w400",
@@ -737,6 +1013,8 @@
     {
       "id": "1zmpJsMQT9uS_IKXtKbfxwA86Fj5njfGA",
       "name": "Buku Penuntun Membuat Busana Sistem Tailoring _ Custom Made Tingkat Dasar - Soekarno _ Rosni Lingga",
+      "author": "",
+      "desc": "Panduan menjahit, pola busana, dan desain pakaian.",
       "file": "Buku Penuntun Membuat Busana Sistem Tailoring _ Custom Made Tingkat Dasar - Soekarno _ Rosni Lingga.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1zmpJsMQT9uS_IKXtKbfxwA86Fj5njfGA&sz=w400",
@@ -747,6 +1025,8 @@
     {
       "id": "1t0mUK3ziZAxNEhaH27klMz25gSymeZkv",
       "name": "Buku Penuntun Membuat Busana Sistem Tailoring dan Custom Made Tingkat Dasar",
+      "author": "",
+      "desc": "Panduan menjahit, pola busana, dan desain pakaian.",
       "file": "[M] Buku Penuntun Membuat Busana Sistem Tailoring dan Custom Made Tingkat Dasar .pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1t0mUK3ziZAxNEhaH27klMz25gSymeZkv&sz=w400",
@@ -756,7 +1036,9 @@
     },
     {
       "id": "12xvypBwB83L7v1yENzczVxLxHbDzmRzN",
-      "name": "Buku Penuntun Membuat Pola Busana Tingkat Mahir - Soekarno",
+      "name": "Buku Penuntun Membuat Pola Busana Tingkat Mahir",
+      "author": "Soekarno",
+      "desc": "Panduan menjahit, pola busana, dan desain pakaian.",
       "file": "[ID B] Buku Penuntun Membuat Pola Busana Tingkat Mahir - Soekarno.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=12xvypBwB83L7v1yENzczVxLxHbDzmRzN&sz=w400",
@@ -766,7 +1048,9 @@
     },
     {
       "id": "1PPLvY66PW7Nen7693VBhsgq7UCP1G3Ls",
-      "name": "BUKU PINTAR 365 HARI MPASI TERLENGKAP (BM).pdf",
+      "name": "BUKU PINTAR 365 HARI MPASI TERLENGKAP",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "BUKU PINTAR 365 HARI MPASI TERLENGKAP (BM).pdf_Watermarked.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1PPLvY66PW7Nen7693VBhsgq7UCP1G3Ls&sz=w400",
@@ -776,7 +1060,9 @@
     },
     {
       "id": "14_N5ZGwsgG1V0XpzYpH_E8wDpIwQiHRD",
-      "name": "Buku Pintar ASI dan Menyusui oleh F. B. Monika",
+      "name": "Buku Pintar ASI dan Menyusui",
+      "author": "F. B. Monika",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "[ID] Buku Pintar ASI dan Menyusui oleh F. B. Monika.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=14_N5ZGwsgG1V0XpzYpH_E8wDpIwQiHRD&sz=w400",
@@ -787,6 +1073,8 @@
     {
       "id": "1WBQC0WxvXeJ94bw4t2wCXYgd4SIZ4bZ8",
       "name": "buldoser_beti",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "buldoser_beti.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1WBQC0WxvXeJ94bw4t2wCXYgd4SIZ4bZ8&sz=w400",
@@ -796,7 +1084,9 @@
     },
     {
       "id": "1yIS0zt5fqTw8RAa1hUTpOpy04_WEnYNb",
-      "name": "Cantik itu luka (Eka Kurniawan)",
+      "name": "Cantik itu luka",
+      "author": "Eka Kurniawan",
+      "desc": "Karya fiksi dan novel dari berbagai genre.",
       "file": "Cantik itu luka (Eka Kurniawan).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1yIS0zt5fqTw8RAa1hUTpOpy04_WEnYNb&sz=w400",
@@ -805,8 +1095,22 @@
       ]
     },
     {
+      "id": "1TbX61DsHRZP3Ou1eGdama562iXVI3Yih",
+      "name": "Cantik itu luka (Eka Kurniawan)",
+      "author": "",
+      "desc": "Karya fiksi dan novel dari berbagai genre.",
+      "file": "Cantik itu luka (Eka Kurniawan) (1).pdf",
+      "ext": "pdf",
+      "thumb": "https://drive.google.com/thumbnail?id=1TbX61DsHRZP3Ou1eGdama562iXVI3Yih&sz=w400",
+      "categories": [
+        "Novel & Fiksi"
+      ]
+    },
+    {
       "id": "1i7IpJeThSeGtz-kFkhc7lCr8wFEu6RcA",
       "name": "Cara Asyik Mengurus Bayi 0-3 tahun",
+      "author": "Kusuma Larasati",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "[ID] Cara Asyik Mengurus Bayi 0-3 tahun - Kusuma Larasati.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1i7IpJeThSeGtz-kFkhc7lCr8wFEu6RcA&sz=w400",
@@ -816,7 +1120,9 @@
     },
     {
       "id": "1i81wVLOA6cOmKs_5TQQq2htvFk-Tt1k3",
-      "name": "Cara Cepat Membaca Bahasa Tubuh (Joe Navarro Marvin Karlins)",
+      "name": "Cara Cepat Membaca Bahasa Tubuh",
+      "author": "Joe Navarro Marvin Karlins",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Cara Cepat Membaca Bahasa Tubuh (Joe Navarro Marvin Karlins).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1i81wVLOA6cOmKs_5TQQq2htvFk-Tt1k3&sz=w400",
@@ -827,6 +1133,8 @@
     {
       "id": "1KmbmTaARCgToJjq5IvSt6rx71oO-x4NO",
       "name": "Cara Rasulullah Saw Mendidik Anak",
+      "author": "",
+      "desc": "Buku keislaman, spiritualitas, dan penguatan iman.",
       "file": "Cara Rasulullah Saw Mendidik Anak.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1KmbmTaARCgToJjq5IvSt6rx71oO-x4NO&sz=w400",
@@ -837,6 +1145,8 @@
     {
       "id": "1S-TBSvShvOmBXWYuE2VnmSVunxSZAwkv",
       "name": "Catatan Pembunuhan sang Novelis",
+      "author": "",
+      "desc": "Karya fiksi dan novel dari berbagai genre.",
       "file": "Catatan Pembunuhan sang Novelis.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1S-TBSvShvOmBXWYuE2VnmSVunxSZAwkv&sz=w400",
@@ -847,6 +1157,8 @@
     {
       "id": "1D_4_ZY5Zs5gPoc1rqGFhtCoGzznyYONY",
       "name": "Change Your Aura Change Your Life Langkah praktis membuka kekuatan Spiritual Anda",
+      "author": "",
+      "desc": "Buku motivasi, keterampilan diri, dan pengembangan potensi.",
       "file": "Change Your Aura Change Your Life Langkah praktis membuka kekuatan Spiritual Anda.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1D_4_ZY5Zs5gPoc1rqGFhtCoGzznyYONY&sz=w400",
@@ -856,7 +1168,9 @@
     },
     {
       "id": "1xHiXDsreFqRAjmbGDspKUOmvLQ0tnfui",
-      "name": "Check Your English Vocabulary for IELTS Essential words and phrases to help you maximise your IELTS score (Rawdon Wyatt)",
+      "name": "Check Your English Vocabulary for IELTS Essential words and phrases to help you maximise your IELTS score",
+      "author": "Rawdon Wyatt",
+      "desc": "Buku latihan psikotes, CPNS, TOEFL, dan pembelajaran bahasa.",
       "file": "Check Your English Vocabulary for IELTS Essential words and phrases to help you maximise your IELTS score (Rawdon Wyatt).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1xHiXDsreFqRAjmbGDspKUOmvLQ0tnfui&sz=w400",
@@ -867,6 +1181,8 @@
     {
       "id": "1uMEgUIFH6hGCf_yGCfV0_BJ9IzJK6cZf",
       "name": "Check Your English Vocabulary for TOEFL",
+      "author": "Rawdon Wyatt",
+      "desc": "Buku latihan psikotes, CPNS, TOEFL, dan pembelajaran bahasa.",
       "file": "( workbook toefl) Check Your English Vocabulary for TOEFL by Rawdon Wyatt.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1uMEgUIFH6hGCf_yGCfV0_BJ9IzJK6cZf&sz=w400",
@@ -876,7 +1192,9 @@
     },
     {
       "id": "1GAz_OLwS-RpOlOPL7IbF7SRVQkNMpy4e",
-      "name": "Chicken Soup for the Soul Menemukan Kekuatan Batin (Amy Newmark, dkk.)",
+      "name": "Chicken Soup for the Soul Menemukan Kekuatan Batin (Amy Newmark, dkk",
+      "author": "",
+      "desc": "Buku motivasi, keterampilan diri, dan pengembangan potensi.",
       "file": "Chicken Soup for the Soul Menemukan Kekuatan Batin (Amy Newmark, dkk.).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1GAz_OLwS-RpOlOPL7IbF7SRVQkNMpy4e&sz=w400",
@@ -887,6 +1205,8 @@
     {
       "id": "1Htc5i5KIaZ0mV04_0aJjolMhJl_av8SB",
       "name": "Chicken Soup Keluar dari Zona Nyaman",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Chicken Soup Keluar dari Zona Nyaman - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1Htc5i5KIaZ0mV04_0aJjolMhJl_av8SB&sz=w400",
@@ -897,6 +1217,8 @@
     {
       "id": "1wXNnOTThk6iVm2OlgC5HS3zNjhG8oYF0",
       "name": "Cooking With Love ala Dapur Momychaa",
+      "author": "Icha Irawan",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "Cooking With Love ala Dapur Momychaa - Icha Irawan.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1wXNnOTThk6iVm2OlgC5HS3zNjhG8oYF0&sz=w400",
@@ -906,7 +1228,9 @@
     },
     {
       "id": "1vc2Oh0DctVVCMjgemHAqFsIekiCJvZeq",
-      "name": "Creative Playbook Rahasia Berpikir Kreatif dengan Cara Menyenangkan Sekaligus Efisien (Tahta Muhammad)",
+      "name": "Creative Playbook Rahasia Berpikir Kreatif dengan Cara Menyenangkan Sekaligus Efisien",
+      "author": "Tahta Muhammad",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "Creative Playbook Rahasia Berpikir Kreatif dengan Cara Menyenangkan Sekaligus Efisien (Tahta Muhammad).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1vc2Oh0DctVVCMjgemHAqFsIekiCJvZeq&sz=w400",
@@ -918,7 +1242,9 @@
     },
     {
       "id": "14u3-erE5PUVffVzGolm9HNkc9hEJDuSn",
-      "name": "Dahsyatnya Kekuatan Berpikir Positif (Norman Ca...",
+      "name": "Dahsyatnya Kekuatan Berpikir Positif (Norman Ca..",
+      "author": "",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
       "file": "Dahsyatnya Kekuatan Berpikir Positif (Norman Ca....pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=14u3-erE5PUVffVzGolm9HNkc9hEJDuSn&sz=w400",
@@ -930,6 +1256,8 @@
     {
       "id": "1wScd5G4l6NKHqXFbWrLsUPt8dovfzm3s",
       "name": "Dahsyatnya Salat Tahajud _ Salat Duha",
+      "author": "",
+      "desc": "Buku keislaman, spiritualitas, dan penguatan iman.",
       "file": "Dahsyatnya Salat Tahajud _ Salat Duha.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1wScd5G4l6NKHqXFbWrLsUPt8dovfzm3s&sz=w400",
@@ -939,7 +1267,9 @@
     },
     {
       "id": "1E5ZcpG6UGSH81M-RJQhFVpGsISziEnNK",
-      "name": "Dark Psychology The Practical Uses and Best Def...",
+      "name": "Dark Psychology The Practical Uses and Best Def..",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Dark Psychology The Practical Uses and Best Def....pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1E5ZcpG6UGSH81M-RJQhFVpGsISziEnNK&sz=w400",
@@ -950,6 +1280,8 @@
     {
       "id": "1DNTtIcgyOR7yUodwQGgZFO10A-M26n5i",
       "name": "DEBM Diet Enak, Bahagia, dan Menyenangkan",
+      "author": "",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "DEBM Diet Enak, Bahagia, dan Menyenangkan.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1DNTtIcgyOR7yUodwQGgZFO10A-M26n5i&sz=w400",
@@ -961,7 +1293,9 @@
     },
     {
       "id": "1mSkNGArv9aXdBcBIbsNQn1PaRVGKYLRi",
-      "name": "Di Tanah Lada (ZZiggy Zezsyazeoviennazabrizkie)",
+      "name": "Di Tanah Lada",
+      "author": "ZZiggy Zezsyazeoviennazabrizkie",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Di Tanah Lada (ZZiggy Zezsyazeoviennazabrizkie).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1mSkNGArv9aXdBcBIbsNQn1PaRVGKYLRi&sz=w400",
@@ -972,6 +1306,8 @@
     {
       "id": "1PQuvsJQqqTEx4PJ5IgmpuR6YJjOqolsj",
       "name": "Diet Kenyang dengan Cooking Hypnotherapy",
+      "author": "Dewi Hughes",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "[ID] Diet Kenyang dengan Cooking Hypnotherapy by Dewi Hughes .pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1PQuvsJQqqTEx4PJ5IgmpuR6YJjOqolsj&sz=w400",
@@ -983,6 +1319,8 @@
     {
       "id": "1lmlOWQDh6vcPmAIU-wbuhFm960omHkQ5",
       "name": "Diet Kenyang Hypnotic Diary",
+      "author": "Dewi Hughes",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "[ID] Diet Kenyang Hypnotic Diary by Dewi Hughes.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1lmlOWQDh6vcPmAIU-wbuhFm960omHkQ5&sz=w400",
@@ -994,6 +1332,8 @@
     {
       "id": "1BQuuCOrXOkhtDDeSVAI4q_neY0VC8rB1",
       "name": "Dietclopedia 110 Rahasia Diet Sehat",
+      "author": "",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "Dietclopedia 110 Rahasia Diet Sehat.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1BQuuCOrXOkhtDDeSVAI4q_neY0VC8rB1&sz=w400",
@@ -1007,6 +1347,8 @@
     {
       "id": "10yLRtmCvDJ1He3L6AbK0PGQCre9-9kKT",
       "name": "Digital Parenting Mendidik Anak di Era Digital",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "Digital Parenting Mendidik Anak di Era Digital.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=10yLRtmCvDJ1He3L6AbK0PGQCre9-9kKT&sz=w400",
@@ -1017,6 +1359,8 @@
     {
       "id": "1OhMSWF9x7cMjChrvgS1HhkaV_804w_ng",
       "name": "DK Children’s Encyclopedia",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "DK Children’s Encyclopedia.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1OhMSWF9x7cMjChrvgS1HhkaV_804w_ng&sz=w400",
@@ -1027,6 +1371,8 @@
     {
       "id": "1h0OOv3Wse5RPo3UvgQ7uedLQj7_HPIAf",
       "name": "Doa-Doa Yang Terkabul",
+      "author": "Chicken Soup For The Soul",
+      "desc": "Buku keislaman, spiritualitas, dan penguatan iman.",
       "file": "[ID] Doa-Doa Yang Terkabul by Chicken Soup For The Soul.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1h0OOv3Wse5RPo3UvgQ7uedLQj7_HPIAf&sz=w400",
@@ -1035,19 +1381,10 @@
       ]
     },
     {
-      "id": "1ttiYQhFTIEuOrgSuGR7FlUylZcEtDp-w",
-      "name": "Dr. Montessori’s Own Handbook oleh Maria Montessori",
-      "file": "[ID] Dr. Montessori’s Own Handbook oleh Maria Montessori.pdf",
-      "ext": "pdf",
-      "thumb": "https://drive.google.com/thumbnail?id=1ttiYQhFTIEuOrgSuGR7FlUylZcEtDp-w&sz=w400",
-      "categories": [
-        "Parenting & Anak",
-        "Psikotes & Bahasa"
-      ]
-    },
-    {
       "id": "1H6AYn9mo94FOmWLWR2JdcZcRYysR-V8H",
       "name": "Dunia Sophie",
+      "author": "",
+      "desc": "Karya fiksi dan novel dari berbagai genre.",
       "file": "Dunia Sophie - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1H6AYn9mo94FOmWLWR2JdcZcRYysR-V8H&sz=w400",
@@ -1058,6 +1395,8 @@
     {
       "id": "1J3xQEW9kmEAPr0ItX0bTbs7nywDGJj5R",
       "name": "Ebook Cara Cepat Memperbaiki Mood",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Ebook Cara Cepat Memperbaiki Mood.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1J3xQEW9kmEAPr0ItX0bTbs7nywDGJj5R&sz=w400",
@@ -1068,6 +1407,8 @@
     {
       "id": "1i5YhCZVy9vCG9QMhoqohSJ3JAWT0i_VI",
       "name": "Ebook Hidup itu singkat, jangan dibuat berat (Life is Short Make it Great)",
+      "author": "Dale Carnegie",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Ebook Hidup itu singkat, jangan dibuat berat (Life is Short Make it Great) by Dale Carnegie.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1i5YhCZVy9vCG9QMhoqohSJ3JAWT0i_VI&sz=w400",
@@ -1077,7 +1418,9 @@
     },
     {
       "id": "1QAKtYBFSOG3qKlE8kJaR5QUx0TQsMUAR",
-      "name": "Ego Is the Enemy (Ryan Holiday) (Indonesia)",
+      "name": "Ego Is the Enemy (Ryan Holiday)",
+      "author": "Indonesia",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Ego Is the Enemy (Ryan Holiday) (Indonesia).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1QAKtYBFSOG3qKlE8kJaR5QUx0TQsMUAR&sz=w400",
@@ -1087,7 +1430,9 @@
     },
     {
       "id": "1vAc-3HmrdKH-jP73UD1MnjUCNV65wwFs",
-      "name": "Emotional Healing Therapy (Irma Rahayu)",
+      "name": "Emotional Healing Therapy",
+      "author": "Irma Rahayu",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
       "file": "Emotional Healing Therapy (Irma Rahayu).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1vAc-3HmrdKH-jP73UD1MnjUCNV65wwFs&sz=w400",
@@ -1097,7 +1442,9 @@
     },
     {
       "id": "18UGsziqI-nL0MP1A0lJepgVij7CvnXS9",
-      "name": "English Grammar in Use, Fifth Edition (Raymond Murphy)",
+      "name": "English Grammar in Use, Fifth Edition",
+      "author": "Raymond Murphy",
+      "desc": "Buku latihan psikotes, CPNS, TOEFL, dan pembelajaran bahasa.",
       "file": "English Grammar in Use, Fifth Edition (Raymond Murphy).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=18UGsziqI-nL0MP1A0lJepgVij7CvnXS9&sz=w400",
@@ -1107,7 +1454,9 @@
     },
     {
       "id": "121wbUox3RUg-kak2TGchT9QK3UQkP35B",
-      "name": "Fakta tentang ASI dan Menyusui - dr. Meta Hanindita, Sp.A.(K)",
+      "name": "Fakta tentang ASI dan Menyusui - dr. Meta Hanindita, Sp.A",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "Fakta tentang ASI dan Menyusui - dr. Meta Hanindita, Sp.A.(K).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=121wbUox3RUg-kak2TGchT9QK3UQkP35B&sz=w400",
@@ -1118,6 +1467,8 @@
     {
       "id": "1OiY7R4o7MWNw9OZXukMPjnSGoFPKsUdD",
       "name": "Fear of Missing Out Tepat Mengambil Keputusan di Dunia yang Menyajikan Terlalu Banyak Pilihan-1",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Fear of Missing Out Tepat Mengambil Keputusan di Dunia yang Menyajikan Terlalu Banyak Pilihan-1.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1OiY7R4o7MWNw9OZXukMPjnSGoFPKsUdD&sz=w400",
@@ -1128,6 +1479,8 @@
     {
       "id": "1m51gJTaXFUt3m0Esxcgv8Q5lSrWGy07l",
       "name": "feng",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "feng.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1m51gJTaXFUt3m0Esxcgv8Q5lSrWGy07l&sz=w400",
@@ -1136,18 +1489,10 @@
       ]
     },
     {
-      "id": "11jzRi1wFqShW7FL_kLsiv6ZSitZeXahg",
-      "name": "Filosofi Teras - Stoisisme",
-      "file": "803. [ID] Filosofi Teras - Stoisisme.pdf",
-      "ext": "pdf",
-      "thumb": "https://drive.google.com/thumbnail?id=11jzRi1wFqShW7FL_kLsiv6ZSitZeXahg&sz=w400",
-      "categories": [
-        "Psikologi & Self-Help"
-      ]
-    },
-    {
       "id": "13-w0x4o4vM3VNzGj5xSiru06ZZ_B37lT",
-      "name": "Fitness vs Diet (Niken Octavianti)",
+      "name": "Fitness vs Diet",
+      "author": "Niken Octavianti",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "Fitness vs Diet (Niken Octavianti).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=13-w0x4o4vM3VNzGj5xSiru06ZZ_B37lT&sz=w400",
@@ -1159,6 +1504,8 @@
     {
       "id": "1KRvNX0NliDl65P21NUZ1K5R_zJH8lmDQ",
       "name": "fullstack javascript",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "fullstack javascript.docx",
       "ext": "docx",
       "thumb": "https://drive.google.com/thumbnail?id=1KRvNX0NliDl65P21NUZ1K5R_zJH8lmDQ&sz=w400",
@@ -1169,6 +1516,8 @@
     {
       "id": "1OxHZzja7EqaYdUhSGnHs_aQYhKKSYsoZ",
       "name": "Fun Cooking With Yackikuka",
+      "author": "",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "Fun Cooking With Yackikuka.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1OxHZzja7EqaYdUhSGnHs_aQYhKKSYsoZ&sz=w400",
@@ -1178,7 +1527,9 @@
     },
     {
       "id": "1PG95pN2yZ075TRfcNYfGZTRZ48ZtExPq",
-      "name": "Funiculi Funicula (Toshikazu Kawaguchi)",
+      "name": "Funiculi Funicula",
+      "author": "Toshikazu Kawaguchi",
+      "desc": "Karya fiksi dan novel dari berbagai genre.",
       "file": "Funiculi Funicula (Toshikazu Kawaguchi).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1PG95pN2yZ075TRfcNYfGZTRZ48ZtExPq&sz=w400",
@@ -1189,6 +1540,8 @@
     {
       "id": "1UxUPDN5Pll34dOyF5RphIvsGRlhoYWv4",
       "name": "Funiculi Funicula 2",
+      "author": "",
+      "desc": "Karya fiksi dan novel dari berbagai genre.",
       "file": "Funiculi Funicula 2 - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1UxUPDN5Pll34dOyF5RphIvsGRlhoYWv4&sz=w400",
@@ -1199,6 +1552,8 @@
     {
       "id": "1eW7OgXMfvRoyCt1hVgJJKDcjgq5wv_EL",
       "name": "Funiculi Funicula 2 Kisah-Kisah yang Baru Terungkap",
+      "author": "",
+      "desc": "Karya fiksi dan novel dari berbagai genre.",
       "file": "Funiculi Funicula 2 Kisah-Kisah yang Baru Terungkap.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1eW7OgXMfvRoyCt1hVgJJKDcjgq5wv_EL&sz=w400",
@@ -1209,6 +1564,8 @@
     {
       "id": "1vP9APXwakIVkm_7HT5jFHa09iL9PEAyd",
       "name": "Gadis Kretek",
+      "author": "",
+      "desc": "Karya fiksi dan novel dari berbagai genre.",
       "file": "Gadis Kretek - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1vP9APXwakIVkm_7HT5jFHa09iL9PEAyd&sz=w400",
@@ -1219,6 +1576,8 @@
     {
       "id": "14K8EHnNoEBPiZkPYhHqyDD55s5SPXO7C",
       "name": "Gentle Birth",
+      "author": "Yesie Aprilia",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "[ID] Gentle Birth - Yesie Aprilia.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=14K8EHnNoEBPiZkPYhHqyDD55s5SPXO7C&sz=w400",
@@ -1229,6 +1588,8 @@
     {
       "id": "1dw_yZxqPyf3LVHQE5UOFBflbNscQC6-j",
       "name": "Gentle Discipline",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Gentle Discipline.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1dw_yZxqPyf3LVHQE5UOFBflbNscQC6-j&sz=w400",
@@ -1239,6 +1600,8 @@
     {
       "id": "1n-GpQ-5ssFQf_SLWiPW5BPKwrvcPO1Cs",
       "name": "Good Habits, Bad Habits_ Cara Membentuk Kebiasaan Baik untuk Menghasilkan Perubahan Positif",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "Good Habits, Bad Habits_ Cara Membentuk Kebiasaan Baik untuk Menghasilkan Perubahan Positif.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1n-GpQ-5ssFQf_SLWiPW5BPKwrvcPO1Cs&sz=w400",
@@ -1250,6 +1613,8 @@
     {
       "id": "1lGvMDjg0VW4fF2Gp68jANYwu0pYjFfjN",
       "name": "Good Vibes Good Life Bahasa Indonesia",
+      "author": "",
+      "desc": "Buku pelajaran, kurikulum, dan referensi pendidikan.",
       "file": "Good Vibes Good Life Bahasa Indonesia - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1lGvMDjg0VW4fF2Gp68jANYwu0pYjFfjN&sz=w400",
@@ -1259,7 +1624,9 @@
     },
     {
       "id": "1VCwi6pVPCvHOkcFNLqEPxyYb8NT0yiqL",
-      "name": "Good Vibes, Good Life (Vex King)",
+      "name": "Good Vibes, Good Life",
+      "author": "Vex King",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Good Vibes, Good Life (Vex King).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1VCwi6pVPCvHOkcFNLqEPxyYb8NT0yiqL&sz=w400",
@@ -1270,6 +1637,8 @@
     {
       "id": "1UUkn8DbXt7FgehFVzDSNVbTaWMKl7b1g",
       "name": "Grammar for Everyone_ Practical Tools for Learning and Teaching Grammar",
+      "author": "",
+      "desc": "Buku latihan psikotes, CPNS, TOEFL, dan pembelajaran bahasa.",
       "file": "Grammar for Everyone_ Practical Tools for Learning and Teaching Grammar.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1UUkn8DbXt7FgehFVzDSNVbTaWMKl7b1g&sz=w400",
@@ -1280,6 +1649,8 @@
     {
       "id": "1yDvC5o_hQDcqGMNUX2BPGgKEcZI48tzS",
       "name": "Happy Parenting _ Relationships",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "[ID] Happy Parenting _ Relationships.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1yDvC5o_hQDcqGMNUX2BPGgKEcZI48tzS&sz=w400",
@@ -1289,7 +1660,9 @@
     },
     {
       "id": "1n4ZOTOj_iJT96AskJReqDv0zj0ubOKAr",
-      "name": "Harry Potter and The Sorcerer_s Stone (J.K. Rowling)",
+      "name": "Harry Potter and The Sorcerer_s Stone",
+      "author": "J.K. Rowling",
+      "desc": "Karya fiksi dan novel dari berbagai genre.",
       "file": "Harry Potter and The Sorcerer_s Stone (J.K. Rowling).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1n4ZOTOj_iJT96AskJReqDv0zj0ubOKAr&sz=w400",
@@ -1300,6 +1673,8 @@
     {
       "id": "1UMup-rgP3sGU-FuKtNS_LAvHvere0S6q",
       "name": "hidup Aktivitas Montessori Latihan Keterampilan Hidup",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "[ID] hidup Aktivitas Montessori Latihan Keterampilan Hidup.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1UMup-rgP3sGU-FuKtNS_LAvHvere0S6q&sz=w400",
@@ -1311,6 +1686,8 @@
     {
       "id": "1AyFm_5qiXlsdHiffqpXl4YZrWx5P1tyF",
       "name": "Hidup Damai Tanpa Berpikir Berlebihan",
+      "author": "",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
       "file": "Hidup Damai Tanpa Berpikir Berlebihan - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1AyFm_5qiXlsdHiffqpXl4YZrWx5P1tyF&sz=w400",
@@ -1320,7 +1697,9 @@
     },
     {
       "id": "1aab8PD1AiM4jXScZMQ_oz_by6yQ2cch7",
-      "name": "Hidup Sukses dengan Disiplin (Hadziq)",
+      "name": "Hidup Sukses dengan Disiplin",
+      "author": "Hadziq",
+      "desc": "Buku motivasi, keterampilan diri, dan pengembangan potensi.",
       "file": "Hidup Sukses dengan Disiplin (Hadziq).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1aab8PD1AiM4jXScZMQ_oz_by6yQ2cch7&sz=w400",
@@ -1331,6 +1710,8 @@
     {
       "id": "1MZFqLYgcEYa9rL_4pmIyvAdbxgcWrTlW",
       "name": "HipnoGasm ebook",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "HipnoGasm ebook (1).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1MZFqLYgcEYa9rL_4pmIyvAdbxgcWrTlW&sz=w400",
@@ -1341,6 +1722,8 @@
     {
       "id": "1ySmxRGiLHn4ZXPufTV6ggjotjHUkI61o",
       "name": "Home Cooking ala Xander_s Kitchen",
+      "author": "",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "Home Cooking ala Xander_s Kitchen.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1ySmxRGiLHn4ZXPufTV6ggjotjHUkI61o&sz=w400",
@@ -1351,6 +1734,8 @@
     {
       "id": "14dUFLvYPKlIhAD-eYEFtO7r9lXePmrgV",
       "name": "Homemade Snacks _ Desserts",
+      "author": "",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "Homemade Snacks _ Desserts.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=14dUFLvYPKlIhAD-eYEFtO7r9lXePmrgV&sz=w400",
@@ -1361,6 +1746,8 @@
     {
       "id": "1uTJ4SKBr0j6uIrW8xeXPLaNCmwn7xliC",
       "name": "How Think Like Holmes",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "How Think Like Holmes - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1uTJ4SKBr0j6uIrW8xeXPLaNCmwn7xliC&sz=w400",
@@ -1371,6 +1758,8 @@
     {
       "id": "1wEzWZVbJVPMUTrPCMli-hUiV7HiYZDAp",
       "name": "How to Be Interesting",
+      "author": "",
+      "desc": "Buku motivasi, keterampilan diri, dan pengembangan potensi.",
       "file": "How to Be Interesting.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1wEzWZVbJVPMUTrPCMli-hUiV7HiYZDAp&sz=w400",
@@ -1381,6 +1770,8 @@
     {
       "id": "1FKheaXXCEuXZX0FHiJu_YFefOcOFqSRJ",
       "name": "How to Die",
+      "author": "",
+      "desc": "Buku motivasi, keterampilan diri, dan pengembangan potensi.",
       "file": "How to Die.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1FKheaXXCEuXZX0FHiJu_YFefOcOFqSRJ&sz=w400",
@@ -1391,6 +1782,8 @@
     {
       "id": "1hw0xnt9BvxA4FHDvAt8k61wfHVATrBMx",
       "name": "How to Explore Your Child Ability Mengenali Potensi Anak Sejak Usia Dini",
+      "author": "",
+      "desc": "Buku motivasi, keterampilan diri, dan pengembangan potensi.",
       "file": "How to Explore Your Child Ability  Mengenali Potensi Anak Sejak Usia Dini.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1hw0xnt9BvxA4FHDvAt8k61wfHVATrBMx&sz=w400",
@@ -1400,7 +1793,9 @@
     },
     {
       "id": "1VFOqUs5qtzDZCKcf9nTBgWvinkwzzncm",
-      "name": "How to Keep Your Cool Sebuah Panduan Klasik Mengelola Amarah (Seneca)",
+      "name": "How to Keep Your Cool Sebuah Panduan Klasik Mengelola Amarah",
+      "author": "Seneca",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "How to Keep Your Cool Sebuah Panduan Klasik Mengelola Amarah (Seneca).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1VFOqUs5qtzDZCKcf9nTBgWvinkwzzncm&sz=w400",
@@ -1412,6 +1807,8 @@
     {
       "id": "1t6JAQoOV0v8iesrmC7HAkqgN5k_S6qk0",
       "name": "How to Win an Argument Sebuah Panduan Klasik tentang Seni Persuasi (Marcus Tullius Cicero)",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "How to Win an Argument Sebuah Panduan Klasik tentang Seni Persuasi (Marcus Tullius Cicero) (1).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1t6JAQoOV0v8iesrmC7HAkqgN5k_S6qk0&sz=w400",
@@ -1423,6 +1820,8 @@
     {
       "id": "10oCXKTWXQHxC5Q8dP8vIKDc755qrhNuG",
       "name": "How to Win Friends _ Influence People in The Digital Age",
+      "author": "Dale Carnegie",
+      "desc": "Buku motivasi, keterampilan diri, dan pengembangan potensi.",
       "file": "B ind How to Win Friends _ Influence People in The Digital Age - Dale Carnegie.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=10oCXKTWXQHxC5Q8dP8vIKDc755qrhNuG&sz=w400",
@@ -1433,6 +1832,8 @@
     {
       "id": "1E0Y3YJwXj-etohAyRA7YYHFbZrlUsE_9",
       "name": "Humor Therapy Perpaduan antara Teori dan Pengalaman Empiris",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Humor Therapy Perpaduan antara Teori dan Pengalaman Empiris.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1E0Y3YJwXj-etohAyRA7YYHFbZrlUsE_9&sz=w400",
@@ -1442,7 +1843,9 @@
     },
     {
       "id": "1Qw57JF61K38_zZTsl_kGlaDDLLCCVGOv",
-      "name": "HypnoParenting - Dewi P. Faeni",
+      "name": "HypnoParenting - Dewi P",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "HypnoParenting - Dewi P. Faeni.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1Qw57JF61K38_zZTsl_kGlaDDLLCCVGOv&sz=w400",
@@ -1453,6 +1856,8 @@
     {
       "id": "1lKg-Mu6NxR_fdzIIIq9dcqCX-RtV6MU7",
       "name": "I Want to Die but I Want to Eat Tteokpokki",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "I Want to Die but I Want to Eat Tteokpokki - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1lKg-Mu6NxR_fdzIIIq9dcqCX-RtV6MU7&sz=w400",
@@ -1463,6 +1868,8 @@
     {
       "id": "111jfpapOVhe_LYEWROjNmSo-XQC5-4rg",
       "name": "ID The Danish Way of Parenting",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "[MB] ID The Danish Way of Parenting.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=111jfpapOVhe_LYEWROjNmSo-XQC5-4rg&sz=w400",
@@ -1471,18 +1878,10 @@
       ]
     },
     {
-      "id": "18Yopu--3lkwmJxLYBvj0xF54NrsNewjP",
-      "name": "Ikigai - Hector G, Francesc Miralles",
-      "file": "583. [ENG] Ikigai - Hector G, Francesc Miralles.pdf",
-      "ext": "pdf",
-      "thumb": "https://drive.google.com/thumbnail?id=18Yopu--3lkwmJxLYBvj0xF54NrsNewjP&sz=w400",
-      "categories": [
-        "Umum"
-      ]
-    },
-    {
       "id": "1VlUnMy-jZ9GzHX-mFt6ojkFmgeJHliz5",
-      "name": "IKIGAI B.indo",
+      "name": "IKIGAI B",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "IKIGAI B.indo.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1VlUnMy-jZ9GzHX-mFt6ojkFmgeJHliz5&sz=w400",
@@ -1493,6 +1892,8 @@
     {
       "id": "1aiF_tri0rqtVytpu2b_qBkHUPy2A9Dku",
       "name": "ilmu Aktivitas Montessori Ilmu Alam dan Matematika",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "[ID] ilmu Aktivitas Montessori Ilmu Alam dan Matematika.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1aiF_tri0rqtVytpu2b_qBkHUPy2A9Dku&sz=w400",
@@ -1503,7 +1904,9 @@
     },
     {
       "id": "1Qs9KX7dggnIm7mSklSGmd7v5aWMVfWHV",
-      "name": "Infografis Rapor Pendidikan Versi 2.0",
+      "name": "Infografis Rapor Pendidikan Versi 2",
+      "author": "",
+      "desc": "Buku pelajaran, kurikulum, dan referensi pendidikan.",
       "file": "Infografis Rapor Pendidikan Versi 2.0.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1Qs9KX7dggnIm7mSklSGmd7v5aWMVfWHV&sz=w400",
@@ -1514,6 +1917,8 @@
     {
       "id": "1cjA8fLNQZcBUB3HWh8xb38SqQc-av3Av",
       "name": "Informatika BG-KLS-VII",
+      "author": "",
+      "desc": "Buku pelajaran, kurikulum, dan referensi pendidikan.",
       "file": "Informatika-BG-KLS-VII.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1cjA8fLNQZcBUB3HWh8xb38SqQc-av3Av&sz=w400",
@@ -1524,6 +1929,8 @@
     {
       "id": "1M4so1ucUlfZukuRBDqcIBCjaeBlDnPDC",
       "name": "Informatika BS-KLS-VII",
+      "author": "",
+      "desc": "Buku pelajaran, kurikulum, dan referensi pendidikan.",
       "file": "Informatika-BS-KLS-VII.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1M4so1ucUlfZukuRBDqcIBCjaeBlDnPDC&sz=w400",
@@ -1534,6 +1941,8 @@
     {
       "id": "1VYUbqSkZpvVfDDNsqnHrwYuJlR-c5ATA",
       "name": "Inspirasi Parenting dari Al-Qur_an",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "Inspirasi Parenting dari Al-Qur_an.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1VYUbqSkZpvVfDDNsqnHrwYuJlR-c5ATA&sz=w400",
@@ -1542,18 +1951,10 @@
       ]
     },
     {
-      "id": "1nuZcv4fN0rGlbZH6QMNNREbO3BZ7iiB8",
-      "name": "Inspirasi Tanpa Menggurui",
-      "file": "[ 126 ] - Inspirasi Tanpa Menggurui.pdf",
-      "ext": "pdf",
-      "thumb": "https://drive.google.com/thumbnail?id=1nuZcv4fN0rGlbZH6QMNNREbO3BZ7iiB8&sz=w400",
-      "categories": [
-        "Parenting & Anak"
-      ]
-    },
-    {
       "id": "1oNJbdEBN5-6335zErG8TaMFBQeh2bnoN",
       "name": "IPA BG-KLS-VII",
+      "author": "",
+      "desc": "Buku pelajaran, kurikulum, dan referensi pendidikan.",
       "file": "IPA-BG-KLS-VII.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1oNJbdEBN5-6335zErG8TaMFBQeh2bnoN&sz=w400",
@@ -1564,6 +1965,8 @@
     {
       "id": "1XQcV0pDIqyXGoC5Gwq4VM3G6zeoq1cep",
       "name": "IPA BS-KLS-VII",
+      "author": "",
+      "desc": "Buku pelajaran, kurikulum, dan referensi pendidikan.",
       "file": "IPA-BS-KLS-VII.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1XQcV0pDIqyXGoC5Gwq4VM3G6zeoq1cep&sz=w400",
@@ -1574,6 +1977,8 @@
     {
       "id": "1pVeBnPs2sncQKrD6VJYap9bWwSNVmnV5",
       "name": "IPS BG-KLS-VII",
+      "author": "",
+      "desc": "Buku pelajaran, kurikulum, dan referensi pendidikan.",
       "file": "IPS-BG-KLS-VII.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1pVeBnPs2sncQKrD6VJYap9bWwSNVmnV5&sz=w400",
@@ -1584,6 +1989,8 @@
     {
       "id": "1lTskozKFHhLnh7HWza9RpwYILFLok2b4",
       "name": "IPS BS-KLS-VII",
+      "author": "",
+      "desc": "Buku pelajaran, kurikulum, dan referensi pendidikan.",
       "file": "IPS-BS-KLS-VII.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1lTskozKFHhLnh7HWza9RpwYILFLok2b4&sz=w400",
@@ -1592,18 +1999,10 @@
       ]
     },
     {
-      "id": "1EoJFqVaB3c1qOk1NzvNpEcB2QJEiK8li",
-      "name": "Is It Bad Or Good Habits - Bagaimana Rutinitas Dan Kebiasaan Dapat Mempengaruhi Kehidupan",
-      "file": "562. Is It Bad Or Good Habits - Bagaimana Rutinitas Dan Kebiasaan Dapat Mempengaruhi Kehidupan.pdf",
-      "ext": "pdf",
-      "thumb": "https://drive.google.com/thumbnail?id=1EoJFqVaB3c1qOk1NzvNpEcB2QJEiK8li&sz=w400",
-      "categories": [
-        "Psikologi & Self-Help"
-      ]
-    },
-    {
       "id": "108jrj8iP2Q16lSaE9q8xXJmLO-D8t7Y0",
       "name": "Islam BG-KLS-VII",
+      "author": "",
+      "desc": "Buku keislaman, spiritualitas, dan penguatan iman.",
       "file": "Islam-BG-KLS-VII.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=108jrj8iP2Q16lSaE9q8xXJmLO-D8t7Y0&sz=w400",
@@ -1615,6 +2014,8 @@
     {
       "id": "1nUuiyZxg_lC1MdOsdocskKxKf8DKPUPK",
       "name": "Islam BS-KLS-VII",
+      "author": "",
+      "desc": "Buku keislaman, spiritualitas, dan penguatan iman.",
       "file": "Islam-BS-KLS-VII.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1nUuiyZxg_lC1MdOsdocskKxKf8DKPUPK&sz=w400",
@@ -1626,6 +2027,8 @@
     {
       "id": "1BeKqZznuivZa69NPAfmME37-kq1xvJuj",
       "name": "Islamic montessori 0-3, Zahra Zahira",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "Islamic montessori 0-3, Zahra Zahira.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1BeKqZznuivZa69NPAfmME37-kq1xvJuj&sz=w400",
@@ -1638,6 +2041,8 @@
     {
       "id": "1FDz3oPL0Gs9ZQFAZY0hsh-P_OpAeNB2I",
       "name": "Islamic Montessori Inspired Act",
+      "author": "Zahra Zahira",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "Islamic Montessori Inspired Act - Zahra Zahira.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1FDz3oPL0Gs9ZQFAZY0hsh-P_OpAeNB2I&sz=w400",
@@ -1649,7 +2054,9 @@
     },
     {
       "id": "1iVM-e-p79UNYcbJ2v7NR-Ns2DunZU-Gm",
-      "name": "It Ends With Us (Akhir Antara Kita) (Colleen Hoover)",
+      "name": "It Ends With Us (Akhir Antara Kita)",
+      "author": "Colleen Hoover",
+      "desc": "Karya fiksi dan novel dari berbagai genre.",
       "file": "It Ends With Us (Akhir Antara Kita) (Colleen Hoover).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1iVM-e-p79UNYcbJ2v7NR-Ns2DunZU-Gm&sz=w400",
@@ -1660,6 +2067,8 @@
     {
       "id": "1l1YHP8J97Jey3YDPDbcpdiupX9uIyJGd",
       "name": "itam_dan_u",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "itam_dan_u.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1l1YHP8J97Jey3YDPDbcpdiupX9uIyJGd&sz=w400",
@@ -1668,18 +2077,10 @@
       ]
     },
     {
-      "id": "17zQp7I07k0-HAhCSvheS8UQm-vXNkqOb",
-      "name": "Jack Canfield, Dkk - Malaikat Di Tengah Kita_ Chicken Soup For The Soul",
-      "file": "370. Jack Canfield, Dkk - Malaikat Di Tengah Kita_ Chicken Soup For The Soul (BM).pdf",
-      "ext": "pdf",
-      "thumb": "https://drive.google.com/thumbnail?id=17zQp7I07k0-HAhCSvheS8UQm-vXNkqOb&sz=w400",
-      "categories": [
-        "Umum"
-      ]
-    },
-    {
       "id": "1UVihp6Bu62c2pgY2dldOOtdk4slACUCs",
       "name": "Jakarta Sebelum Pagi (Indonesian Edition) (Zeszyazeoviennazabrizkie, Ziggy)",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Jakarta Sebelum Pagi (Indonesian Edition) (Zeszyazeoviennazabrizkie, Ziggy).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1UVihp6Bu62c2pgY2dldOOtdk4slACUCs&sz=w400",
@@ -1690,6 +2091,8 @@
     {
       "id": "1JKV2jE5FqC-vi_nf2uRbZTWC7WilH3LC",
       "name": "Jangan Membuat Masalah Kecil dalam Hubungan Cinta Jadi Masalah Besar",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Jangan Membuat Masalah Kecil dalam Hubungan Cinta Jadi Masalah Besar.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1JKV2jE5FqC-vi_nf2uRbZTWC7WilH3LC&sz=w400",
@@ -1699,7 +2102,9 @@
     },
     {
       "id": "16lH4qZNouT3p8iVv-68bvHmA9mOcpLmj",
-      "name": "Jangan Membuat Masalah Kecil Jadi Masalah Besar Cara Mudah Mencegah Masalah Kecil Mengganggu Hidup Kita (Richard Carlson)",
+      "name": "Jangan Membuat Masalah Kecil Jadi Masalah Besar Cara Mudah Mencegah Masalah Kecil Mengganggu Hidup Kita",
+      "author": "Richard Carlson",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Jangan Membuat Masalah Kecil Jadi Masalah Besar Cara Mudah Mencegah Masalah Kecil Mengganggu Hidup Kita (Richard Carlson).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=16lH4qZNouT3p8iVv-68bvHmA9mOcpLmj&sz=w400",
@@ -1710,6 +2115,8 @@
     {
       "id": "1LV5lYDCIUZvKxp8oJeKun0jvId1-NeYg",
       "name": "Jika Kita Tak Pernah Jadi Apa-Apa",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Jika Kita Tak Pernah Jadi Apa-Apa - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1LV5lYDCIUZvKxp8oJeKun0jvId1-NeYg&sz=w400",
@@ -1720,6 +2127,8 @@
     {
       "id": "1OWgfLOOhKOiC4zE4j5TgCtHU9wZnZsTj",
       "name": "Jingga untuk Matahari",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Jingga untuk Matahari.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1OWgfLOOhKOiC4zE4j5TgCtHU9wZnZsTj&sz=w400",
@@ -1730,6 +2139,8 @@
     {
       "id": "1ug75SHAsI54Qz7NkalIB_rTqNEz2QXcp",
       "name": "julia_dan_bola_pinang",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "julia_dan_bola_pinang.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1ug75SHAsI54Qz7NkalIB_rTqNEz2QXcp&sz=w400",
@@ -1740,6 +2151,8 @@
     {
       "id": "1a8J4FbkHdgoZeMy8fYgJP11dsWMd_Qa1",
       "name": "kacamata_super_opin",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "kacamata_super_opin.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1a8J4FbkHdgoZeMy8fYgJP11dsWMd_Qa1&sz=w400",
@@ -1749,7 +2162,9 @@
     },
     {
       "id": "16FYZK4YPp66Ri_AEkYnKWDAqmp09wBHE",
-      "name": "Kamu Gak Sendiri (Syahid Muhammad)",
+      "name": "Kamu Gak Sendiri",
+      "author": "Syahid Muhammad",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Kamu Gak Sendiri (Syahid Muhammad).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=16FYZK4YPp66Ri_AEkYnKWDAqmp09wBHE&sz=w400",
@@ -1760,6 +2175,8 @@
     {
       "id": "1hrxm7fgCzdidPR-TxEUxmS9kUFvvGwu3",
       "name": "Kamu Terlalu Banyak Bercanda",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Kamu Terlalu Banyak Bercanda.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1hrxm7fgCzdidPR-TxEUxmS9kUFvvGwu3&sz=w400",
@@ -1770,6 +2187,8 @@
     {
       "id": "1cOTNXLprv_a0rd6v-i_WDzT5kWk1Mk_4",
       "name": "Kamus Pintar Memilih Kata Bahasa Inggris",
+      "author": "",
+      "desc": "Buku latihan psikotes, CPNS, TOEFL, dan pembelajaran bahasa.",
       "file": "Kamus Pintar Memilih Kata Bahasa Inggris.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1cOTNXLprv_a0rd6v-i_WDzT5kWk1Mk_4&sz=w400",
@@ -1780,6 +2199,8 @@
     {
       "id": "1oU85_e3Z4zxQTLcvGe7dhU_fTsm5XmAm",
       "name": "Karena_Anggrek_Ibu",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Karena_Anggrek_Ibu.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1oU85_e3Z4zxQTLcvGe7dhU_fTsm5XmAm&sz=w400",
@@ -1790,6 +2211,8 @@
     {
       "id": "1VQnvrqhC1N1cc3DYP195WREzd1dHjrpM",
       "name": "kaus_kai_bebek_bercerita",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "kaus_kai_bebek_bercerita.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1VQnvrqhC1N1cc3DYP195WREzd1dHjrpM&sz=w400",
@@ -1800,6 +2223,8 @@
     {
       "id": "1dk6BQtXjR43Qq3c1NIVWWVY-CjWhQpnV",
       "name": "keajaiban beroikir besar",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "keajaiban beroikir besar.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1dk6BQtXjR43Qq3c1NIVWWVY-CjWhQpnV&sz=w400",
@@ -1808,18 +2233,10 @@
       ]
     },
     {
-      "id": "1G720t-CKRqjyP0yz7bJMy5ts4ycWZqYN",
-      "name": "KEAJAIBAN TOKO KELONTONG NAMIYA - KEIGO HIGASHINO",
-      "file": "719. [ID] KEAJAIBAN TOKO KELONTONG NAMIYA - KEIGO HIGASHINO.pdf",
-      "ext": "pdf",
-      "thumb": "https://drive.google.com/thumbnail?id=1G720t-CKRqjyP0yz7bJMy5ts4ycWZqYN&sz=w400",
-      "categories": [
-        "Novel & Fiksi"
-      ]
-    },
-    {
       "id": "1tMMqK0xfUVJSCCZv3QIZj6SEeY0E8XAO",
-      "name": "Keigo Higashino - Black Showman dan Pembunuhan di Kota Tak Bernama (Black Showman to Namonaki Machi No Satsujin)",
+      "name": "Keigo Higashino - Black Showman dan Pembunuhan di Kota Tak Bernama",
+      "author": "Black Showman to Namonaki Machi No Satsujin",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Keigo Higashino - Black Showman dan Pembunuhan di Kota Tak Bernama (Black Showman to Namonaki Machi No Satsujin).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1tMMqK0xfUVJSCCZv3QIZj6SEeY0E8XAO&sz=w400",
@@ -1830,6 +2247,8 @@
     {
       "id": "17ti7kjlZGcgax3A5LHFrOwB3cUbgy4cx",
       "name": "Kekuatan Bersyukur",
+      "author": "",
+      "desc": "Buku keislaman, spiritualitas, dan penguatan iman.",
       "file": "Kekuatan Bersyukur.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=17ti7kjlZGcgax3A5LHFrOwB3cUbgy4cx&sz=w400",
@@ -1841,6 +2260,8 @@
     {
       "id": "1XzuhWkngYQpEH9d9a17oxJfEM-2D1FqI",
       "name": "KELAS SHOPEE ( BOS JUALAN SHOPEE )",
+      "author": "",
+      "desc": "Wawasan seputar bisnis, marketing, dan keuangan pribadi.",
       "file": "KELAS SHOPEE ( BOS JUALAN SHOPEE ).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1XzuhWkngYQpEH9d9a17oxJfEM-2D1FqI&sz=w400",
@@ -1852,6 +2273,8 @@
     {
       "id": "1pWq0fRsfAgYgGc344XZqkoKAw82xgycy",
       "name": "Kemampuan Motorik Anak Usia Dini",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Kemampuan Motorik Anak Usia Dini.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1pWq0fRsfAgYgGc344XZqkoKAw82xgycy&sz=w400",
@@ -1862,6 +2285,8 @@
     {
       "id": "1L8Z97i6L2XjIzNfYbb-VWaFs_utdaFZC",
       "name": "kemiri_untuk_tuto",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "kemiri_untuk_tuto.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1L8Z97i6L2XjIzNfYbb-VWaFs_utdaFZC&sz=w400",
@@ -1870,18 +2295,10 @@
       ]
     },
     {
-      "id": "1PVIVvGbXZQ5YXMywLbzeSofdGTJltnqg",
-      "name": "Ketika Aku Tak Tahu Apa Yang Aku Inginkan - Jeon Seunghwan Bahasa Indonesia",
-      "file": "492. Ketika Aku Tak Tahu Apa Yang Aku Inginkan - Jeon Seunghwan Bahasa Indonesia.pdf",
-      "ext": "pdf",
-      "thumb": "https://drive.google.com/thumbnail?id=1PVIVvGbXZQ5YXMywLbzeSofdGTJltnqg&sz=w400",
-      "categories": [
-        "Pendidikan & Sekolah"
-      ]
-    },
-    {
       "id": "19MURoBs5yiA0JArkevd_rNGDyaXvoV5l",
       "name": "Kisah-Kisah dalam Al-Qur’an",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "[ID] Kisah-Kisah dalam Al-Qur’an.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=19MURoBs5yiA0JArkevd_rNGDyaXvoV5l&sz=w400",
@@ -1892,6 +2309,8 @@
     {
       "id": "1qp0hsHq83OHxxRCtfV3jkGlhKPluhdhd",
       "name": "Kitab Firasat Ilmu Membaca Sifat dan Karakter Orang dari Bentuk Tubuhnya (Imam Fakhruddin ar-Razi)",
+      "author": "",
+      "desc": "Buku keislaman, spiritualitas, dan penguatan iman.",
       "file": "Kitab Firasat Ilmu Membaca Sifat dan Karakter Orang dari Bentuk Tubuhnya (Imam Fakhruddin ar-Razi).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1qp0hsHq83OHxxRCtfV3jkGlhKPluhdhd&sz=w400",
@@ -1902,6 +2321,8 @@
     {
       "id": "1y-knfVju1iKcQU_wUocn6YARupABlEAV",
       "name": "KITAB ILMU VIBRASI",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "KITAB ILMU VIBRASI.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1y-knfVju1iKcQU_wUocn6YARupABlEAV&sz=w400",
@@ -1913,6 +2334,8 @@
     {
       "id": "1-b0YnMParg1EFO1GWRbhjJrdKdIl4UO5",
       "name": "Koleksi 120 Resep Masakan Ayam",
+      "author": "",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "Koleksi 120 Resep Masakan Ayam.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1-b0YnMParg1EFO1GWRbhjJrdKdIl4UO5&sz=w400",
@@ -1923,6 +2346,8 @@
     {
       "id": "1ylEdNbtR5PM9IBU1bL5LIRmefGngqtSw",
       "name": "Koleksi 120 Resep Masakan Sapi",
+      "author": "",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "Koleksi 120 Resep Masakan Sapi.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1ylEdNbtR5PM9IBU1bL5LIRmefGngqtSw&sz=w400",
@@ -1933,6 +2358,8 @@
     {
       "id": "1MZcaRPN_-PSlVWulNa-qdfNYtKTSlUYl",
       "name": "Koleksi 120 Resep Masakan Sayur Plus Tahu-Tempe _ Telur",
+      "author": "",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "Koleksi 120 Resep Masakan Sayur Plus Tahu-Tempe _ Telur.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1MZcaRPN_-PSlVWulNa-qdfNYtKTSlUYl&sz=w400",
@@ -1942,7 +2369,9 @@
     },
     {
       "id": "1rU4_UGtjfxZuHFJVz5CbuUIQCNbNk2aN",
-      "name": "Koleksi Resep Cake Populer - R. Adie Wibowo",
+      "name": "Koleksi Resep Cake Populer - R",
+      "author": "",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "Koleksi Resep Cake Populer - R. Adie Wibowo.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1rU4_UGtjfxZuHFJVz5CbuUIQCNbNk2aN&sz=w400",
@@ -1952,7 +2381,9 @@
     },
     {
       "id": "1roA_hYrSkCDf9p8JWhmzUDlxdoZplUDz",
-      "name": "Koleksi Resep Sambal Saus (Budi Sutomo)",
+      "name": "Koleksi Resep Sambal Saus",
+      "author": "Budi Sutomo",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "Koleksi Resep Sambal  Saus (Budi Sutomo).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1roA_hYrSkCDf9p8JWhmzUDlxdoZplUDz&sz=w400",
@@ -1963,6 +2394,8 @@
     {
       "id": "10SgiEc0VKK1M-FTX8FOvMVttSWAMxNhl",
       "name": "Komunikasi Itu ada Seninya",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "Komunikasi Itu ada Seninya.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=10SgiEc0VKK1M-FTX8FOvMVttSWAMxNhl&sz=w400",
@@ -1974,6 +2407,8 @@
     {
       "id": "1q10rLoAVAoCAxcLCGObEw3CVPsAPitlY",
       "name": "kotak_petualang",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "kotak_petualang.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1q10rLoAVAoCAxcLCGObEw3CVPsAPitlY&sz=w400",
@@ -1984,6 +2419,8 @@
     {
       "id": "117Vm1zJN-hL8tmMerbAd4uCC5y41qfOA",
       "name": "Kumpulan nasihat-nasihat Rasulullah untuk wanita",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "Kumpulan nasihat-nasihat Rasulullah untuk wanita.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=117Vm1zJN-hL8tmMerbAd4uCC5y41qfOA&sz=w400",
@@ -1994,7 +2431,9 @@
     },
     {
       "id": "1UxXkY7n1Yb5Xnw34nKuR-CWap0y6H9C2",
-      "name": "Kupas Tuntas Psikotes Gambar (Tim Garuda Eduka)",
+      "name": "Kupas Tuntas Psikotes Gambar",
+      "author": "Tim Garuda Eduka",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
       "file": "Kupas Tuntas Psikotes Gambar (Tim Garuda Eduka).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1UxXkY7n1Yb5Xnw34nKuR-CWap0y6H9C2&sz=w400",
@@ -2005,7 +2444,9 @@
     },
     {
       "id": "1gXhDTbbnr2yeVknTF0LQW2-CQ4G7ZUlY",
-      "name": "Langsung Langsing dalam 4 minggu - Ayu Bulan Febry, K.D., S.KM_",
+      "name": "Langsung Langsing dalam 4 minggu - Ayu Bulan Febry, K.D., S",
+      "author": "",
+      "desc": "Tips kesehatan, kecantikan, diet, dan gaya hidup sehat.",
       "file": "[ID] Langsung Langsing dalam 4 minggu - Ayu Bulan Febry, K.D., S.KM_.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1gXhDTbbnr2yeVknTF0LQW2-CQ4G7ZUlY&sz=w400",
@@ -2015,7 +2456,9 @@
     },
     {
       "id": "1_M5XlGQ8Mq9-187U0FG1O2WrGgw0dYgG",
-      "name": "Laut Bercerita (Leila S. Chudori)",
+      "name": "Laut Bercerita",
+      "author": "Leila S. Chudori",
+      "desc": "Karya fiksi dan novel dari berbagai genre.",
       "file": "Laut Bercerita (Leila S. Chudori).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1_M5XlGQ8Mq9-187U0FG1O2WrGgw0dYgG&sz=w400",
@@ -2025,7 +2468,9 @@
     },
     {
       "id": "1NxV-5vON67II2r-lQhaxhbyPsDm5BNJk",
-      "name": "Law of Attraction The Science of Attracting Mor...",
+      "name": "Law of Attraction The Science of Attracting Mor..",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Law of Attraction The Science of Attracting Mor....pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1NxV-5vON67II2r-lQhaxhbyPsDm5BNJk&sz=w400",
@@ -2036,6 +2481,8 @@
     {
       "id": "1UAaQN6mcG8sNevuhd2Vt4XWNEzH3mAzO",
       "name": "Life is Short Make it Great (Hidup itu singkat, buatlah jadi bermakna)",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Life is Short Make it Great (Hidup itu singkat, buatlah jadi bermakna).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1UAaQN6mcG8sNevuhd2Vt4XWNEzH3mAzO&sz=w400",
@@ -2046,6 +2493,8 @@
     {
       "id": "1qnbfcejHOPlhT78826qTvYQpWdovebk8",
       "name": "Logika Ilmu Berpikir Kritis",
+      "author": "",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
       "file": "Logika Ilmu Berpikir Kritis - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1qnbfcejHOPlhT78826qTvYQpWdovebk8&sz=w400",
@@ -2055,7 +2504,9 @@
     },
     {
       "id": "1EL1WpheCJc8SXHxga82SkYTrBMsOKzcX",
-      "name": "Love for Imperfect Things (Haemin Sunim)",
+      "name": "Love for Imperfect Things",
+      "author": "Haemin Sunim",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Love for Imperfect Things (Haemin Sunim).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1EL1WpheCJc8SXHxga82SkYTrBMsOKzcX&sz=w400",
@@ -2066,6 +2517,8 @@
     {
       "id": "1o8nfefsuZPYVdabqi8PI_QKm8G-6lRld",
       "name": "Loving the Wounded Soul",
+      "author": "Regis Machdy",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Loving the Wounded Soul by Regis Machdy.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1o8nfefsuZPYVdabqi8PI_QKm8G-6lRld&sz=w400",
@@ -2076,6 +2529,8 @@
     {
       "id": "1sPGlAP1j1ZHaNq_XDniYRfSqYoB-QopP",
       "name": "Luka Cita",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Luka Cita.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1sPGlAP1j1ZHaNq_XDniYRfSqYoB-QopP&sz=w400",
@@ -2086,6 +2541,8 @@
     {
       "id": "1VpWW7IhYuKt-Jwo3rWiY4ObRXLFv-7SH",
       "name": "Makanan Yummy _ Healthy untuk Bekal Sekolah Anak Hits di Instagram",
+      "author": "",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "Makanan Yummy _ Healthy untuk Bekal Sekolah Anak Hits di Instagram.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1VpWW7IhYuKt-Jwo3rWiY4ObRXLFv-7SH&sz=w400",
@@ -2095,7 +2552,9 @@
     },
     {
       "id": "185gt9VzNBQp1RAUyMNcGELs1DLQgbs52",
-      "name": "Make It Happen Manifest the Life of Your Dreams (Jordanna Levin)",
+      "name": "Make It Happen Manifest the Life of Your Dreams",
+      "author": "Jordanna Levin",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Make It Happen Manifest the Life of Your Dreams (Jordanna Levin).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=185gt9VzNBQp1RAUyMNcGELs1DLQgbs52&sz=w400",
@@ -2106,6 +2565,8 @@
     {
       "id": "1wS6CKSCNskneJQ5smBKomTgnaxLPQ0m4",
       "name": "MAKE TIME Cara Fokus pada Hal-hal Penting Setiap Hari",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "[ID] MAKE TIME Cara Fokus pada Hal-hal Penting Setiap Hari.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1wS6CKSCNskneJQ5smBKomTgnaxLPQ0m4&sz=w400",
@@ -2116,6 +2577,8 @@
     {
       "id": "1w2E9dKHPCxTUSej8o9bAQI6_h7GHdrYq",
       "name": "makhfudzot-kelas-1",
+      "author": "",
+      "desc": "Buku pelajaran, kurikulum, dan referensi pendidikan.",
       "file": "makhfudzot-kelas-1.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1w2E9dKHPCxTUSej8o9bAQI6_h7GHdrYq&sz=w400",
@@ -2126,6 +2589,8 @@
     {
       "id": "1Li3tZubPuQJJ2TMQOLvoO9_Bj5anE4kJ",
       "name": "Malam Terakhir",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Malam Terakhir.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1Li3tZubPuQJJ2TMQOLvoO9_Bj5anE4kJ&sz=w400",
@@ -2136,6 +2601,8 @@
     {
       "id": "12jQHWIk1IQz1Gr4uKa16OAMxC9Rqts2l",
       "name": "Man_s search for meaning",
+      "author": "Viktor E. Frankl",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Man_s search for meaning by Viktor E. Frankl.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=12jQHWIk1IQz1Gr4uKa16OAMxC9Rqts2l&sz=w400",
@@ -2144,18 +2611,10 @@
       ]
     },
     {
-      "id": "1TyCAWCgQSafKLcN9sl6o62sS8m1Adymh",
-      "name": "MANIPULATION (DARK PSYCHOLOGY TO MANIPULATE AND CONTROL PEOPLE) - ARTHUR HORN",
-      "file": "717. [ENG] MANIPULATION (DARK PSYCHOLOGY TO MANIPULATE AND CONTROL PEOPLE) - ARTHUR HORN.pdf",
-      "ext": "pdf",
-      "thumb": "https://drive.google.com/thumbnail?id=1TyCAWCgQSafKLcN9sl6o62sS8m1Adymh&sz=w400",
-      "categories": [
-        "Umum"
-      ]
-    },
-    {
       "id": "1yGhm2PK62Dtfelivh2xMdIZcSwCgCZnv",
-      "name": "Manusia Setengah Salmon (Raditya Dika)",
+      "name": "Manusia Setengah Salmon",
+      "author": "Raditya Dika",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Manusia Setengah Salmon (Raditya Dika).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1yGhm2PK62Dtfelivh2xMdIZcSwCgCZnv&sz=w400",
@@ -2165,7 +2624,9 @@
     },
     {
       "id": "1AnusP-NOw24402qNB2ZRklJgWIdLr0Uv",
-      "name": "Marketing 4.0 Bergerak dari Tradisional ke Digital (Philip Kotler, Hermawan Kartajaya etc.)",
+      "name": "Marketing 4.0 Bergerak dari Tradisional ke Digital (Philip Kotler, Hermawan Kartajaya etc",
+      "author": "",
+      "desc": "Wawasan seputar bisnis, marketing, dan keuangan pribadi.",
       "file": "Marketing 4.0 Bergerak dari Tradisional ke Digital (Philip Kotler, Hermawan Kartajaya etc.).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1AnusP-NOw24402qNB2ZRklJgWIdLr0Uv&sz=w400",
@@ -2176,6 +2637,8 @@
     {
       "id": "1hMBooLCnKqTmpvCr2gl2OO0wDhmQIDvH",
       "name": "Marketing Hebat Ala Rasulullah",
+      "author": "",
+      "desc": "Wawasan seputar bisnis, marketing, dan keuangan pribadi.",
       "file": "Marketing Hebat Ala Rasulullah.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1hMBooLCnKqTmpvCr2gl2OO0wDhmQIDvH&sz=w400",
@@ -2186,7 +2649,9 @@
     },
     {
       "id": "1eVlyFTYYzstDNL2JlXhmj2OFB6WHCllE",
-      "name": "Matt Haig - Perpustakaan Tengah Malam (The Midnight Library)",
+      "name": "Matt Haig - Perpustakaan Tengah Malam",
+      "author": "The Midnight Library",
+      "desc": "Karya fiksi dan novel dari berbagai genre.",
       "file": "Matt Haig - Perpustakaan Tengah Malam (The Midnight Library).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1eVlyFTYYzstDNL2JlXhmj2OFB6WHCllE&sz=w400",
@@ -2197,6 +2662,8 @@
     {
       "id": "1ARrBpE0uT4mgEDz7JzdeXZod2JMznukg",
       "name": "mau_masak_apa",
+      "author": "",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "mau_masak_apa.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1ARrBpE0uT4mgEDz7JzdeXZod2JMznukg&sz=w400",
@@ -2207,6 +2674,8 @@
     {
       "id": "1aroeCbJH_ojdIlmeEMbtlWgwz6O0qGMd",
       "name": "Meditasi untuk Manajemen Stres _ Neo Zen Reiki untuk Kesehatan Jasmani dan Rohami",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "Meditasi untuk Manajemen Stres _ Neo Zen Reiki untuk Kesehatan Jasmani dan Rohami.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1aroeCbJH_ojdIlmeEMbtlWgwz6O0qGMd&sz=w400",
@@ -2218,6 +2687,8 @@
     {
       "id": "1sdQ85vTTusjqreZVvZUyhPFbEXLtzogo",
       "name": "mega profit",
+      "author": "",
+      "desc": "Wawasan seputar bisnis, marketing, dan keuangan pribadi.",
       "file": "mega profit.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1sdQ85vTTusjqreZVvZUyhPFbEXLtzogo&sz=w400",
@@ -2227,7 +2698,9 @@
     },
     {
       "id": "1L5eF1Zp3ZGYKW29mYZ4zVfGcrqqhaXK0",
-      "name": "Melatih Otak dan Komunikasi Anak - DR. Sa_id Riyadh",
+      "name": "Melatih Otak dan Komunikasi Anak - DR",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "[ID] Melatih Otak dan Komunikasi Anak - DR. Sa_id Riyadh.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1L5eF1Zp3ZGYKW29mYZ4zVfGcrqqhaXK0&sz=w400",
@@ -2238,7 +2711,9 @@
     },
     {
       "id": "1g_fN7KcSJC-KcsrtktBNDmIhPQn2zmGC",
-      "name": "Membaca Pikiran Orang Lewat Bahasa Tubuh (Dianata Eka Putra)",
+      "name": "Membaca Pikiran Orang Lewat Bahasa Tubuh",
+      "author": "Dianata Eka Putra",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Membaca Pikiran Orang Lewat Bahasa Tubuh (Dianata Eka Putra).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1g_fN7KcSJC-KcsrtktBNDmIhPQn2zmGC&sz=w400",
@@ -2249,6 +2724,8 @@
     {
       "id": "1XIR-Z8aWgPjM-ts4Mp9UDvpMXtZYixKl",
       "name": "Membacakan Nyaring",
+      "author": "Roosie Setiawan",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Membacakan Nyaring - Roosie Setiawan.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1XIR-Z8aWgPjM-ts4Mp9UDvpMXtZYixKl&sz=w400",
@@ -2259,6 +2736,8 @@
     {
       "id": "1IKR3e9F9vWRls3NLvA4WvBZGDAmmjXqJ",
       "name": "membuat pola busana tingkat dasar buku penuntun",
+      "author": "",
+      "desc": "Panduan menjahit, pola busana, dan desain pakaian.",
       "file": "[O] membuat pola busana tingkat dasar buku penuntun.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1IKR3e9F9vWRls3NLvA4WvBZGDAmmjXqJ&sz=w400",
@@ -2268,7 +2747,9 @@
     },
     {
       "id": "1u1AKHu7RsefC0cQDrFW9S4bU4ajuGLW5",
-      "name": "Men Are from Mars, Women Are from Venus (John Gray, Ph.D.)",
+      "name": "Men Are from Mars, Women Are from Venus (John Gray, Ph.D",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Men Are from Mars, Women Are from Venus (John Gray, Ph.D.).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1u1AKHu7RsefC0cQDrFW9S4bU4ajuGLW5&sz=w400",
@@ -2279,6 +2760,8 @@
     {
       "id": "1i_daVN8V9139_1jvUkW6zp69CaKYg9Ea",
       "name": "Menasihati Tanpa Menggurui",
+      "author": "Mhd. Rois",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "Menasihati Tanpa Menggurui by Mhd. Rois.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1i_daVN8V9139_1jvUkW6zp69CaKYg9Ea&sz=w400",
@@ -2288,7 +2771,9 @@
     },
     {
       "id": "1oA2od_JzevESpS6giK9IrKxaouEynDfi",
-      "name": "Menemukan Kebahagiaan by Jack Canfield, Dkk. - Chicken Soup For The Soul",
+      "name": "Menemukan Kebahagiaan by Jack Canfield, Dkk",
+      "author": "Chicken Soup For The Soul",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
       "file": "371. Menemukan Kebahagiaan by Jack Canfield, Dkk. - Chicken Soup For The Soul.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1oA2od_JzevESpS6giK9IrKxaouEynDfi&sz=w400",
@@ -2299,6 +2784,8 @@
     {
       "id": "1P2O1Xdg4RwSUOVPaDb0Qc5B4R0TmwgDE",
       "name": "Mengatasi Masalah Besar dalam Hidup",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "Mengatasi Masalah Besar dalam Hidup.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1P2O1Xdg4RwSUOVPaDb0Qc5B4R0TmwgDE&sz=w400",
@@ -2308,7 +2795,9 @@
     },
     {
       "id": "1fN-s4W327fn3K__BqMQgqhJX15Uwenvx",
-      "name": "Mengelola Gaji Bulanan (MRA Media)",
+      "name": "Mengelola Gaji Bulanan",
+      "author": "MRA Media",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Mengelola Gaji Bulanan (MRA Media).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1fN-s4W327fn3K__BqMQgqhJX15Uwenvx&sz=w400",
@@ -2319,6 +2808,8 @@
     {
       "id": "1qknyyHuoZTz5oMPtJQFBhWr4F9cfoGcY",
       "name": "Mengenal Depresi",
+      "author": "Anta Samsara",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
       "file": "Mengenal Depresi by Anta Samsara.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1qknyyHuoZTz5oMPtJQFBhWr4F9cfoGcY&sz=w400",
@@ -2329,6 +2820,8 @@
     {
       "id": "15ttFtEhEzLRiyNw2no4RMEJvTuSPYDkJ",
       "name": "Mengenal Kecemasan dan Serangan Panik",
+      "author": "",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
       "file": "Mengenal Kecemasan dan Serangan Panik.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=15ttFtEhEzLRiyNw2no4RMEJvTuSPYDkJ&sz=w400",
@@ -2338,7 +2831,9 @@
     },
     {
       "id": "1JRHqcNzwA8_s4ATa0l21QI4Lxj2Nbm0O",
-      "name": "Mengenal Kesehatan J...",
+      "name": "Mengenal Kesehatan J..",
+      "author": "Anta Samsara",
+      "desc": "Tips kesehatan, kecantikan, diet, dan gaya hidup sehat.",
       "file": "Mengenal Kesehatan J... by Anta Samsara.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1JRHqcNzwA8_s4ATa0l21QI4Lxj2Nbm0O&sz=w400",
@@ -2349,6 +2844,8 @@
     {
       "id": "1yrq0PnTb3kCWiDPnBs30UVizRSJXHShH",
       "name": "Menu Harian MPASI untuk Bayi Usia 6-24 Bulan",
+      "author": "Budi Sutomo",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "[ID] Menu Harian MPASI untuk Bayi Usia 6-24 Bulan by Budi Sutomo.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1yrq0PnTb3kCWiDPnBs30UVizRSJXHShH&sz=w400",
@@ -2359,7 +2856,9 @@
     },
     {
       "id": "16MJEA5b4gFxVA2OAGukWaSpKWdHbu_G2",
-      "name": "Menu MPASI Sehat oleh Ayu Bulan Febry",
+      "name": "Menu MPASI Sehat",
+      "author": "Ayu Bulan Febry",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "Menu MPASI Sehat oleh Ayu Bulan Febry.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=16MJEA5b4gFxVA2OAGukWaSpKWdHbu_G2&sz=w400",
@@ -2372,6 +2871,8 @@
     {
       "id": "1egoZ2VzW8TqksEvJc5sMajyZiqtAzRUZ",
       "name": "Menu Sehari-hari Serba Kukus",
+      "author": "Yantie Febrianti",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "Menu Sehari-hari Serba Kukus - Yantie Febrianti.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1egoZ2VzW8TqksEvJc5sMajyZiqtAzRUZ&sz=w400",
@@ -2382,6 +2883,8 @@
     {
       "id": "1hyc-Zhptji4mOcIirSPQKyw-PX37tkou",
       "name": "Metamorproses",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Metamorproses.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1hyc-Zhptji4mOcIirSPQKyw-PX37tkou&sz=w400",
@@ -2392,6 +2895,8 @@
     {
       "id": "1_Q8Bj_X59-cy6yUjOkbb9MXXGcXRdwIt",
       "name": "Metode Penelitian 2022 SUGIYONO",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Metode Penelitian 2022 SUGIYONO.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1_Q8Bj_X59-cy6yUjOkbb9MXXGcXRdwIt&sz=w400",
@@ -2400,19 +2905,10 @@
       ]
     },
     {
-      "id": "1yoInsEDrcsygkv14L5qbw-RGNl1tocj5",
-      "name": "Mindset - Mengubah Pola Berpikir Untuk Perubahan Besar Dalam Hidup Anda",
-      "file": "433. [ID] Mindset - Mengubah Pola Berpikir Untuk Perubahan Besar Dalam Hidup Anda By Carol S Dweck.pdf",
-      "ext": "pdf",
-      "thumb": "https://drive.google.com/thumbnail?id=1yoInsEDrcsygkv14L5qbw-RGNl1tocj5&sz=w400",
-      "categories": [
-        "Psikologi & Self-Help",
-        "Menjahit & Busana"
-      ]
-    },
-    {
       "id": "1Z76Qpvt4gIvmTUpCIosqeW6Phdq-3ZHy",
       "name": "Mindset Therapy Terapi Pola Pikir tentang Makna",
+      "author": "",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
       "file": "Mindset Therapy Terapi Pola Pikir tentang Makna.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1Z76Qpvt4gIvmTUpCIosqeW6Phdq-3ZHy&sz=w400",
@@ -2423,7 +2919,9 @@
     },
     {
       "id": "1tr62iczYSIUd2CDziFjbEBdJNTeqnYsR",
-      "name": "Misteri-Misteri tentang Ruang dan Waktu (Bill Bryson)",
+      "name": "Misteri-Misteri tentang Ruang dan Waktu",
+      "author": "Bill Bryson",
+      "desc": "Wawasan seputar bisnis, marketing, dan keuangan pribadi.",
       "file": "Misteri-Misteri tentang Ruang dan Waktu (Bill Bryson).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1tr62iczYSIUd2CDziFjbEBdJNTeqnYsR&sz=w400",
@@ -2434,6 +2932,8 @@
     {
       "id": "1J_6xUY0I5V9rLgU757HkPmgjH6zLKJAs",
       "name": "Mommyclopedia 567 fakta tentang mpasi",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "Mommyclopedia 567 fakta tentang mpasi (1).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1J_6xUY0I5V9rLgU757HkPmgjH6zLKJAs&sz=w400",
@@ -2444,6 +2944,8 @@
     {
       "id": "1kFOO5z-68Xlx-6-CoYU5eM4P5yyPEZdq",
       "name": "Mommyclopedia Nutrisi di 1000 hari pertama kehidupan anak",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "Mommyclopedia Nutrisi di 1000 hari pertama kehidupan anak.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1kFOO5z-68Xlx-6-CoYU5eM4P5yyPEZdq&sz=w400",
@@ -2453,7 +2955,9 @@
     },
     {
       "id": "1M9VRcoC07Kx8BBlwAC9gVcRmgvb08BfT",
-      "name": "Montessori for Multiple Intelligences - Ivy Maya Savitri",
+      "name": "Montessori for Multiple Intelligences",
+      "author": "Ivy Maya Savitri",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "[ID] Montessori for Multiple Intelligences - Ivy Maya Savitri.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1M9VRcoC07Kx8BBlwAC9gVcRmgvb08BfT&sz=w400",
@@ -2465,6 +2969,8 @@
     {
       "id": "1-J0yqoVbouKHbmhTYQjtqL0yGg5YI-uy",
       "name": "Montessori Keajaiban Membaca Tanpa Mengeja",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "[ID] Montessori Keajaiban Membaca Tanpa Mengeja.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1-J0yqoVbouKHbmhTYQjtqL0yGg5YI-uy&sz=w400",
@@ -2476,6 +2982,8 @@
     {
       "id": "1zhm8IV1fc95RijOj_nQlp3g8QG3YzqSc",
       "name": "Montessori Play and Learn",
+      "author": "Lesley Britton",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "[ID] Montessori Play and Learn - Lesley Britton.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1zhm8IV1fc95RijOj_nQlp3g8QG3YzqSc&sz=w400",
@@ -2487,6 +2995,8 @@
     {
       "id": "130Bh0RzpNz3vtXaF9t1lGBKrB5TULdrP",
       "name": "MP-ASI Tim Sehat Makanan Harian Bayi Usia 9 bulan ke atas",
+      "author": "",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "MP-ASI Tim Sehat Makanan Harian Bayi Usia 9 bulan ke atas.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=130Bh0RzpNz3vtXaF9t1lGBKrB5TULdrP&sz=w400",
@@ -2498,7 +3008,9 @@
     },
     {
       "id": "1M8Wgt5yJBWWOlIEBKR6cvPFdyHVO5VEi",
-      "name": "MPASI Bubur Buah Makan Harian Bayi Usi 6-7 Bulan oleh Ali Khomsan",
+      "name": "MPASI Bubur Buah Makan Harian Bayi Usi 6-7 Bulan",
+      "author": "Ali Khomsan",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "[ID] MPASI Bubur Buah Makan Harian Bayi Usi 6-7 Bulan oleh Ali Khomsan.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1M8Wgt5yJBWWOlIEBKR6cvPFdyHVO5VEi&sz=w400",
@@ -2508,7 +3020,9 @@
     },
     {
       "id": "1dAw5c2Gcc7mJNEqIFkd-MMLVmd89_VKq",
-      "name": "MPASI Plus Makanan Pendamping ASI untuk Anak Usia 6-18 Bulan oleh Lies Setyarini",
+      "name": "MPASI Plus Makanan Pendamping ASI untuk Anak Usia 6-18 Bulan",
+      "author": "Lies Setyarini",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "MPASI Plus Makanan Pendamping ASI untuk Anak Usia 6-18 Bulan oleh Lies Setyarini.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1dAw5c2Gcc7mJNEqIFkd-MMLVmd89_VKq&sz=w400",
@@ -2520,6 +3034,8 @@
     {
       "id": "1_HR8iWWCkqr1VGcY9uO2a8RR_Dgv3kSs",
       "name": "murai_bintik",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "murai_bintik.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1_HR8iWWCkqr1VGcY9uO2a8RR_Dgv3kSs&sz=w400",
@@ -2529,7 +3045,9 @@
     },
     {
       "id": "18I-JCP0P_5Ulop1JJz3NGGVAHOa-4Vra",
-      "name": "My Public Speaking (Hilbram Dunar)",
+      "name": "My Public Speaking",
+      "author": "Hilbram Dunar",
+      "desc": "Buku motivasi, keterampilan diri, dan pengembangan potensi.",
       "file": "My Public Speaking (Hilbram Dunar).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=18I-JCP0P_5Ulop1JJz3NGGVAHOa-4Vra&sz=w400",
@@ -2540,6 +3058,8 @@
     {
       "id": "1UwOdmgY-7E2B0_92j95RzpW7_u0XZVhV",
       "name": "new 108 Resep Masakan Ayam Pop",
+      "author": "Dyah Tyas",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "new 108 Resep Masakan Ayam Pop - Dyah Tyas.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1UwOdmgY-7E2B0_92j95RzpW7_u0XZVhV&sz=w400",
@@ -2549,7 +3069,9 @@
     },
     {
       "id": "1u0E0QxDpQbXmVJpTNAVM9DATFnQt7ldk",
-      "name": "No Baper Hei Semangat 100+ Quotes Cerita AntiBaper (Ocka Hidayat)",
+      "name": "No Baper Hei Semangat 100+ Quotes Cerita AntiBaper",
+      "author": "Ocka Hidayat",
+      "desc": "Buku latihan psikotes, CPNS, TOEFL, dan pembelajaran bahasa.",
       "file": "No Baper Hei Semangat 100+ Quotes Cerita AntiBaper (Ocka Hidayat).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1u0E0QxDpQbXmVJpTNAVM9DATFnQt7ldk&sz=w400",
@@ -2559,7 +3081,9 @@
     },
     {
       "id": "1rX9tYK95R1MTpmZRhNkiWNOWOc9YwFaB",
-      "name": "Nunchi Seni Membaca Pikiran dan Perasaan Orang LainÑRahasia Hidup Bahagia dan Sukses dari Korea (Euny Hong)",
+      "name": "Nunchi Seni Membaca Pikiran dan Perasaan Orang LainÑRahasia Hidup Bahagia dan Sukses dari Korea",
+      "author": "Euny Hong",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "Nunchi Seni Membaca Pikiran dan Perasaan Orang LainÑRahasia Hidup Bahagia dan Sukses dari Korea (Euny Hong).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1rX9tYK95R1MTpmZRhNkiWNOWOc9YwFaB&sz=w400",
@@ -2572,6 +3096,8 @@
     {
       "id": "1Aa-F3KpoD8d0Rk0ez8XIvUwjyo1BOuR1",
       "name": "Pada Senja Yang Membawamu Pergi",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Pada Senja Yang Membawamu Pergi - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1Aa-F3KpoD8d0Rk0ez8XIvUwjyo1BOuR1&sz=w400",
@@ -2582,6 +3108,8 @@
     {
       "id": "1C_QKaCHfO7zwAYzXhPgET7U9wNbnlMa-",
       "name": "Panduan Lengkap Merawat Batita Hasya Media",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "[ID] Panduan Lengkap Merawat Batita Hasya Media.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1C_QKaCHfO7zwAYzXhPgET7U9wNbnlMa-&sz=w400",
@@ -2591,7 +3119,9 @@
     },
     {
       "id": "1Jbro4A33U_p5-L4ZiIqaP8EtxJ14NIrw",
-      "name": "Panduan Lengkap Merawat Bayi ( 0-1 Tahun ) - dr. Meta Hanindita, Sp.A_",
+      "name": "Panduan Lengkap Merawat Bayi ( 0-1 Tahun ) - dr. Meta Hanindita, Sp",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "Panduan Lengkap Merawat Bayi ( 0-1 Tahun ) - dr. Meta Hanindita, Sp.A_.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1Jbro4A33U_p5-L4ZiIqaP8EtxJ14NIrw&sz=w400",
@@ -2602,6 +3132,8 @@
     {
       "id": "1E4doWoKvrYJd7_-WYLnIdtYOLL5pXQx8",
       "name": "Pangeran Cilik (Le Petit Prince) (Antoine de Saint-Exupery)",
+      "author": "",
+      "desc": "Karya fiksi dan novel dari berbagai genre.",
       "file": "Pangeran Cilik (Le Petit Prince) (Antoine de Saint-Exupery).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1E4doWoKvrYJd7_-WYLnIdtYOLL5pXQx8&sz=w400",
@@ -2612,6 +3144,8 @@
     {
       "id": "1FxYClMZokVE78aI5x-HWgEUnmuLC1oz9",
       "name": "Parenting No Drama - Mengasuh dengan Ilmu, Bukan Sekadar Naluri - School of Parenting",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "[ID] Parenting No Drama - Mengasuh dengan Ilmu, Bukan Sekadar Naluri - School of Parenting.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1FxYClMZokVE78aI5x-HWgEUnmuLC1oz9&sz=w400",
@@ -2621,7 +3155,9 @@
     },
     {
       "id": "1i6onC4EcJyTwxJUOYrjkmNEIyP1aV348",
-      "name": "Pasti Bisa Lolos Tes CPNS Pegawai BUMN (Nurul Hudha, S.Si., M.M., Ihwan S.N., S.Psi. etc.)",
+      "name": "Pasti Bisa Lolos Tes CPNS Pegawai BUMN (Nurul Hudha, S.Si., M.M., Ihwan S.N., S.Psi. etc",
+      "author": "",
+      "desc": "Buku latihan psikotes, CPNS, TOEFL, dan pembelajaran bahasa.",
       "file": "Pasti Bisa Lolos Tes CPNS Pegawai BUMN (Nurul Hudha, S.Si., M.M., Ihwan S.N., S.Psi. etc.).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1i6onC4EcJyTwxJUOYrjkmNEIyP1aV348&sz=w400",
@@ -2631,7 +3167,9 @@
     },
     {
       "id": "1GXeE_7ghc6nZlAS23zsJQRcztQ1hl0Ko",
-      "name": "Pembunuhan di Nihonbashi (Keigo Higashino)",
+      "name": "Pembunuhan di Nihonbashi",
+      "author": "Keigo Higashino",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Pembunuhan di Nihonbashi (Keigo Higashino).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1GXeE_7ghc6nZlAS23zsJQRcztQ1hl0Ko&sz=w400",
@@ -2641,7 +3179,9 @@
     },
     {
       "id": "1jobyxZx0p_WYpfOdaZy4ueKw-oJWchMi",
-      "name": "Pendidikan Karakter Anak Sesuai Pembelajaran Abad ke-21 (Dr. Otib Satibi Hidayat, M.Pd.)",
+      "name": "Pendidikan Karakter Anak Sesuai Pembelajaran Abad ke-21 (Dr. Otib Satibi Hidayat, M.Pd",
+      "author": "",
+      "desc": "Buku pelajaran, kurikulum, dan referensi pendidikan.",
       "file": "Pendidikan Karakter Anak Sesuai Pembelajaran Abad ke-21 (Dr. Otib Satibi Hidayat, M.Pd.).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1jobyxZx0p_WYpfOdaZy4ueKw-oJWchMi&sz=w400",
@@ -2652,6 +3192,8 @@
     {
       "id": "1B_1Lvm84rv3QfkiY7bWPHb4Oe-FrnQEM",
       "name": "Perempuan di Titik Nol",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Perempuan di Titik Nol.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1B_1Lvm84rv3QfkiY7bWPHb4Oe-FrnQEM&sz=w400",
@@ -2662,6 +3204,8 @@
     {
       "id": "1YH-eZb9DR8GIX_zfph55oe7pzAgdG6jH",
       "name": "permainan_rahasia_minul",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "permainan_rahasia_minul.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1YH-eZb9DR8GIX_zfph55oe7pzAgdG6jH&sz=w400",
@@ -2673,6 +3217,8 @@
     {
       "id": "1DW0FTrDq_D4jYGcGRnu1muTZQPRCTGqN",
       "name": "petualangan_bena_dan_mima",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "petualangan_bena_dan_mima.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1DW0FTrDq_D4jYGcGRnu1muTZQPRCTGqN&sz=w400",
@@ -2683,6 +3229,8 @@
     {
       "id": "1PiyumiLxLDkHRzP6mSNIQYQT0wc-5yau",
       "name": "Pilus_Rumput_Laut_Untuk_Rasi",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "Pilus_Rumput_Laut_Untuk_Rasi.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1PiyumiLxLDkHRzP6mSNIQYQT0wc-5yau&sz=w400",
@@ -2693,6 +3241,8 @@
     {
       "id": "1rMkE0bsx5Ta2Aw20rxO1yfCNT3JVdY0l",
       "name": "Pintar Bahasa Inggris Dengan Mind Map",
+      "author": "",
+      "desc": "Buku latihan psikotes, CPNS, TOEFL, dan pembelajaran bahasa.",
       "file": "Pintar Bahasa Inggris Dengan Mind Map - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1rMkE0bsx5Ta2Aw20rxO1yfCNT3JVdY0l&sz=w400",
@@ -2703,6 +3253,8 @@
     {
       "id": "1iupI63o3w_Dy8M1KEy0vlV4RipSScnkL",
       "name": "PPIP_Kelas_7",
+      "author": "",
+      "desc": "Buku pelajaran, kurikulum, dan referensi pendidikan.",
       "file": "PPIP_Kelas_7.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1iupI63o3w_Dy8M1KEy0vlV4RipSScnkL&sz=w400",
@@ -2713,6 +3265,8 @@
     {
       "id": "1-NZ7dbUIH2PlEc3Ec8DSs6Yk3geOgnKv",
       "name": "PPIP_Kelas_8",
+      "author": "",
+      "desc": "Buku pelajaran, kurikulum, dan referensi pendidikan.",
       "file": "PPIP_Kelas_8.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1-NZ7dbUIH2PlEc3Ec8DSs6Yk3geOgnKv&sz=w400",
@@ -2723,6 +3277,8 @@
     {
       "id": "1NJApOklqKpisji3_4oVrsSiedQSBBDMl",
       "name": "PPIP_Kelas_9",
+      "author": "",
+      "desc": "Buku pelajaran, kurikulum, dan referensi pendidikan.",
       "file": "PPIP_Kelas_9.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1NJApOklqKpisji3_4oVrsSiedQSBBDMl&sz=w400",
@@ -2732,7 +3288,9 @@
     },
     {
       "id": "1YIuFpK2tF3pwbxmz00pXd4XrWzUMKjEd",
-      "name": "Practicing The Power of Now.",
+      "name": "Practicing The Power of Now",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Practicing The Power of Now..pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1YIuFpK2tF3pwbxmz00pXd4XrWzUMKjEd&sz=w400",
@@ -2743,6 +3301,8 @@
     {
       "id": "1rq8yZagQygR3SkM9fTG2Re-zFUyolti3",
       "name": "Progresnya Berapa Persen",
+      "author": "Soraya Nasution",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Progresnya Berapa Persen - Soraya Nasution.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1rq8yZagQygR3SkM9fTG2Re-zFUyolti3&sz=w400",
@@ -2753,6 +3313,8 @@
     {
       "id": "1Gt7-9veGOGfVD-gn-bzGk0f_8RJYZUPr",
       "name": "Psikologi Ibnu Sina",
+      "author": "",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
       "file": "Psikologi Ibnu Sina.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1Gt7-9veGOGfVD-gn-bzGk0f_8RJYZUPr&sz=w400",
@@ -2763,6 +3325,8 @@
     {
       "id": "10sVKcAE_V_ZA3MQxH86uWUhQsceKDKqe",
       "name": "Psikologi Islam Kajian Teoritik dan Penelitian Empirik",
+      "author": "",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
       "file": "Psikologi Islam Kajian Teoritik dan Penelitian Empirik.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=10sVKcAE_V_ZA3MQxH86uWUhQsceKDKqe&sz=w400",
@@ -2774,6 +3338,8 @@
     {
       "id": "1YC0f8-xp8Chb7lkF2mJQ9bj5DGUTEozX",
       "name": "Psikologi Komunikasi Suatu Pengantar dan Perspektif Islam",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "Psikologi Komunikasi Suatu Pengantar dan Perspektif Islam.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1YC0f8-xp8Chb7lkF2mJQ9bj5DGUTEozX&sz=w400",
@@ -2786,7 +3352,9 @@
     },
     {
       "id": "1sm79tBruECkpCPD6xnMaGMP-BLU_neBk",
-      "name": "Public Speaking Mastery (Ongky Hojanto)",
+      "name": "Public Speaking Mastery",
+      "author": "Ongky Hojanto",
+      "desc": "Buku motivasi, keterampilan diri, dan pengembangan potensi.",
       "file": "Public Speaking Mastery (Ongky Hojanto).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1sm79tBruECkpCPD6xnMaGMP-BLU_neBk&sz=w400",
@@ -2796,7 +3364,9 @@
     },
     {
       "id": "1Qs2kZ1W_lOIJiRXrCHY7MbLzfFo8MOLr",
-      "name": "Puncak Ilmu adalah Akhlak (Mhd. Rois Almaududy)",
+      "name": "Puncak Ilmu adalah Akhlak",
+      "author": "Mhd. Rois Almaududy",
+      "desc": "Buku keislaman, spiritualitas, dan penguatan iman.",
       "file": "Puncak Ilmu adalah Akhlak (Mhd. Rois Almaududy).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1Qs2kZ1W_lOIJiRXrCHY7MbLzfFo8MOLr&sz=w400",
@@ -2807,6 +3377,8 @@
     {
       "id": "1vIfry7nhY3GV3aFcQg7M9R7EVWZ_7_vU",
       "name": "Putri_Didalam_Hutan",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Putri_Didalam_Hutan.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1vIfry7nhY3GV3aFcQg7M9R7EVWZ_7_vU&sz=w400",
@@ -2817,6 +3389,8 @@
     {
       "id": "10i_Gkx3vMzWLZTUwaP2HdWgrGdTZPHs2",
       "name": "putri_ikan_dan_parana",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "putri_ikan_dan_parana.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=10i_Gkx3vMzWLZTUwaP2HdWgrGdTZPHs2&sz=w400",
@@ -2827,6 +3401,8 @@
     {
       "id": "11BaJl3XlXusZ9LQKJotAgEEgmFnl2FC7",
       "name": "Quiet Impact Tak Masalah Jadi Orang Introver",
+      "author": "SFILE.MOBI",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Quiet Impact Tak Masalah Jadi Orang Introver by Sylvia Loehken  z-lib.org  (SFILE.MOBI).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=11BaJl3XlXusZ9LQKJotAgEEgmFnl2FC7&sz=w400",
@@ -2837,6 +3413,8 @@
     {
       "id": "195IoeLphHVnMKxGdJZraTbfjkwqX22Np",
       "name": "Rahasia bisnis ala Rasulullah",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "Rahasia bisnis ala Rasulullah.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=195IoeLphHVnMKxGdJZraTbfjkwqX22Np&sz=w400",
@@ -2849,7 +3427,9 @@
     },
     {
       "id": "13BGKvnS7HL1kFAPsFY0v82m2Rd-s49Ol",
-      "name": "Rahasia Magnet Rezeki (Edisi Revisi) (Nasrullah)",
+      "name": "Rahasia Magnet Rezeki (Edisi Revisi)",
+      "author": "Nasrullah",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "Rahasia Magnet Rezeki (Edisi Revisi) (Nasrullah).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=13BGKvnS7HL1kFAPsFY0v82m2Rd-s49Ol&sz=w400",
@@ -2861,7 +3441,9 @@
     },
     {
       "id": "1vrumXIMMbRmP5e4r-xFQUDTvbWZaY9CB",
-      "name": "Resep Favorit Ny. Liem",
+      "name": "Resep Favorit Ny",
+      "author": "",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "Resep Favorit Ny. Liem.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1vrumXIMMbRmP5e4r-xFQUDTvbWZaY9CB&sz=w400",
@@ -2871,7 +3453,9 @@
     },
     {
       "id": "1sM3GZtYjfFoZM5RSnN1Rb1hk2Afcdr67",
-      "name": "Resep Finger Food Bebas Gluten untuk MPASI - Hindah J Muaris",
+      "name": "Resep Finger Food Bebas Gluten untuk MPASI",
+      "author": "Hindah J Muaris",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "Resep Finger Food Bebas Gluten untuk MPASI - Hindah J Muaris.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1sM3GZtYjfFoZM5RSnN1Rb1hk2Afcdr67&sz=w400",
@@ -2882,7 +3466,9 @@
     },
     {
       "id": "1BffkvfAIpu-f-yvAoLOVrnvD50xxz2I0",
-      "name": "Resep kue kering Favorit Ny. Liem",
+      "name": "Resep kue kering Favorit Ny",
+      "author": "",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "Resep kue kering Favorit Ny. Liem.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1BffkvfAIpu-f-yvAoLOVrnvD50xxz2I0&sz=w400",
@@ -2892,7 +3478,9 @@
     },
     {
       "id": "1h8KAIyqbyy3sMerHfyrjLDK4NMLTWP77",
-      "name": "Resep Masakan Favorit chinese food Ny. Liem",
+      "name": "Resep Masakan Favorit chinese food Ny",
+      "author": "",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "Resep Masakan Favorit chinese food Ny. Liem.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1h8KAIyqbyy3sMerHfyrjLDK4NMLTWP77&sz=w400",
@@ -2903,6 +3491,8 @@
     {
       "id": "1F6zbZrmuX8GIHgrKeAOeLOqkF6JIPUms",
       "name": "Resep Rahasia ala KFC",
+      "author": "",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "Resep Rahasia ala KFC.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1F6zbZrmuX8GIHgrKeAOeLOqkF6JIPUms&sz=w400",
@@ -2914,7 +3504,9 @@
     },
     {
       "id": "1CMTVO7ddI2Bb71YJ2M6-FjrMNXbexZul",
-      "name": "Resign (Almira Bastari)",
+      "name": "Resign",
+      "author": "Almira Bastari",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Resign (Almira Bastari).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1CMTVO7ddI2Bb71YJ2M6-FjrMNXbexZul&sz=w400",
@@ -2924,7 +3516,9 @@
     },
     {
       "id": "1NR1UQatLW-uogXotQ7zoqHR7LPJSYSWg",
-      "name": "Rich Dad Poor Dad (Edisi Indonesia)",
+      "name": "Rich Dad Poor Dad",
+      "author": "Edisi Indonesia",
+      "desc": "Wawasan seputar bisnis, marketing, dan keuangan pribadi.",
       "file": "Rich Dad Poor Dad (Edisi Indonesia).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1NR1UQatLW-uogXotQ7zoqHR7LPJSYSWg&sz=w400",
@@ -2935,6 +3529,8 @@
     {
       "id": "1uTnuob-I_ptra9FoFlrwPATSKq_jmLSZ",
       "name": "Rinduku Sederas Hujan Sore Itu",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Rinduku Sederas Hujan Sore Itu - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1uTnuob-I_ptra9FoFlrwPATSKq_jmLSZ&sz=w400",
@@ -2945,6 +3541,8 @@
     {
       "id": "1Cm9d-mPNuNzu_wD5i8cHxW6VQL0TttDu",
       "name": "Ronggeng-Dukuh-Paruk-Ahmad-Tohari",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Ronggeng-Dukuh-Paruk-Ahmad-Tohari.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1Cm9d-mPNuNzu_wD5i8cHxW6VQL0TttDu&sz=w400",
@@ -2955,6 +3553,8 @@
     {
       "id": "1c6uOc0k0nEiId59otLlWy5mWxLcJXTOp",
       "name": "Rumah Lebah Setiap Wajah Memiliki Rahasia",
+      "author": "",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "Rumah Lebah Setiap Wajah Memiliki Rahasia (1).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1c6uOc0k0nEiId59otLlWy5mWxLcJXTOp&sz=w400",
@@ -2966,6 +3566,8 @@
     {
       "id": "12EOgIXMG2pG3B0XXYv5VYWiBs9azGIPH",
       "name": "rumah_dendeng",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "rumah_dendeng.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=12EOgIXMG2pG3B0XXYv5VYWiBs9azGIPH&sz=w400",
@@ -2975,7 +3577,9 @@
     },
     {
       "id": "1Rmw9hkRBLVYjPzj1P-lT447fo7caL-91",
-      "name": "Sang Alkemis (The Alchemist)",
+      "name": "Sang Alkemis",
+      "author": "The Alchemist",
+      "desc": "Karya fiksi dan novel dari berbagai genre.",
       "file": "Sang Alkemis (The Alchemist).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1Rmw9hkRBLVYjPzj1P-lT447fo7caL-91&sz=w400",
@@ -2985,7 +3589,9 @@
     },
     {
       "id": "1NB-EzCSy5OnWHJj9q1R4uqGCCMPbeV3k",
-      "name": "Sapiens (Yuval Noah Harari)",
+      "name": "Sapiens",
+      "author": "Yuval Noah Harari",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Sapiens (Yuval Noah Harari).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1NB-EzCSy5OnWHJj9q1R4uqGCCMPbeV3k&sz=w400",
@@ -2994,18 +3600,10 @@
       ]
     },
     {
-      "id": "1ew3tRSgmOPnCK-Sat4l3sNhnTbcgtNkx",
-      "name": "Scripting The Life You Want",
-      "file": "1439. b. indo Scripting The Life You Want - Royce Christyn.pdf",
-      "ext": "pdf",
-      "thumb": "https://drive.google.com/thumbnail?id=1ew3tRSgmOPnCK-Sat4l3sNhnTbcgtNkx&sz=w400",
-      "categories": [
-        "Umum"
-      ]
-    },
-    {
       "id": "1Jq_PwTH1r5MshxDB0TMWQ_O8vWQBTn79",
       "name": "Scripting the Life You Want Manifest Your Dreams With Just Pen and Paper (Royce Christyn [Christyn, Royce])",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Scripting the Life You Want Manifest Your Dreams With Just Pen and Paper (Royce Christyn [Christyn, Royce]).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1Jq_PwTH1r5MshxDB0TMWQ_O8vWQBTn79&sz=w400",
@@ -3015,7 +3613,9 @@
     },
     {
       "id": "1r10iY8NpdJ4zSB8j9yrERpD1SVmdLfw3",
-      "name": "Sebuah Seni untuk Bersikap Bodo Amat (Mark Manson)",
+      "name": "Sebuah Seni untuk Bersikap Bodo Amat",
+      "author": "Mark Manson",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
       "file": "Sebuah Seni untuk Bersikap Bodo Amat (Mark Manson).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1r10iY8NpdJ4zSB8j9yrERpD1SVmdLfw3&sz=w400",
@@ -3027,6 +3627,8 @@
     {
       "id": "1COnQoVNes6XmJxjIvfPJQP3zBPF3j88R",
       "name": "Secrets of Divine Love",
+      "author": "",
+      "desc": "Buku keislaman, spiritualitas, dan penguatan iman.",
       "file": "Secrets of Divine Love - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1COnQoVNes6XmJxjIvfPJQP3zBPF3j88R&sz=w400",
@@ -3036,7 +3638,9 @@
     },
     {
       "id": "1CGkuzg4xTFvF-5yt8clQBX9rzmmidv5U",
-      "name": "Secrets of Divine Love A Spiritual Journey into the Heart of Islam (A. Helwa)",
+      "name": "Secrets of Divine Love A Spiritual Journey into the Heart of Islam",
+      "author": "A. Helwa",
+      "desc": "Buku keislaman, spiritualitas, dan penguatan iman.",
       "file": "Secrets of Divine Love A Spiritual Journey into the Heart of Islam (A. Helwa).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1CGkuzg4xTFvF-5yt8clQBX9rzmmidv5U&sz=w400",
@@ -3046,7 +3650,9 @@
     },
     {
       "id": "1FOwewaGpoWrZrt6nEeos3fAbxBK91p9f",
-      "name": "Secrets Of Divine Love_b.indonesia",
+      "name": "Secrets Of Divine Love_b",
+      "author": "",
+      "desc": "Buku keislaman, spiritualitas, dan penguatan iman.",
       "file": "[ID] Secrets Of Divine Love_b.indonesia.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1FOwewaGpoWrZrt6nEeos3fAbxBK91p9f&sz=w400",
@@ -3057,6 +3663,8 @@
     {
       "id": "1vOOosdOJGA-Ls6YwMpsgGYn46EhoJUHD",
       "name": "Sejarah dunia kuno dari cerita-cerita tertua sampai jatuhnya Roma",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Sejarah dunia kuno dari cerita-cerita tertua sampai jatuhnya Roma.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1vOOosdOJGA-Ls6YwMpsgGYn46EhoJUHD&sz=w400",
@@ -3067,6 +3675,8 @@
     {
       "id": "1s8dDcr7rFpOcNCiOTWb4tVWOlOiA8qty",
       "name": "Sejarah Dunia yang Disembunyikan",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Sejarah Dunia yang Disembunyikan - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1s8dDcr7rFpOcNCiOTWb4tVWOlOiA8qty&sz=w400",
@@ -3077,6 +3687,8 @@
     {
       "id": "18aiwECEEfZx7gueR6ta1Ns7OzJ1ALZTP",
       "name": "Sejarah Dunia Yang Disembunyikan Blokside",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Sejarah Dunia Yang Disembunyikan Blokside.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=18aiwECEEfZx7gueR6ta1Ns7OzJ1ALZTP&sz=w400",
@@ -3087,6 +3699,8 @@
     {
       "id": "1wuonbdykPf3isOm-sFscJfqnOfY8F2TA",
       "name": "Sejarah Islam yang Hilang",
+      "author": "",
+      "desc": "Buku keislaman, spiritualitas, dan penguatan iman.",
       "file": "Sejarah Islam yang Hilang - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1wuonbdykPf3isOm-sFscJfqnOfY8F2TA&sz=w400",
@@ -3097,6 +3711,8 @@
     {
       "id": "1xBjDsM0GEislKf50CNUQI4OYoP_F_bQX",
       "name": "Selesai dengan Diri Sendiri",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Selesai dengan Diri Sendiri - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1xBjDsM0GEislKf50CNUQI4OYoP_F_bQX&sz=w400",
@@ -3107,6 +3723,8 @@
     {
       "id": "1X6XjUvcQTMrePLapnN3frKziTg290RjJ",
       "name": "Self Healing With Al-Qur’an",
+      "author": "",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
       "file": "Self Healing With Al-Qur’an.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1X6XjUvcQTMrePLapnN3frKziTg290RjJ&sz=w400",
@@ -3116,7 +3734,9 @@
     },
     {
       "id": "1D2eJ6MX6QD9h5Ewcjg-t1POlra_PAx5A",
-      "name": "Self-Love Workbook for Women Release Self-Doubt, Build Self-Compassion, and Embrace Who You Are (Megan Logan)",
+      "name": "Self-Love Workbook for Women Release Self-Doubt, Build Self-Compassion, and Embrace Who You Are",
+      "author": "Megan Logan",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
       "file": "Self-Love Workbook for Women Release Self-Doubt, Build Self-Compassion, and Embrace Who You Are (Megan Logan).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1D2eJ6MX6QD9h5Ewcjg-t1POlra_PAx5A&sz=w400",
@@ -3127,6 +3747,8 @@
     {
       "id": "1pclnMAhR0cKf1xiNSzsDHcOJLkLex3D2",
       "name": "Semua-Manusia-Bersaudara-Mahatma-Gandhi",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Semua-Manusia-Bersaudara-Mahatma-Gandhi.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1pclnMAhR0cKf1xiNSzsDHcOJLkLex3D2&sz=w400",
@@ -3137,6 +3759,8 @@
     {
       "id": "155NqP02Asx9e0vb7Hpm3jGXXNbVqvneW",
       "name": "Seni Berbicara kepada Siapa Saja, Kapan Saja, di Mana Saja",
+      "author": "Larry King",
+      "desc": "Buku motivasi, keterampilan diri, dan pengembangan potensi.",
       "file": "Seni Berbicara kepada Siapa Saja, Kapan Saja, di Mana Saja by Larry King.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=155NqP02Asx9e0vb7Hpm3jGXXNbVqvneW&sz=w400",
@@ -3147,6 +3771,8 @@
     {
       "id": "12LHUM_UsIoDoocx2SdzhbQwx2hdj4D-I",
       "name": "Seni Berbicara Pada Anak",
+      "author": "",
+      "desc": "Buku motivasi, keterampilan diri, dan pengembangan potensi.",
       "file": "Seni Berbicara Pada Anak - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=12LHUM_UsIoDoocx2SdzhbQwx2hdj4D-I&sz=w400",
@@ -3157,6 +3783,8 @@
     {
       "id": "1g7loaikgVpFL21m7k6QlX5OY3V-Q3LO_",
       "name": "Seni Hidup Minimalis",
+      "author": "",
+      "desc": "Buku motivasi, keterampilan diri, dan pengembangan potensi.",
       "file": "Seni Hidup Minimalis - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1g7loaikgVpFL21m7k6QlX5OY3V-Q3LO_&sz=w400",
@@ -3167,6 +3795,8 @@
     {
       "id": "1Jv3Lm_LvFNX55iydO--wCWVM5D9OJKWG",
       "name": "seni hidup minimalis -francine-jaypdf",
+      "author": "",
+      "desc": "Buku motivasi, keterampilan diri, dan pengembangan potensi.",
       "file": "seni hidup minimalis -francine-jaypdf-.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1Jv3Lm_LvFNX55iydO--wCWVM5D9OJKWG&sz=w400",
@@ -3175,18 +3805,10 @@
       ]
     },
     {
-      "id": "1KqeQdisA79mwyxqrTLoj1L_IYaDkWM0w",
-      "name": "Seni Membaca Pikiran",
-      "file": "Seni Membaca Pikiran - eBookWave.pdf",
-      "ext": "pdf",
-      "thumb": "https://drive.google.com/thumbnail?id=1KqeQdisA79mwyxqrTLoj1L_IYaDkWM0w&sz=w400",
-      "categories": [
-        "Pengembangan Diri"
-      ]
-    },
-    {
       "id": "1TLalqNyByTOiQt0XuYrGS4GQSNpoIjym",
-      "name": "Seni Membaca Pikiran (Windri Maharani)",
+      "name": "Seni Membaca Pikiran",
+      "author": "Windri Maharani",
+      "desc": "Buku motivasi, keterampilan diri, dan pengembangan potensi.",
       "file": "Seni Membaca Pikiran (Windri Maharani).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1TLalqNyByTOiQt0XuYrGS4GQSNpoIjym&sz=w400",
@@ -3197,6 +3819,8 @@
     {
       "id": "1pSwG1k28Df6jpmIwmzXnwpEEeJAJUh6W",
       "name": "Senja, Hujan, _ Cerita yang Telah Usai",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Senja, Hujan, _ Cerita yang Telah Usai.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1pSwG1k28Df6jpmIwmzXnwpEEeJAJUh6W&sz=w400",
@@ -3207,6 +3831,8 @@
     {
       "id": "1izVvfydsh15_HAowpBat8Sb113tuozm8",
       "name": "Serba Serbi Baking",
+      "author": "",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "[ID] Serba Serbi Baking.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1izVvfydsh15_HAowpBat8Sb113tuozm8&sz=w400",
@@ -3216,7 +3842,9 @@
     },
     {
       "id": "19Bli22XHeassoWptV1yu5h9xPQxICsxB",
-      "name": "Setiap Pemimpin Harus Baca Buku Ini The New Art of the Leader (William A. Cohen, Ph.D.)",
+      "name": "Setiap Pemimpin Harus Baca Buku Ini The New Art of the Leader (William A. Cohen, Ph.D",
+      "author": "",
+      "desc": "Buku motivasi, keterampilan diri, dan pengembangan potensi.",
       "file": "Setiap Pemimpin Harus Baca Buku Ini The New Art of the Leader (William A. Cohen, Ph.D.).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=19Bli22XHeassoWptV1yu5h9xPQxICsxB&sz=w400",
@@ -3227,6 +3855,8 @@
     {
       "id": "1J2jR-UzVgoqynuSx4cvr8tzb4EqLVjI6",
       "name": "Si_Cemong_Coak",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Si_Cemong_Coak.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1J2jR-UzVgoqynuSx4cvr8tzb4EqLVjI6&sz=w400",
@@ -3237,6 +3867,8 @@
     {
       "id": "14MHjOxth9Rmsk78QttKDnwbrkg1h_785",
       "name": "Simone Davies - The Montessori Toddler",
+      "author": "Indonesian Edition",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "[ID] Simone Davies - The Montessori Toddler (Indonesian Edition).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=14MHjOxth9Rmsk78QttKDnwbrkg1h_785&sz=w400",
@@ -3248,6 +3880,8 @@
     {
       "id": "11ZXxk85qoBC3YFhPCrn7orOiHR93IBLg",
       "name": "Simple _ Moist Cake",
+      "author": "Tintin Rayner",
+      "desc": "Buku ini berisi berbagai resep dan panduan memasak.",
       "file": "Simple _ Moist Cake - Tintin Rayner.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=11ZXxk85qoBC3YFhPCrn7orOiHR93IBLg&sz=w400",
@@ -3258,6 +3892,8 @@
     {
       "id": "1IjPfZ0D30eulDC-RIe5G9Yle60ldpszb",
       "name": "Sirah Nabawiyah",
+      "author": "",
+      "desc": "Buku keislaman, spiritualitas, dan penguatan iman.",
       "file": "Sirah Nabawiyah - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1IjPfZ0D30eulDC-RIe5G9Yle60ldpszb&sz=w400",
@@ -3268,6 +3904,8 @@
     {
       "id": "1oaJnZ_jGCBszB7EqnXv_WgnPMm0LLkJM",
       "name": "Smart Thinking_ Skills for Critical Understanding and Writing",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Smart Thinking_ Skills for Critical Understanding and Writing.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1oaJnZ_jGCBszB7EqnXv_WgnPMm0LLkJM&sz=w400",
@@ -3278,6 +3916,8 @@
     {
       "id": "1jObVTzifYYLho10oEXRftsPUBKTi7V9d",
       "name": "sore-seru_suri",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "sore-seru_suri.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1jObVTzifYYLho10oEXRftsPUBKTi7V9d&sz=w400",
@@ -3287,7 +3927,9 @@
     },
     {
       "id": "1_zBhBee5BO0eF_qmzxl2Rl-Vxq34WJJQ",
-      "name": "Start With Why Cara Pemimpin Besar Menginspirasi Orang untuk Bertindak (Simon Sinek)",
+      "name": "Start With Why Cara Pemimpin Besar Menginspirasi Orang untuk Bertindak",
+      "author": "Simon Sinek",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "Start With Why Cara Pemimpin Besar Menginspirasi Orang untuk Bertindak (Simon Sinek).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1_zBhBee5BO0eF_qmzxl2Rl-Vxq34WJJQ&sz=w400",
@@ -3298,7 +3940,9 @@
     },
     {
       "id": "18NwjU67ANagO87sw5lYsIGmDRpd37Jlq",
-      "name": "Sukses Bersama Allah (Akhrie Rabbani)",
+      "name": "Sukses Bersama Allah",
+      "author": "Akhrie Rabbani",
+      "desc": "Buku keislaman, spiritualitas, dan penguatan iman.",
       "file": "Sukses Bersama Allah (Akhrie Rabbani).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=18NwjU67ANagO87sw5lYsIGmDRpd37Jlq&sz=w400",
@@ -3310,6 +3954,8 @@
     {
       "id": "1O_XOZ3IcDoCdh9GFl3RaMIPv20JuIKV9",
       "name": "Sukses Psikotes Kumpulan 1001 Soal + Bahas Psikotes Terlengkap (Ardani Prawira)",
+      "author": "",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
       "file": "Sukses Psikotes Kumpulan 1001 Soal + Bahas Psikotes Terlengkap (Ardani Prawira) (1).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1O_XOZ3IcDoCdh9GFl3RaMIPv20JuIKV9&sz=w400",
@@ -3322,6 +3968,8 @@
     {
       "id": "1bA-KumPM6ILJtsGNa4V_QRvYuR3cKLSZ",
       "name": "Summer in Seoul-1",
+      "author": "",
+      "desc": "Karya fiksi dan novel dari berbagai genre.",
       "file": "Summer in Seoul-1.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1bA-KumPM6ILJtsGNa4V_QRvYuR3cKLSZ&sz=w400",
@@ -3331,7 +3979,9 @@
     },
     {
       "id": "1x-VrnDq26Wv2FP3gzn6oeXAxAmdq5HxE",
-      "name": "Tak Masalah Menjadi Orang yang Berbeda (Its Okay, Youre Just Different) (Kim Doo Eung)",
+      "name": "Tak Masalah Menjadi Orang yang Berbeda (Its Okay, Youre Just Different)",
+      "author": "Kim Doo Eung",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Tak Masalah Menjadi Orang yang Berbeda (Its Okay, Youre Just Different) (Kim Doo Eung).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1x-VrnDq26Wv2FP3gzn6oeXAxAmdq5HxE&sz=w400",
@@ -3342,6 +3992,8 @@
     {
       "id": "1t9fjsOWsrelKm5Bx-zk25f6wTM7npdFB",
       "name": "technical analysis for mega profit",
+      "author": "",
+      "desc": "Wawasan seputar bisnis, marketing, dan keuangan pribadi.",
       "file": "technical analysis for mega profit.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1t9fjsOWsrelKm5Bx-zk25f6wTM7npdFB&sz=w400",
@@ -3351,7 +4003,9 @@
     },
     {
       "id": "1u42NYAhyb8VSmQs3a3xa1F3FpJqkRIe8",
-      "name": "Teknik Membaca Efektif (Femi Olivia)",
+      "name": "Teknik Membaca Efektif",
+      "author": "Femi Olivia",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Teknik Membaca Efektif (Femi Olivia).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1u42NYAhyb8VSmQs3a3xa1F3FpJqkRIe8&sz=w400",
@@ -3362,6 +4016,8 @@
     {
       "id": "1wQOaxqmDXt8PS-g9sp5JWp8kaQQFXbNp",
       "name": "Tenggelamnya Kapal Van Der Wijck",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Tenggelamnya Kapal Van Der Wijck - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1wQOaxqmDXt8PS-g9sp5JWp8kaQQFXbNp&sz=w400",
@@ -3371,7 +4027,9 @@
     },
     {
       "id": "1A9UQtBWkGZbtC-JkD6iCe4EfX1wntvgT",
-      "name": "Terdidik (Educated)",
+      "name": "Terdidik",
+      "author": "Educated",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Terdidik (Educated).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1A9UQtBWkGZbtC-JkD6iCe4EfX1wntvgT&sz=w400",
@@ -3381,7 +4039,9 @@
     },
     {
       "id": "1Cxlodn8gHmvgz6Xdud1Kn1k3K52tVQCM",
-      "name": "The Alpha Girl s Guide (Henry Manampiring)",
+      "name": "The Alpha Girl s Guide",
+      "author": "Henry Manampiring",
+      "desc": "Buku dengan kategori Umum.",
       "file": "The Alpha Girl s Guide (Henry Manampiring).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1Cxlodn8gHmvgz6Xdud1Kn1k3K52tVQCM&sz=w400",
@@ -3392,6 +4052,8 @@
     {
       "id": "1SUSDvvK2fHlp28PtSuZncFp9oyNwoLg1",
       "name": "The Chimp Paradox Mengelola Pikiran Untuk Mencapai Kesuksesan dan Kebahagian",
+      "author": "",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
       "file": "The Chimp Paradox Mengelola Pikiran Untuk Mencapai Kesuksesan dan Kebahagian.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1SUSDvvK2fHlp28PtSuZncFp9oyNwoLg1&sz=w400",
@@ -3403,6 +4065,8 @@
     {
       "id": "1W6y3By2Zw3FPO2IFk82CSlwh8ceZhu_O",
       "name": "The Habit Of Critical [Bahasa Indonesia]",
+      "author": "",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
       "file": "The Habit Of Critical [Bahasa Indonesia].pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1W6y3By2Zw3FPO2IFk82CSlwh8ceZhu_O&sz=w400",
@@ -3414,6 +4078,8 @@
     {
       "id": "1W8E4a-uguMy5FwJOUoh6E9qWsSjFIxpd",
       "name": "The Intelligent Investor_ The Definitive Book On Value Investing, Revised Edition",
+      "author": "",
+      "desc": "Wawasan seputar bisnis, marketing, dan keuangan pribadi.",
       "file": "The Intelligent Investor_ The Definitive Book On Value Investing, Revised Edition.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1W8E4a-uguMy5FwJOUoh6E9qWsSjFIxpd&sz=w400",
@@ -3424,6 +4090,8 @@
     {
       "id": "1QkiT3_2vxz65IrzO-uL5diauvMHq0bVE",
       "name": "The Last Law of Attraction",
+      "author": "Andrew Kap",
+      "desc": "Buku dengan kategori Umum.",
       "file": "The Last Law of Attraction by Andrew Kap.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1QkiT3_2vxz65IrzO-uL5diauvMHq0bVE&sz=w400",
@@ -3433,7 +4101,9 @@
     },
     {
       "id": "1Odosj3ImtDK-x7R3-VUioaF1kidqHGg9",
-      "name": "The Leadership Handbook (John C. Maxwell)",
+      "name": "The Leadership Handbook",
+      "author": "John C. Maxwell",
+      "desc": "Buku motivasi, keterampilan diri, dan pengembangan potensi.",
       "file": "The Leadership Handbook (John C. Maxwell).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1Odosj3ImtDK-x7R3-VUioaF1kidqHGg9&sz=w400",
@@ -3443,7 +4113,9 @@
     },
     {
       "id": "175CpTMAPlrpgN3V97WUTdhPGDKpm5AH9",
-      "name": "The Life Changing Magic of Tidying Up (Indonesian Edition) (Marie Kondo Reni Indardini)",
+      "name": "The Life Changing Magic of Tidying Up",
+      "author": "Marie Kondo Reni Indardini",
+      "desc": "Buku dengan kategori Umum.",
       "file": "The Life Changing Magic of Tidying Up (Indonesian Edition) (Marie Kondo Reni Indardini).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=175CpTMAPlrpgN3V97WUTdhPGDKpm5AH9&sz=w400",
@@ -3454,6 +4126,8 @@
     {
       "id": "1KkqXj-WwLdRKp5X5pCo01HErPjnE8ZvV",
       "name": "The Midnight Library",
+      "author": "",
+      "desc": "Karya fiksi dan novel dari berbagai genre.",
       "file": "The Midnight Library - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1KkqXj-WwLdRKp5X5pCo01HErPjnE8ZvV&sz=w400",
@@ -3464,6 +4138,8 @@
     {
       "id": "1NCFDFKPmt4nL0rg9zN3l9qHMIix_Deo9",
       "name": "the power of habbit_",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "the power of habbit_.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1NCFDFKPmt4nL0rg9zN3l9qHMIix_Deo9&sz=w400",
@@ -3474,6 +4150,8 @@
     {
       "id": "1Rd4jRsnwHJHSJENBAf_mSN6rOn8-cDsL",
       "name": "The Power of Habit_ Why We Do What We Do in Life and Business",
+      "author": "",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
       "file": "The Power of Habit_ Why We Do What We Do in Life and Business.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1Rd4jRsnwHJHSJENBAf_mSN6rOn8-cDsL&sz=w400",
@@ -3484,6 +4162,8 @@
     {
       "id": "1re7-Ie_g4w3J4Wy4C_CmdMp2e-ART0yG",
       "name": "The Power of Negative Words Bertumbuh dari Kekuatan Kata-Kata Negatif",
+      "author": "",
+      "desc": "Buku motivasi, keterampilan diri, dan pengembangan potensi.",
       "file": "The Power of Negative Words Bertumbuh dari Kekuatan Kata-Kata Negatif.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1re7-Ie_g4w3J4Wy4C_CmdMp2e-ART0yG&sz=w400",
@@ -3493,7 +4173,9 @@
     },
     {
       "id": "1SOGU4yEqGtpJfkdKBWDrfWCx8bWRv0KZ",
-      "name": "The Psychology of Money (Morgan Housel)",
+      "name": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "desc": "Wawasan seputar bisnis, marketing, dan keuangan pribadi.",
       "file": "The Psychology of Money (Morgan Housel).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1SOGU4yEqGtpJfkdKBWDrfWCx8bWRv0KZ&sz=w400",
@@ -3504,6 +4186,8 @@
     {
       "id": "17XIy49-K66EzJqECSe-v6QzrDgKl_C1n",
       "name": "The Psychology of Money book(Morgan Housel) book",
+      "author": "",
+      "desc": "Wawasan seputar bisnis, marketing, dan keuangan pribadi.",
       "file": "The Psychology of Money book(Morgan Housel) book.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=17XIy49-K66EzJqECSe-v6QzrDgKl_C1n&sz=w400",
@@ -3514,6 +4198,8 @@
     {
       "id": "1SprjFdRh7L2qUwbPCaRKS-JESx5jVAo5",
       "name": "The Read-Aloud Handbook",
+      "author": "Jim Trelease",
+      "desc": "Buku dengan kategori Umum.",
       "file": "[ID] The Read-Aloud Handbook by Jim Trelease.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1SprjFdRh7L2qUwbPCaRKS-JESx5jVAo5&sz=w400",
@@ -3524,6 +4210,8 @@
     {
       "id": "1WsOGZVM8v-rdP7AgnJHXQ3-5j8vruHyH",
       "name": "The School for Good and Evil 1_ Sekolah Kebaikan dan Kejahatan",
+      "author": "",
+      "desc": "Karya fiksi dan novel dari berbagai genre.",
       "file": "The School for Good and Evil 1_ Sekolah Kebaikan dan Kejahatan.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1WsOGZVM8v-rdP7AgnJHXQ3-5j8vruHyH&sz=w400",
@@ -3534,6 +4222,8 @@
     {
       "id": "1OTnTwDoeB8tm5deIwyc5cMBZAk_RIm3h",
       "name": "The Secret (Rahasia)",
+      "author": "Rhonda Byrne",
+      "desc": "Panduan parenting, tumbuh kembang, dan perawatan anak.",
       "file": "The Secret (Rahasia) by Rhonda Byrne.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1OTnTwDoeB8tm5deIwyc5cMBZAk_RIm3h&sz=w400",
@@ -3544,7 +4234,9 @@
     },
     {
       "id": "1AYYeB3BhAWfirIpJTrONGh4fFcuzZm28",
-      "name": "The Seven Spiritual Laws of Success A Practical Guide to the Fulfillment of Your Dreams (Deepak Chopra)",
+      "name": "The Seven Spiritual Laws of Success A Practical Guide to the Fulfillment of Your Dreams",
+      "author": "Deepak Chopra",
+      "desc": "Buku dengan kategori Umum.",
       "file": "The Seven Spiritual Laws of Success A Practical Guide to the Fulfillment of Your Dreams (Deepak Chopra).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1AYYeB3BhAWfirIpJTrONGh4fFcuzZm28&sz=w400",
@@ -3555,6 +4247,8 @@
     {
       "id": "1VdmDpbZoW1MXjC83rEkNXfS92NjK3Y4V",
       "name": "The Skincare Bible _ Your No-Nonsense Guide to Great Skin",
+      "author": "",
+      "desc": "Tips kesehatan, kecantikan, diet, dan gaya hidup sehat.",
       "file": "The Skincare Bible _ Your No-Nonsense Guide to Great Skin.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1VdmDpbZoW1MXjC83rEkNXfS92NjK3Y4V&sz=w400",
@@ -3564,7 +4258,9 @@
     },
     {
       "id": "1UJZIY1DKzi8GcnkgBywgNArtTJhyG062",
-      "name": "The Sun and Her Flowers (Rupi Kaur)",
+      "name": "The Sun and Her Flowers",
+      "author": "Rupi Kaur",
+      "desc": "Buku dengan kategori Umum.",
       "file": "The Sun and Her Flowers (Rupi Kaur).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1UJZIY1DKzi8GcnkgBywgNArtTJhyG062&sz=w400",
@@ -3575,6 +4271,8 @@
     {
       "id": "1iVnVYDR9DnO9i22rz-mzx91uyVLwZTYz",
       "name": "The Thing You Can See Only When You Slow Down",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "The Thing You Can See Only When You Slow Down - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1iVnVYDR9DnO9i22rz-mzx91uyVLwZTYz&sz=w400",
@@ -3583,18 +4281,10 @@
       ]
     },
     {
-      "id": "1WYccUREfQyRFbbGUUR3DhsNuJRW-nfnB",
-      "name": "The things you can see only when you slow down",
-      "file": "112. b.indo The things you can see only when you slow down (Bahasa).pdf",
-      "ext": "pdf",
-      "thumb": "https://drive.google.com/thumbnail?id=1WYccUREfQyRFbbGUUR3DhsNuJRW-nfnB&sz=w400",
-      "categories": [
-        "Umum"
-      ]
-    },
-    {
       "id": "1kap6BAxqPNLbPTXs0iWTyHAWFS1PZ0L9",
       "name": "The Things You Can See Only When You Slow Down How to Be Calm and Mindful in a Fast-Paced World (Haemin Sunim, Youngcheol Lee, Chi-Young Kim)",
+      "author": "",
+      "desc": "Buku motivasi, keterampilan diri, dan pengembangan potensi.",
       "file": "The Things You Can See Only When You Slow Down How to Be Calm and Mindful in a Fast-Paced World (Haemin Sunim, Youngcheol Lee, Chi-Young Kim).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1kap6BAxqPNLbPTXs0iWTyHAWFS1PZ0L9&sz=w400",
@@ -3604,7 +4294,9 @@
     },
     {
       "id": "1Lqs3LnigyeTe2r8KXrIwXNtQUfFdSi2s",
-      "name": "The Words I Wish I Said (Caitlin Kelly)",
+      "name": "The Words I Wish I Said",
+      "author": "Caitlin Kelly",
+      "desc": "Buku dengan kategori Umum.",
       "file": "The Words I Wish I Said (Caitlin Kelly).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1Lqs3LnigyeTe2r8KXrIwXNtQUfFdSi2s&sz=w400",
@@ -3614,7 +4306,9 @@
     },
     {
       "id": "1JHt0AlEwsNXoErWZh25ySV1-BcaEWKCy",
-      "name": "Thinking, Fast and Slow (Cover Baru)",
+      "name": "Thinking, Fast and Slow",
+      "author": "Cover Baru",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Thinking, Fast and Slow (Cover Baru).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1JHt0AlEwsNXoErWZh25ySV1-BcaEWKCy&sz=w400",
@@ -3625,6 +4319,8 @@
     {
       "id": "1gZ3e0ZectC47vW8Do9vdYxRVJrLomwF5",
       "name": "Tintin Penjelajahan di Bulan",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Tintin Penjelajahan di Bulan - eBookWave.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1gZ3e0ZectC47vW8Do9vdYxRVJrLomwF5&sz=w400",
@@ -3634,7 +4330,9 @@
     },
     {
       "id": "1XIDDRXsQuxsHoPaKE2hdzW2RyPldI977",
-      "name": "Top No (1). 1 TPA _ Psikotes",
+      "name": "Top No",
+      "author": "",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
       "file": "Top No (1). 1 TPA _ Psikotes.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1XIDDRXsQuxsHoPaKE2hdzW2RyPldI977&sz=w400",
@@ -3645,7 +4343,9 @@
     },
     {
       "id": "16aCJwynG391SNona4263lyGQS6H_MN1e",
-      "name": "Tuhan Maaf Aku Kurang Bersyukur (Malik AL M)",
+      "name": "Tuhan Maaf Aku Kurang Bersyukur",
+      "author": "Malik AL M",
+      "desc": "Buku keislaman, spiritualitas, dan penguatan iman.",
       "file": "Tuhan Maaf Aku Kurang Bersyukur (Malik AL M).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=16aCJwynG391SNona4263lyGQS6H_MN1e&sz=w400",
@@ -3656,6 +4356,8 @@
     {
       "id": "1rncsCe0OUVyKaT4QFMrMsXErS_07gREI",
       "name": "Ulumul Qur_an Pengantar Ilmu-Ilmu Al-Qur_an",
+      "author": "",
+      "desc": "Buku keislaman, spiritualitas, dan penguatan iman.",
       "file": "Ulumul Qur_an Pengantar Ilmu-Ilmu Al-Qur_an.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1rncsCe0OUVyKaT4QFMrMsXErS_07gREI&sz=w400",
@@ -3665,7 +4367,9 @@
     },
     {
       "id": "1oHUvVSggzY1Jx3C9Ib5anf4ATZaHNN5O",
-      "name": "When He Leaves You (Michaela Angemeer)",
+      "name": "When He Leaves You",
+      "author": "Michaela Angemeer",
+      "desc": "Buku dengan kategori Umum.",
       "file": "When He Leaves You (Michaela Angemeer).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1oHUvVSggzY1Jx3C9Ib5anf4ATZaHNN5O&sz=w400",
@@ -3676,6 +4380,8 @@
     {
       "id": "1zmQWBt49eexvP5OzJz052JGzfVFtSEk6",
       "name": "witan_dan_negeri_arana",
+      "author": "",
+      "desc": "Buku dengan kategori Umum.",
       "file": "witan_dan_negeri_arana.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1zmQWBt49eexvP5OzJz052JGzfVFtSEk6&sz=w400",
@@ -3686,6 +4392,8 @@
     {
       "id": "1aO8bAlqeap62lwTCmr5SSOf3ftw71oG9",
       "name": "You Do You Discovering Life through Experiments _ Self-Awareness",
+      "author": "",
+      "desc": "Buku pengembangan diri, psikologi, dan kesehatan mental.",
       "file": "You Do You Discovering Life through Experiments _ Self-Awareness (1).pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1aO8bAlqeap62lwTCmr5SSOf3ftw71oG9&sz=w400",
@@ -3695,7 +4403,9 @@
     },
     {
       "id": "1KYhabwm_THAMg_KxIDlAMBXUPLyjmlyj",
-      "name": "Youre Not Enough (And Thats Okay) - Allie Beth Stuckey",
+      "name": "Youre Not Enough (And Thats Okay)",
+      "author": "Allie Beth Stuckey",
+      "desc": "Buku dengan kategori Umum.",
       "file": "Youre Not Enough (And Thats Okay) - Allie Beth Stuckey.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1KYhabwm_THAMg_KxIDlAMBXUPLyjmlyj&sz=w400",
@@ -3705,7 +4415,9 @@
     },
     {
       "id": "1Iu1XvQuci3wEebJ2EcoHRmUZm3oiKOHl",
-      "name": "{Candys} Go Kitchen - Restu Utami Dewi",
+      "name": "{Candys} Go Kitchen",
+      "author": "Restu Utami Dewi",
+      "desc": "Buku dengan kategori Umum.",
       "file": "{Candys} Go Kitchen - Restu Utami Dewi.pdf",
       "ext": "pdf",
       "thumb": "https://drive.google.com/thumbnail?id=1Iu1XvQuci3wEebJ2EcoHRmUZm3oiKOHl&sz=w400",

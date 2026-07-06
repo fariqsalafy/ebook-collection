@@ -80,6 +80,66 @@ def clean_title(name):
     return title
 
 
+def extract_author(name):
+    """Ekstrak penulis dari filename. Return (title_cleaned, author)"""
+    title = name.rsplit('.', 1)[0]
+    author = None
+    
+    # " - Author Name" (hindari eBookWave dll)
+    m = re.search(r'\s+[-–]\s+([A-Z][a-zà-ü]+(?:\s+[A-Z][a-zà-ü]*)*)\s*$', title)
+    if m:
+        cand = m.group(1).strip()
+        if cand.lower() not in ('ebookwave', 'brr', 'mb', 'o', 'id', 'eng', 'bm'):
+            author = cand
+            title = title[:m.start()]
+    
+    # "(Author Name)" di akhir
+    if not author:
+        m = re.search(r'\s*\(([A-Z][A-Za-zà-ü\s.]+)\)\s*$', title)
+        if m:
+            cand = m.group(1).strip()
+            # Filter kode pendek atau yang jelas bukan nama
+            if len(cand) > 4 and not re.match(r'^[A-Z\s]+$', cand):
+                author = cand
+                title = title[:m.start()]
+    
+    # "by Author Name" di akhir
+    if not author:
+        m = re.search(r'\s+by\s+(.+)$', title)
+        if m:
+            author = m.group(1).strip()
+            title = title[:m.start()]
+    
+    # " - Pengarang" atau "oleh" pattern
+    if not author:
+        m = re.search(r'\s+oleh\s+(.+)$', title, re.IGNORECASE)
+        if m:
+            author = m.group(1).strip()
+            title = title[:m.start()]
+    
+    return title.strip(), author
+
+
+def gen_desc(cats, title):
+    """Generate short description based on categories"""
+    desc_map = {
+        'Memasak & Resep': 'Buku ini berisi berbagai resep dan panduan memasak.',
+        'Parenting & Anak': 'Panduan parenting, tumbuh kembang, dan perawatan anak.',
+        'Bisnis & Keuangan': 'Wawasan seputar bisnis, marketing, dan keuangan pribadi.',
+        'Psikologi & Self-Help': 'Buku pengembangan diri, psikologi, dan kesehatan mental.',
+        'Islam & Spiritual': 'Buku keislaman, spiritualitas, dan penguatan iman.',
+        'Psikotes & Bahasa': 'Buku latihan psikotes, CPNS, TOEFL, dan pembelajaran bahasa.',
+        'Novel & Fiksi': 'Karya fiksi dan novel dari berbagai genre.',
+        'Pendidikan & Sekolah': 'Buku pelajaran, kurikulum, dan referensi pendidikan.',
+        'Menjahit & Busana': 'Panduan menjahit, pola busana, dan desain pakaian.',
+        'Pengembangan Diri': 'Buku motivasi, keterampilan diri, dan pengembangan potensi.',
+        'Kesehatan & Kecantikan': 'Tips kesehatan, kecantikan, diet, dan gaya hidup sehat.',
+    }
+    for cat in cats:
+        if cat in desc_map:
+            return desc_map[cat]
+    return f'Buku dengan kategori {", ".join(cats)}.'
+
 def determine_categories(name_lower):
     cats = []
     
@@ -156,15 +216,25 @@ for f in files:
     # Thumbnail
     thumb = f"https://drive.google.com/thumbnail?id={f.id}&sz=w400"
     
-    # Clean title
-    display_name = clean_title(name)
+    # Extract author BEFORE cleaning title
+    pre_name, author = extract_author(name)
+    
+    # Clean title (dari versi yang sudah dihilangkan penulisnya)
+    display_name = clean_title(pre_name)
+    if len(display_name) < 3:
+        display_name = clean_title(name)
     
     # Categories
     categories = determine_categories(name_lower)
     
+    # Description
+    desc = gen_desc(categories, display_name)
+    
     books.append({
         "id": f.id,
         "name": display_name,
+        "author": author or "",
+        "desc": desc,
         "file": name,
         "ext": ext,
         "thumb": thumb,
