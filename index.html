@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E Book SovianaCSP - Koleksi Ebook</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --bg-card: #1e293b;
+    --bg-card-hover: #273548;
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --primary: #3b82f6;
+    --primary-hover: #2563eb;
+    --accent: #06b6d4;
+    --border: #334155;
+    --shadow: 0 4px 6px -1px rgba(0,0,0,.3);
+    --radius: 12px;
+    --tag-bg: rgba(59,130,246,.15);
+    --tag-text: #93c5fd;
+    --tag-border: rgba(59,130,246,.3);
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  /* Header */
+  header {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 2rem 1.5rem 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(12px);
+  }
+  .header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #60a5fa, #06b6d4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  h1 small { font-size: .85rem; color: var(--text-muted); -webkit-text-fill-color: var(--text-muted); }
+  .subtitle {
+    color: var(--text-muted);
+    font-size: .9rem;
+    margin-top: .25rem;
+  }
+  .controls {
+    display: flex;
+    gap: .75rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+  }
+  .search-wrap {
+    flex: 1;
+    min-width: 200px;
+    position: relative;
+  }
+  .search-wrap input {
+    width: 100%;
+    padding: .65rem 1rem .65rem 2.5rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--bg-card);
+    color: var(--text);
+    font-size: .9rem;
+    outline: none;
+    transition: border .2s;
+  }
+  .search-wrap input:focus { border-color: var(--primary); }
+  .search-wrap .icon {
+    position: absolute;
+    left: .75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+    font-size: 1rem;
+  }
+  .stats {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: .85rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+  }
+
+  /* Category filters */
+  .cat-filters {
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+    margin-top: .75rem;
+  }
+  .cat-btn {
+    padding: .35rem .85rem;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text-muted);
+    font-size: .8rem;
+    cursor: pointer;
+    transition: all .2s;
+    white-space: nowrap;
+  }
+  .cat-btn:hover { border-color: var(--primary); color: var(--text); }
+  .cat-btn.active {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: white;
+  }
+
+  /* Grid */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem;
+  }
+  .book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+  .book-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.25rem;
+    transition: all .2s;
+    display: flex;
+    flex-direction: column;
+  }
+  .book-card:hover {
+    background: var(--bg-card-hover);
+    border-color: var(--primary);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+  }
+  .book-card .pdf-icon {
+    width: 36px;
+    height: 36px;
+    background: #dc2626;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .7rem;
+    font-weight: 700;
+    color: white;
+    flex-shrink: 0;
+  }
+  .book-card .docx-icon { background: #2563eb; }
+  .book-card .txt-icon { background: #64748b; }
+  .book-card .card-top {
+    display: flex;
+    gap: .75rem;
+    align-items: flex-start;
+    margin-bottom: .75rem;
+  }
+  .book-card .card-title {
+    font-size: .9rem;
+    font-weight: 500;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .book-card .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .35rem;
+    margin-bottom: .75rem;
+    min-height: 1.5rem;
+  }
+  .book-card .tag {
+    font-size: .7rem;
+    padding: .15rem .5rem;
+    border-radius: 4px;
+    background: var(--tag-bg);
+    color: var(--tag-text);
+    border: 1px solid var(--tag-border);
+  }
+  .book-card .card-actions {
+    margin-top: auto;
+    padding-top: .5rem;
+  }
+  .book-card .dl-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: .4rem;
+    padding: .5rem 1rem;
+    border-radius: 8px;
+    background: var(--primary);
+    color: white;
+    text-decoration: none;
+    font-size: .8rem;
+    font-weight: 500;
+    transition: background .2s;
+    width: 100%;
+    justify-content: center;
+  }
+  .book-card .dl-btn:hover { background: var(--primary-hover); }
+
+  /* Empty state */
+  .empty {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: var(--text-muted);
+    grid-column: 1 / -1;
+  }
+  .empty .emoji { font-size: 3rem; margin-bottom: 1rem; }
+  .empty p { font-size: 1rem; }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-muted);
+    font-size: .8rem;
+    border-top: 1px solid var(--border);
+    margin-top: 2rem;
+  }
+  footer a { color: var(--primary); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+
+  @media (max-width: 640px) {
+    header { padding: 1rem; }
+    h1 { font-size: 1.2rem; }
+    .book-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <h1>📚 E Book SovianaCSP <small>Koleksi Ebook</small></h1>
+    <p class="subtitle">
+      <span id="totalBooks">0</span> ebook &bullet; Klik tombol untuk membuka di Google Drive
+    </p>
+    <div class="controls">
+      <div class="search-wrap">
+        <span class="icon">🔍</span>
+        <input type="text" id="searchInput" placeholder="Cari ebook..." oninput="renderBooks()">
+      </div>
+      <div class="stats">
+        <span id="visibleCount">0</span>/<span id="totalCount">0</span> buku
+      </div>
+    </div>
+    <div class="cat-filters" id="catFilters"></div>
+  </div>
+</header>
+
+<main>
+  <div class="book-grid" id="bookGrid"></div>
+</main>
+
+<footer>
+  <p>Data dari <a href="https://drive.google.com/drive/folders/1_fFMqj47iydyqS6JlqzaekL_a8rD9D-S" target="_blank">Google Drive &rarr;</a></p>
+  <p style="margin-top:.25rem">Dibuat dengan ❤️ &bullet; Hosting gratis di GitHub Pages</p>
+</footer>
+
+<script>
+let allBooks = [];
+let activeCategory = 'Semua';
+
+// Fetch the JSON
+fetch('books.json')
+  .then(r => r.json())
+  .then(data => {
+    allBooks = data.books;
+    document.getElementById('totalBooks').textContent = data.total;
+    document.getElementById('totalCount').textContent = data.total;
+    buildCategories();
+    renderBooks();
+  })
+  .catch(err => {
+    document.getElementById('bookGrid').innerHTML =
+      '<div class="empty"><div class="emoji">😅</div><p>Gagal memuat data. Coba refresh halaman.</p></div>';
+    console.error(err);
+  });
+
+function buildCategories() {
+  const counts = {};
+  allBooks.forEach(b => b.categories.forEach(c => { counts[c] = (counts[c] || 0) + 1; }));
+  const sorted = Object.entries(counts).sort((a,b) => b[1]-a[1]);
+  const container = document.getElementById('catFilters');
+  const allBtn = document.createElement('button');
+  allBtn.className = 'cat-btn active';
+  allBtn.textContent = `Semua (${allBooks.length})`;
+  allBtn.dataset.cat = 'Semua';
+  allBtn.onclick = () => setCategory('Semua');
+  container.appendChild(allBtn);
+  sorted.forEach(([cat, count]) => {
+    const btn = document.createElement('button');
+    btn.className = 'cat-btn';
+    btn.textContent = `${cat} (${count})`;
+    btn.dataset.cat = cat;
+    btn.onclick = () => setCategory(cat);
+    container.appendChild(btn);
+  });
+}
+
+function setCategory(cat) {
+  activeCategory = cat;
+  document.querySelectorAll('.cat-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.cat === cat);
+  });
+  renderBooks();
+}
+
+function renderBooks() {
+  const q = document.getElementById('searchInput').value.toLowerCase().trim();
+  const grid = document.getElementById('bookGrid');
+
+  let filtered = allBooks.filter(b => {
+    if (activeCategory !== 'Semua' && !b.categories.includes(activeCategory)) return false;
+    if (q && !b.name.toLowerCase().includes(q)) return false;
+    return true;
+  });
+
+  document.getElementById('visibleCount').textContent = filtered.length;
+
+  if (filtered.length === 0) {
+    grid.innerHTML = '<div class="empty"><div class="emoji">📭</div><p>Tidak ada ebook yang cocok dengan pencarianmu.</p></div>';
+    return;
+  }
+
+  const icons = { pdf: 'PDF', docx: 'DOCX', txt: 'TXT' };
+  const iconClasses = { pdf: 'pdf-icon', docx: 'docx-icon', txt: 'txt-icon' };
+
+  grid.innerHTML = filtered.map(b => {
+    const ext = b.ext || 'pdf';
+    const icon = icons[ext] || 'FILE';
+    const cls = iconClasses[ext] || 'pdf-icon';
+    const tags = b.categories.slice(0, 3).map(c => `<span class="tag">${c}</span>`).join('');
+    return `
+      <div class="book-card">
+        <div class="card-top">
+          <div class="${cls}">${icon}</div>
+          <div class="card-title">${escapeHtml(b.name)}</div>
+        </div>
+        <div class="tags">${tags}</div>
+        <div class="card-actions">
+          <a href="${b.url}" class="dl-btn" target="_blank" rel="noopener">
+            📂 Buka di Google Drive
+          </a>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function escapeHtml(text) {
+  const div = document.createElement('div');
+  div.textContent = text;
+  return div.innerHTML;
+}
+</script>
+
+</body>
+</html>
