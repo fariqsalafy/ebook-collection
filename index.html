@@ -151,7 +151,7 @@ main{max-width:1280px;margin:0 auto;padding:1.25rem}
   <div class="detail-box">
     <button class="detail-cl" onclick="closeD()">✕</button>
     <div class="detail-top">
-      <div class="detail-cvr"><img id="dC" src="" alt="cover"></div>
+      <div class="detail-cvr"><img id="dC" src="" alt="cover" referrerpolicy="no-referrer" onerror="this.style.display='none'"></div>
       <div class="detail-info">
         <h2 id="dT">-</h2>
         <div class="au" id="dA" style="display:none">oleh <em id="dAN"></em></div>
@@ -174,7 +174,7 @@ main{max-width:1280px;margin:0 auto;padding:1.25rem}
   <div class="reader-hd"><button class="cl" onclick="closeR()">✕</button><span class="rt" id="rT">Memuat...</span></div>
   <div class="reader-bd">
     <div class="load" id="rL">
-      <img id="rC" src="" alt="cover">
+      <img id="rC" src="" alt="cover" referrerpolicy="no-referrer">
       <div class="sp"></div>
       <span>Memuat ebook...</span>
     </div>
@@ -216,8 +216,8 @@ function buildSecs(){
 function card(b){
   return `<div class="bk" data-id="${b.id}" onclick="openD(this)">
     <div class="bk-cvr">
-      <img src="${esc(b.thumb)}" alt="" loading="lazy" onerror="this.classList.add('error');this.parentElement.querySelector('.bk-fb')&&(this.parentElement.querySelector('.bk-fb').style.display='flex')">
-      <div class="bk-fb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5A2.5 2.5 0 0 1 4 19.5Z"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/></svg></div>
+      <img src="${esc(b.thumb)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none';this.parentElement.querySelector('.bk-fb').style.display='flex'">
+      <div class="bk-fb" style="display:none"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5A2.5 2.5 0 0 1 4 19.5Z"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/></svg></div>
     </div>
     <div class="bk-ttl">${esc(b.name)}</div>
     <div class="bk-sub">${b.author||''}</div>
