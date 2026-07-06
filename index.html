@@ -72,30 +72,29 @@
   .empty i{font-size:2.5rem;display:block;margin-bottom:.5rem}
   .empty p{font-size:.85rem}
 
-  /* ─── READER ─── */
+  /* ─── READER (Full-screen, professional) ─── */
   .reader{position:fixed;inset:0;z-index:200;display:flex;flex-direction:column;opacity:0;pointer-events:none;transition:opacity .3s}
   .reader.open{opacity:1;pointer-events:auto}
-  .reader-bg{position:absolute;inset:0;background:rgba(10,8,6,.6);backdrop-filter:blur(6px)}
-  .reader-hd{position:relative;z-index:2;display:flex;align-items:center;gap:.5rem;padding:.5rem 1rem;background:var(--surface);flex-shrink:0}
-  .reader-hd .rt{flex:1;font-size:.82rem;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-  .reader-hd .cl{width:28px;height:28px;border:none;border-radius:50%;background:var(--bg);color:var(--text-sec);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all var(--trans);flex-shrink:0;font-size:.9rem}
+  .reader-bg{position:absolute;inset:0;background:rgba(10,8,6,.65);backdrop-filter:blur(6px)}
+  .reader-hd{position:relative;z-index:2;display:flex;align-items:center;gap:.5rem;padding:.5rem .75rem;background:var(--surface);flex-shrink:0;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+  .reader-hd .cl{width:32px;height:32px;border:none;border-radius:50%;background:var(--bg);color:var(--text-sec);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all var(--trans);flex-shrink:0;font-size:1rem}
   .reader-hd .cl:hover{background:#fee2e2;color:#ef4444}
-  .reader-bd{position:relative;z-index:2;flex:1;display:flex;align-items:center;justify-content:center;padding:.75rem;perspective:1800px}
-  .spread{display:flex;max-width:1050px;width:100%;background:var(--surface);border-radius:4px;overflow:hidden;box-shadow:0 8px 40px rgba(0,0,0,.25);animation:pop .5s cubic-bezier(.22,1,.36,1) forwards}
-  @keyframes pop{0%{transform:rotateX(10deg) scale(.96);opacity:0}100%{transform:rotateX(2deg) scale(1);opacity:1}}
-  .s-left{width:180px;flex-shrink:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(135deg,#f5f0e8,#efe8dc);padding:1rem;border-right:2px solid #e0d8cc;position:relative}
-  .s-left::after{content:'';position:absolute;right:-1px;top:0;bottom:0;width:10px;background:linear-gradient(to right,rgba(0,0,0,.06),transparent)}
-  .s-left .thumb{width:100%;aspect-ratio:3/4;border-radius:4px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,.1);margin-bottom:.6rem}
-  .s-left .thumb img{width:100%;height:100%;object-fit:cover;display:block}
-  .s-left .nm{font-size:.65rem;font-weight:600;text-align:center;color:var(--text)}
-  .s-right{flex:1;display:flex;flex-direction:column;position:relative;min-height:0}
-  .s-right iframe{width:100%;flex:1;border:none;background:#fff}
-  .s-right .load{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.6rem;color:var(--text-ter);font-size:.78rem;background:#faf8f5;z-index:1}
-  .s-right .load .sp{width:22px;height:22px;border:3px solid var(--border);border-top-color:var(--primary);border-radius:50%;animation:sp .7s linear infinite}
+  .reader-hd .rt{flex:1;font-size:.82rem;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:center;color:var(--text)}
+  .reader-bd{position:relative;z-index:2;flex:1;display:flex;background:#e8e4df}
+  .reader-bd iframe{width:100%;border:none;background:#fff}
+  .reader-bd .load{
+    position:absolute;inset:0;z-index:1;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    gap:.75rem;background:var(--surface);
+  }
+  .reader-bd .load img{width:140px;aspect-ratio:3/4;border-radius:6px;object-fit:cover;box-shadow:0 4px 20px rgba(0,0,0,.15);animation:floatIn .5s ease forwards}
+  @keyframes floatIn{0%{transform:translateY(10px) scale(.95);opacity:0}100%{transform:none;opacity:1}}
+  .reader-bd .load .sp{width:24px;height:24px;border:3px solid var(--border);border-top-color:var(--primary);border-radius:50%;animation:sp .7s linear infinite}
+  .reader-bd .load span{font-size:.78rem;color:var(--text-ter)}
   @keyframes sp{to{transform:rotate(360deg)}}
 
-  @media(max-width:800px){.s-left{width:130px;padding:.75rem}.bk{flex:0 0 110px}.bk-ttl{font-size:.62rem}}
-  @media(max-width:480px){.hdr{padding:.6rem .75rem}.hdr-top{gap:.5rem}.brand h1{font-size:.85rem}.brand small{font-size:.6rem}.stat{font-size:.65rem}.bk{flex:0 0 95px}.bk-ttl{font-size:.58rem}.reader-bd{padding:.4rem}.s-left{width:100px;padding:.5rem}}
+  @media(max-width:800px){.bk{flex:0 0 110px}.bk-ttl{font-size:.62rem}}
+  @media(max-width:480px){.hdr{padding:.6rem .75rem}.hdr-top{gap:.5rem}.brand h1{font-size:.85rem}.brand small{font-size:.6rem}.stat{font-size:.65rem}.bk{flex:0 0 95px}.bk-ttl{font-size:.58rem}}
 </style>
 </head>
 <body>
@@ -121,18 +120,14 @@
 
 <div class="reader" id="reader">
   <div class="reader-bg" onclick="closeR()"></div>
-  <div class="reader-hd"><span class="rt" id="rT">Memuat...</span><button class="cl" onclick="closeR()">✕</button></div>
+  <div class="reader-hd"><button class="cl" onclick="closeR()">✕</button><span class="rt" id="rT">Memuat...</span></div>
   <div class="reader-bd">
-    <div class="spread" id="sp">
-      <div class="s-left">
-        <div class="thumb"><img id="rC" src="" alt="cover"></div>
-        <div class="nm" id="rN">-</div>
-      </div>
-      <div class="s-right">
-        <div class="load" id="rL"><div class="sp"></div><span>Memuat ebook...</span></div>
-        <iframe id="rF" allow="autoplay" allowfullscreen></iframe>
-      </div>
+    <div class="load" id="rL">
+      <img id="rC" src="" alt="cover">
+      <div class="sp"></div>
+      <span>Memuat ebook...</span>
     </div>
+    <iframe id="rF" allow="autoplay" allowfullscreen></iframe>
   </div>
 </div>
 
@@ -215,12 +210,10 @@ function filterCat(c){
 function openR(id,title,thumb,ext){
   document.getElementById('rT').textContent=title;
   document.getElementById('rC').src=thumb;
-  document.getElementById('rN').textContent=title;
   const f=document.getElementById('rF'),l=document.getElementById('rL');
   f.src='';l.style.display='flex';f.style.display='none';
   document.getElementById('reader').classList.add('open');document.body.style.overflow='hidden';
-  const s=document.getElementById('sp');s.style.animation='none';void s.offsetWidth;s.style.animation='pop .5s cubic-bezier(.22,1,.36,1) forwards';
-  setTimeout(()=>{f.src=`https://drive.google.com/file/d/${id}/preview?embedded=true`;f.onload=()=>{l.style.display='none';f.style.display='block'}},350);
+  setTimeout(()=>{f.src=`https://drive.google.com/file/d/${id}/preview?embedded=true`;f.onload=()=>{l.style.display='none';f.style.display='block';l.querySelector('img').src=''}},400);
 }
 function closeR(){
   document.getElementById('reader').classList.remove('open');document.body.style.overflow='';
