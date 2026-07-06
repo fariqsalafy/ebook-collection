@@ -10,115 +10,168 @@ files = gdown.download_folder(
     skip_download=True
 )
 
+def clean_title(name):
+    """ Bersihkan judul dari nomor urut, [kode], ebookwave, dll """
+    # Hapus ekstensi
+    title = name.rsplit('.', 1)[0]
+
+    # Hapus pola "(1)" di akhir judul
+    title = re.sub(r'\s*\(\d+\)\s*$', '', title)
+
+    # Hapus " - eBookWave" di akhir
+    title = re.sub(r'\s*[-–]\s*eBookWave$', '', title, flags=re.IGNORECASE)
+
+    # Hapus "_Watermarked" dkk
+    title = re.sub(r'_Watermarked', '', title, flags=re.IGNORECASE)
+    title = re.sub(r'\s*z-lib\.org\s*\(SFILE\.MOBI\)', '', title, flags=re.IGNORECASE)
+    title = re.sub(r'\s*\(SFILE\.MOBI\)', '', title, flags=re.IGNORECASE)
+
+    # Bersihkan prefix "#N [KODE] ", "NNN. [KODE] ", "(kata) NNN. Judul"
+    # Urutan penting: pola spesifik dulu baru generik
+    
+    # "#N [ID] Judul" atau "#N Judul"
+    title = re.sub(r'^#[0-9]+\s*(\[.*?\]\s*)?', '', title)
+    
+    # "NNN. b.indo Judul" atau "NNN. b. indo Judul" (handle dulu sebelum NNN. saja)
+    title = re.sub(r'^[0-9]+\.\s*b\.?\s*indo\s+', '', title, flags=re.IGNORECASE)
+    
+    # "NNN. [KODE] Judul"
+    title = re.sub(r'^[0-9]+\.\s*\[.*?\]\s*', '', title)
+    
+    # "NNN. Judul" (angka saja diikuti titik)
+    title = re.sub(r'^[0-9]+\.\s+', '', title)
+    
+    # "(kata) Judul" di awal
+    title = re.sub(r'^\(.*?\)\s+', '', title)
+
+    # "[KODE] Judul" di awal
+    title = re.sub(r'^\[.*?\]\s+', '', title)
+
+    # Hapus "by Author" di akhir
+    title = re.sub(r'\s+by\s+[A-Z][^,]+$', '', title, flags=re.IGNORECASE)
+    title = re.sub(r'\s+-\s+[A-Z][a-z]+\s+[A-Z][a-z]+$', '', title)  # - Dale Carnegie etc
+
+    # Hapus " (Bahasa)" di akhir
+    title = re.sub(r'\s*\(Bahasa\)\s*$', '', title)
+    title = re.sub(r'\s*\(Indonesian Edition\)\s*$', '', title, flags=re.IGNORECASE)
+    title = re.sub(r'\s*\(BM\)\s*$', '', title)
+
+    # Hapus [BRR], [MB], [O] dll di awal  
+    title = re.sub(r'^\[[A-Z]+[a-z]*\]\s*', '', title)
+
+    # Hapus "B ind " di awal
+    title = re.sub(r'^B\s+ind\s+', '', title, flags=re.IGNORECASE)
+
+    # Hapus "Bahasa-Indonesia-" prefix dari buku sekolah
+    title = re.sub(r'^(Bahasa-Indonesia|IPA|IPS|Informatika|Islam)-', r'\1 ', title)
+
+    # Title case (kapitalisasi judul)
+    # Skip untuk buku yang jelas punya judul resmi dengan huruf kapital
+
+    # Bersihkan spasi berlebih
+    title = re.sub(r'\s+', ' ', title).strip()
+    title = re.sub(r'\s+\.$', '', title)  # trailing dot
+    title = title.strip('-– ').strip()
+
+    # Jika judul jadi terlalu pendek, gunakan nama file asli tanpa ekstensi
+    if len(title) < 3:
+        title = name.rsplit('.', 1)[0]
+
+    return title
+
+
+def determine_categories(name_lower):
+    cats = []
+    
+    if any(kw in name_lower for kw in ['resep', 'masakan', 'makanan', 'kue', 'cake', 
+        'cooking', 'baking', 'frozen food', 'dapur', 'masak', 'menu', 'goreng',
+        'tumisan', 'chinese food', 'ayam pop', 'sambal', 'saus', 'kukus',
+        'snack', 'dessert', 'kopi', 'diet', 'frozen']):
+        cats.append('Memasak & Resep')
+
+    if any(kw in name_lower for kw in ['parenting', 'mpasi', 'bayi', 'batita', 'balita',
+        'menyusui', 'asi', 'hamil', 'melahirkan', 'montessori', 'baby',
+        'gentle birth', 'mommy', 'panduan merawat']):
+        cats.append('Parenting & Anak')
+
+    if any(kw in name_lower for kw in ['bisnis', 'marketing', 'keuangan', 'jualan',
+        'uang', 'kaya', 'closing', 'mlm', 'shopee', 'money', 'magnet rezeki',
+        'investing', 'rich dad', 'profit', 'saham', 'bisnis']):
+        cats.append('Bisnis & Keuangan')
+
+    if any(kw in name_lower for kw in ['psikologi', 'psikotes', 'berpikir',
+        'mindset', 'habit', 'atomic habits', 'self', 'depresi', 'cemasan',
+        'healing', 'emotional', 'bodo amat', 'filosofi', 'stoic',
+        'berdamai', 'berani', 'kebahagiaan', 'bahagia', 'mindset therapy']):
+        cats.append('Psikologi & Self-Help')
+
+    if any(kw in name_lower for kw in ['islam', 'allah', 'rasulullah', 'nabi', 'qur\'an',
+        'quran', 'zikir', 'doa', 'ibadah', 'sirah', 'islamic', 'secrets of divine',
+        'aqidah', 'akhlak', 'tahajud', 'duha', 'syukur', 'kitab', 'firasat',
+        'vibrasi', 'ulumul', 'berkah']):
+        cats.append('Islam & Spiritual')
+
+    if any(kw in name_lower for kw in ['psikotes', 'cpns', 'bumn', 'toefl', 'ielts',
+        'grammar', 'bahasa inggris', 'vocabulary', 'tes', 'tpa']):
+        cats.append('Psikotes & Bahasa')
+
+    if any(kw in name_lower for kw in ['novel', 'fiksi', 'funiculi', 'toko kelontong',
+        'namiya', 'midnight library', 'harry potter', 'pangeran cilik',
+        'alchemis', 'sang alkemis', 'gadis kretek', 'laut bercerita',
+        'cantik itu luka', 'it ends with us', 'summer in seoul',
+        'dunia sophie', 'sekolah kebaikan']):
+        cats.append('Novel & Fiksi')
+
+    if any(kw in name_lower for kw in ['-bg-', '-bs-', 'kelas ', 'ppip_kelas',
+        'pendidikan', 'informatika', 'ipa-bg', 'ipa-bs', 'ips-bg', 'ips-bs',
+        'bahasa indonesia', 'makhfudzot']):
+        cats.append('Pendidikan & Sekolah')
+
+    if any(kw in name_lower for kw in ['menjahit', 'pola busana', 'tailoring',
+        'busana', 'pola', 'soekarno']):
+        cats.append('Menjahit & Busana')
+
+    if any(kw in name_lower for kw in ['seni', 'how to', 'public speaking', 'komunikasi',
+        'rahasia', 'sukses', 'kekuatan', 'leadership', 'pemimpin']):
+        cats.append('Pengembangan Diri')
+
+    if any(kw in name_lower for kw in ['sehat', 'fitness', 'skincare', 'kurus',
+        'langsing', 'kanker', 'diet']):
+        cats.append('Kesehatan & Kecantikan')
+
+    if not cats:
+        cats.append('Umum')
+
+    return list(dict.fromkeys(cats))  # unique, preserve order
+
+
 print(f"Total files: {len(files)}")
 
 books = []
 for f in files:
     name = f.path
-    ext = name.split('.')[-1].lower() if '.' in name else ''
-    
-    # View link
-    view_url = f"https://drive.google.com/file/d/{f.id}/view"
-    
-    # Determine category from filename
+    ext = name.split('.')[-1].lower() if '.' in name else 'pdf'
     name_lower = name.lower()
     
-    categories = []
+    # Thumbnail
+    thumb = f"https://drive.google.com/thumbnail?id={f.id}&sz=w400"
     
-    # Cooking / Resep
-    if any(kw in name_lower for kw in ['resep', 'masakan', 'makanan', 'kue', 'cake', 
-        'cooking', 'baking', 'frozen food', 'dapur', 'masak', 'menu', 'goreng',
-        'tumisan', 'chinese food', 'ayam pop', 'sambal', 'saus', 'kukus',
-        'snack', 'dessert', 'cookies', 'kopi', 'diet']):
-        categories.append('Memasak & Resep')
+    # Clean title
+    display_name = clean_title(name)
     
-    # Parenting / Anak / Bayi
-    if any(kw in name_lower for kw in ['parenting', 'mpasi', 'bayi', 'batita', 'balita',
-        'anak', 'menyusui', 'asi', 'hamil', 'melahirkan', 'montessori', 'baby',
-        'gentle birth', 'mother', 'mommy', 'buku pintar', 'panduan merawat']):
-        categories.append('Parenting & Anak')
+    # Categories
+    categories = determine_categories(name_lower)
     
-    # Bisnis / Marketing / Keuangan
-    if any(kw in name_lower for kw in ['bisnis', 'bisnis', 'marketing', 'keuangan', 'jualan',
-        'uang', 'kaya', 'closing', 'mlm', 'shopee', 'money', 'magnet rezeki',
-        'investing', 'rich dad', 'bisnis', 'bisnis', 'profit']):
-        categories.append('Bisnis & Keuangan')
-    
-    # Psikologi / Self-Help
-    if any(kw in name_lower for kw in ['psikologi', 'psikotes', 'psikotest', 'berpikir',
-        'mindset', 'habbit', 'habit', 'atomic habits', 'mind', 'self',
-        'depresi', 'cemasan', 'healing', 'emotional', 'berpikir', 'bodo amat',
-        'filosofi', 'stoic', 'mindset therapy', 'berdamai', 'berani',
-        'kebahagiaan', 'bahagia', 'gak sendiri', 'keren']):
-        categories.append('Psikologi & Self-Help')
-    
-    # Islam / Spiritual
-    if any(kw in name_lower for kw in ['islam', 'allah', 'rasulullah', 'nabi', 'qur\'an',
-        'quran', 'zikir', 'doa', 'ibadah', 'sirah', 'islamic', 'secrets of divine',
-        'aqidah', 'akhlak', 'tahajud', 'duha', 'berkah', 'syukur',
-        'kitab', 'firasat', 'vibrasi', 'ulumul']):
-        categories.append('Islam & Spiritual')
-    
-    # Psikotes / CPNS / Sekolah
-    if any(kw in name_lower for kw in ['psikotes', 'cpns', 'bumn', 'toefl', 'ielts',
-        'psikotest', 'grammar', 'bahasa inggris', 'vocabulary', 'psikologi',
-        'tes', 'tpa']):
-        categories.append('Psikotes & Bahasa')
-    
-    # Novel / Fiksi
-    if any(kw in name_lower for kw in ['novel', 'fiksi', 'cerita', 'funiculi',
-        'toko kelontong', 'namiya', 'midnight library', 'harry potter',
-        'pangeran cilik', 'alchemis', 'sang alkemis', 'gadis kretek',
-        'laut bercerita', 'cantik itu luka', 'it ends with us',
-        'summer in seoul', 'dunia sophie', 'sekolah kebaikan', 'hujan']):
-        categories.append('Novel & Fiksi')
-    
-    # Sekolah / Pendidikan
-    if any(kw in name_lower for kw in ['-bg-', '-bs-', 'kelas ', 'ppip_kelas',
-        'pendidikan', 'informatika', 'ipa-bg', 'ipa-bs', 'ips-bg', 'ips-bs',
-        'bahasa indonesia', 'belajar men', 'makhfudzot', 'guru']):
-        categories.append('Pendidikan & Sekolah')
-    
-    # Menjahit
-    if any(kw in name_lower for kw in ['menjahit', 'pola busana', 'tailoring',
-        'busana', 'pola', 'soekarno']):
-        categories.append('Menjahit & Busana')
-    
-    # Pengembangan Diri
-    if any(kw in name_lower for kw in ['mindset', 'atomic', 'habit', 'power of',
-        'psychology of money', 'thinking', 'how to', 'seni', 'bicara',
-        'rahasia', 'inspirasi', 'motivasi', 'chicken soup', 'berpikir',
-        'leadership', 'kepemimpinan', 'public speaking', 'komunikasi',
-        'rahasia', 'sukses', 'kekuatan', 'berubah', 'mulai']):
-        categories.append('Pengembangan Diri')
-    
-    # Kesehatan
-    if any(kw in name_lower for kw in ['kesehatan', 'diet', 'sehat', 'fitness',
-        'skincare', 'kurus', 'langsing', 'gemuk', 'kanker']):
-        categories.append('Kesehatan & Kecantikan')
-    
-    # If no category matched, put in Umum
-    if not categories:
-        categories.append('Umum')
-    
-    # Remove duplicates while preserving order
-    seen = set()
-    categories_unique = []
-    for c in categories:
-        if c not in seen:
-            seen.add(c)
-            categories_unique.append(c)
-    
-    book = {
+    books.append({
         "id": f.id,
-        "name": name,
+        "name": display_name,
+        "file": name,
         "ext": ext,
-        "url": view_url,
-        "categories": categories_unique
-    }
-    books.append(book)
+        "url": f"https://drive.google.com/file/d/{f.id}/view",
+        "thumb": thumb,
+        "categories": categories
+    })
 
-# Sort by name
 books.sort(key=lambda x: x['name'].lower())
 
 output = {
@@ -141,3 +194,22 @@ for b in books:
 print("\nCategory counts:")
 for c, n in sorted(cat_count.items(), key=lambda x: -x[1]):
     print(f"  {c}: {n}")
+
+# Sample titles to verify cleaning
+print("\n=== SAMPLE TITLES (before → after) ===")
+samples = [
+    "#1 [ID] Belajar Menjahit untuk Pemula 1.pdf",
+    "( workbook toefl) Check Your English Vocabulary for TOEFL by Rawdon Wyatt.pdf",
+    "112. b.indo The things you can see only when you slow down (Bahasa).pdf",
+    "433. [ID] Mindset - Mengubah Pola Berpikir Untuk Perubahan Besar Dalam Hidup Anda By Carol S Dweck.pdf",
+    "[ID] Atomic Habits – James Clear.pdf",
+    "800. [ID] Atomic Habits – James Clear.pdf",
+    "Cantik itu luka (Eka Kurniawan).pdf",
+    "Funiculi Funicula 2 - eBookWave.pdf",
+    "Bahasa-Indonesia-BG-KLS-VII.pdf",
+    "Buku Penuntun Membuat Pola Busana Tingkat Mahir - Soekarno.pdf",
+]
+for s in samples:
+    print(f"  BEFORE: {s}")
+    print(f"  AFTER:  {clean_title(s)}")
+    print()
