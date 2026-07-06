@@ -213,7 +213,7 @@ function openR(id,title,thumb,ext){
   const f=document.getElementById('rF'),l=document.getElementById('rL');
   f.src='';l.style.display='flex';f.style.display='none';
   document.getElementById('reader').classList.add('open');document.body.style.overflow='hidden';
-  setTimeout(()=>{f.src=`https://drive.google.com/file/d/${id}/preview?embedded=true`;f.onload=()=>{l.style.display='none';f.style.display='block';l.querySelector('img').src=''}},400);
+  setTimeout(()=>{const dl=`https://drive.google.com/uc?export=download&id=${id}`;f.src=`https://docs.google.com/viewer?embedded=true&url=${encodeURIComponent(dl)}`;f.onload=()=>{l.style.display='none';f.style.display='block';l.querySelector('img').src=''}},400);
 }
 function closeR(){
   document.getElementById('reader').classList.remove('open');document.body.style.overflow='';
