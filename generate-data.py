@@ -167,10 +167,32 @@ for f in files:
         "name": display_name,
         "file": name,
         "ext": ext,
-        "url": f"https://drive.google.com/file/d/{f.id}/view",
         "thumb": thumb,
         "categories": categories
     })
+
+# ─── Deduplicate ───
+seen = {}
+for b in books:
+    key = re.sub(r'[^a-z0-9]', '', b['name'].lower())
+    if key not in seen:
+        seen[key] = b
+        continue
+    # Duplicate — pick the better one
+    cur = seen[key]
+    cur_bad = 0
+    new_bad = 0
+    for s in [(b['file'], b), (cur['file'], cur)]:
+        f = s[0].lower()
+        bad = 0
+        if '(1).pdf' in f: bad += 2
+        if 'ebookwave' in f: bad += 1
+        if '[brr]' in f or '[mb]' in f or '[o]' in f: bad += 1
+        if s[1] is b: new_bad = bad
+        else: cur_bad = bad
+    if new_bad < cur_bad:
+        seen[key] = b
+books = list(seen.values())
 
 books.sort(key=lambda x: x['name'].lower())
 

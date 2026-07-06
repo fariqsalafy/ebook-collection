@@ -5,448 +5,228 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>E Book SovianaCSP — Koleksi Digital</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-  *,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
-  :root {
-    --bg: #f4f2ed;
-    --surface: #fff;
-    --surface-hover: #faf8f5;
-    --border: #e5e0d8;
-    --text: #1a1714;
-    --text-sec: #7d7670;
-    --text-ter: #b0a9a2;
-    --primary: #4f46e5;
-    --primary-hover: #4338ca;
-    --primary-light: #eef2ff;
-    --accent: #d97706;
-    --shadow-sm: 0 1px 3px rgba(0,0,0,.06);
-    --shadow-md: 0 4px 16px rgba(0,0,0,.08);
-    --shadow-lg: 0 12px 48px rgba(0,0,0,.15);
-    --radius: 12px;
-    --radius-sm: 8px;
-    --radius-full: 999px;
-    --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    --font-display: 'Playfair Display', Georgia, serif;
-    --transition: .3s cubic-bezier(.4,0,.2,1);
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --bg:#f3f1ec;--surface:#fff;--border:#e3ded6;--text:#1a1714;
+    --text-sec:#7d7670;--text-ter:#b0a9a2;
+    --primary:#4f46e5;--primary-light:#eef2ff;
+    --shadow:0 2px 8px rgba(0,0,0,.06);
+    --radius:10px;--radius-sm:6px;
+    --font:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    --trans:.25s cubic-bezier(.4,0,.2,1)
   }
-  html { scroll-behavior:smooth; }
-  body {
-    font-family: var(--font); background: var(--bg); color: var(--text);
-    line-height:1.6; min-height:100vh;
-    -webkit-font-smoothing: antialiased;
-  }
+  body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.5;-webkit-font-smoothing:antialiased}
 
-  /* ═══ HEADER ═══ */
-  header {
-    background: rgba(255,255,255,.88);
-    backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
-    border-bottom: 1px solid var(--border);
-    position: sticky; top:0; z-index:50;
-  }
-  .hdr { max-width:1320px; margin:0 auto; padding:.85rem 1.5rem .7rem; }
-  .hdr-top { display:flex; align-items:center; gap:1rem; flex-wrap:wrap; }
-  .brand { display:flex; align-items:center; gap:.65rem; text-decoration:none; color:inherit; flex-shrink:0; }
-  .brand-ico {
-    width:38px; height:38px;
-    background: linear-gradient(135deg,#4f46e5,#7c3aed);
-    border-radius:10px; display:flex; align-items:center; justify-content:center;
-    font-size:1.1rem; color:#fff; box-shadow:0 2px 8px rgba(79,70,229,.3);
-  }
-  .brand h1 { font-size:1.05rem; font-weight:700; line-height:1.2; font-family:var(--font-display); }
-  .brand small { font-size:.7rem; color:var(--text-sec); font-weight:400; display:block; }
-  .srch { flex:1; min-width:180px; position:relative; }
-  .srch input {
-    width:100%; padding:.55rem 1rem .55rem 2.4rem;
-    border:1.5px solid var(--border); border-radius:var(--radius-full);
-    background:var(--surface); color:var(--text);
-    font-size:.85rem; font-family:var(--font); outline:none;
-    transition:border var(--transition);
-  }
-  .srch input:focus { border-color:var(--primary); box-shadow:0 0 0 3px rgba(79,70,229,.1); }
-  .srch .ico { position:absolute; left:.8rem; top:50%; transform:translateY(-50%); color:var(--text-ter); font-size:.85rem; pointer-events:none; }
-  .stat { font-size:.78rem; color:var(--text-ter); white-space:nowrap; }
-  .stat strong { color:var(--text); font-weight:600; }
+  /* ─── HEADER ─── */
+  header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}
+  .hdr{max-width:1280px;margin:0 auto;padding:.8rem 1.25rem}
+  .hdr-top{display:flex;align-items:center;gap:.75rem;flex-wrap:wrap}
+  .brand{display:flex;align-items:center;gap:.6rem;text-decoration:none;color:inherit;flex-shrink:0}
+  .brand-ico{width:36px;height:36px;background:linear-gradient(135deg,#4f46e5,#7c3aed);border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:1rem;color:#fff;box-shadow:0 2px 6px rgba(79,70,229,.25);flex-shrink:0}
+  .brand h1{font-size:1rem;font-weight:700;line-height:1.2}
+  .brand small{font-size:.68rem;color:var(--text-sec);display:block}
+  .srch{flex:1;min-width:160px;position:relative}
+  .srch input{width:100%;padding:.5rem 1rem .5rem 2.3rem;border:1.5px solid var(--border);border-radius:999px;background:var(--surface);color:var(--text);font-size:.82rem;font-family:var(--font);outline:none;transition:border var(--trans)}
+  .srch input:focus{border-color:var(--primary);box-shadow:0 0 0 3px rgba(79,70,229,.1)}
+  .srch .ico{position:absolute;left:.8rem;top:50%;transform:translateY(-50%);color:var(--text-ter);pointer-events:none;font-size:.8rem}
+  .stat{font-size:.75rem;color:var(--text-ter);white-space:nowrap}
+  .stat strong{color:var(--text);font-weight:600}
+  .hdr-cats{margin-top:.5rem;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;display:flex;gap:.3rem}
+  .hdr-cats::-webkit-scrollbar{display:none}
+  .cat{padding:.2rem .7rem;border-radius:999px;border:1.5px solid var(--border);background:transparent;color:var(--text-sec);font-size:.72rem;font-family:var(--font);font-weight:500;cursor:pointer;transition:all var(--trans);white-space:nowrap;flex-shrink:0}
+  .cat:hover{border-color:var(--primary);color:var(--primary);background:var(--primary-light)}
+  .cat.on{background:var(--primary);border-color:var(--primary);color:#fff}
 
-  /* Categories */
-  .cat-scroll { margin-top:.65rem; overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none; }
-  .cat-scroll::-webkit-scrollbar { display:none; }
-  .cats { display:flex; gap:.35rem; padding-bottom:.15rem; white-space:nowrap; }
-  .cat {
-    padding:.25rem .8rem; border-radius:var(--radius-full);
-    border:1.5px solid var(--border); background:transparent;
-    color:var(--text-sec); font-size:.75rem; font-family:var(--font); font-weight:500;
-    cursor:pointer; transition:all var(--transition); flex-shrink:0;
-  }
-  .cat:hover { border-color:var(--primary); color:var(--primary); background:var(--primary-light); }
-  .cat.on { background:var(--primary); border-color:var(--primary); color:#fff; }
+  /* ─── SHELVES ─── */
+  main{max-width:1280px;margin:0 auto;padding:1.25rem}
+  .shelf{margin-bottom:2rem}
+  .shelf-hd{display:flex;align-items:baseline;gap:.5rem;margin-bottom:.6rem;padding:0 .25rem}
+  .shelf-hd h2{font-size:1rem;font-weight:700;color:var(--text);letter-spacing:-.01em}
+  .shelf-hd span{font-size:.7rem;color:var(--text-ter);font-weight:500}
+  .shelf-row{display:flex;gap:.6rem;overflow-x:auto;padding:.25rem .25rem .5rem;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:thin}
+  .shelf-row::-webkit-scrollbar{height:4px}
+  .shelf-row::-webkit-scrollbar-track{background:transparent}
+  .shelf-row::-webkit-scrollbar-thumb{background:#d4cec6;border-radius:2px}
+  .shelf-row::after{content:'';flex:0 0 .25rem}
 
-  /* ═══ BOOK GRID ═══ */
-  main { max-width:1320px; margin:0 auto; padding:1.75rem 1.5rem; }
-  .sec-label {
-    font-size:.7rem; font-weight:600; text-transform:uppercase;
-    letter-spacing:.08em; color:var(--text-ter); margin-bottom:1rem;
-  }
+  /* ─── BOOK CARD (shelf) ─── */
+  .bk{flex:0 0 132px;scroll-snap-align:start;cursor:pointer;transition:transform var(--trans)}
+  .bk:hover{transform:translateY(-3px)}
+  .bk-cvr{width:100%;aspect-ratio:3/4;border-radius:var(--radius-sm);overflow:hidden;background:linear-gradient(145deg,#ece8e0,#e0dad0);margin-bottom:.4rem;box-shadow:var(--shadow);position:relative;transition:box-shadow var(--trans)}
+  .bk:hover .bk-cvr{box-shadow:0 4px 14px rgba(0,0,0,.13)}
+  .bk-cvr img{width:100%;height:100%;object-fit:cover;display:block;transition:opacity .35s}
+  .bk-cvr img.error~.bk-fb,img[src=""]~.bk-fb{opacity:1}
+  .bk-fb{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:linear-gradient(145deg,#ece8e0,#e0dad0);opacity:0;transition:opacity .35s}
+  .bk-fb svg{width:32px;height:32px;opacity:.35}
+  .bk-ttl{font-size:.68rem;font-weight:600;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;color:var(--text)}
+  .bk-sub{font-size:.6rem;color:var(--text-ter);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 
-  .grid {
-    display:grid;
-    grid-template-columns:repeat(auto-fill, minmax(190px, 1fr));
-    gap:1rem;
-  }
+  /* ─── SEARCH MODE (grid) ─── */
+  #resGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(155px,1fr));gap:.75rem}
+  #resGrid .bk{flex:none}
 
-  /* Book Card with 3D cover hover */
-  .book {
-    background:var(--surface); border:1px solid var(--border);
-    border-radius:var(--radius); overflow:hidden;
-    cursor:pointer; transition:all var(--transition);
-    perspective:800px;
-  }
-  .book:hover {
-    transform:translateY(-4px);
-    box-shadow:var(--shadow-md);
-    border-color:var(--primary);
-  }
+  /* ─── EMPTY ─── */
+  .empty{text-align:center;padding:3rem 1rem;color:var(--text-ter)}
+  .empty i{font-size:2.5rem;display:block;margin-bottom:.5rem}
+  .empty p{font-size:.85rem}
 
-  .book-inner {
-    padding:.85rem .85rem .75rem;
-    display:flex; flex-direction:column; height:100%;
-  }
+  /* ─── READER ─── */
+  .reader{position:fixed;inset:0;z-index:200;display:flex;flex-direction:column;opacity:0;pointer-events:none;transition:opacity .3s}
+  .reader.open{opacity:1;pointer-events:auto}
+  .reader-bg{position:absolute;inset:0;background:rgba(10,8,6,.6);backdrop-filter:blur(6px)}
+  .reader-hd{position:relative;z-index:2;display:flex;align-items:center;gap:.5rem;padding:.5rem 1rem;background:var(--surface);flex-shrink:0}
+  .reader-hd .rt{flex:1;font-size:.82rem;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .reader-hd .cl{width:28px;height:28px;border:none;border-radius:50%;background:var(--bg);color:var(--text-sec);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all var(--trans);flex-shrink:0;font-size:.9rem}
+  .reader-hd .cl:hover{background:#fee2e2;color:#ef4444}
+  .reader-bd{position:relative;z-index:2;flex:1;display:flex;align-items:center;justify-content:center;padding:.75rem;perspective:1800px}
+  .spread{display:flex;max-width:1050px;width:100%;background:var(--surface);border-radius:4px;overflow:hidden;box-shadow:0 8px 40px rgba(0,0,0,.25);animation:pop .5s cubic-bezier(.22,1,.36,1) forwards}
+  @keyframes pop{0%{transform:rotateX(10deg) scale(.96);opacity:0}100%{transform:rotateX(2deg) scale(1);opacity:1}}
+  .s-left{width:180px;flex-shrink:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(135deg,#f5f0e8,#efe8dc);padding:1rem;border-right:2px solid #e0d8cc;position:relative}
+  .s-left::after{content:'';position:absolute;right:-1px;top:0;bottom:0;width:10px;background:linear-gradient(to right,rgba(0,0,0,.06),transparent)}
+  .s-left .thumb{width:100%;aspect-ratio:3/4;border-radius:4px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,.1);margin-bottom:.6rem}
+  .s-left .thumb img{width:100%;height:100%;object-fit:cover;display:block}
+  .s-left .nm{font-size:.65rem;font-weight:600;text-align:center;color:var(--text)}
+  .s-right{flex:1;display:flex;flex-direction:column;position:relative;min-height:0}
+  .s-right iframe{width:100%;flex:1;border:none;background:#fff}
+  .s-right .load{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.6rem;color:var(--text-ter);font-size:.78rem;background:#faf8f5;z-index:1}
+  .s-right .load .sp{width:22px;height:22px;border:3px solid var(--border);border-top-color:var(--primary);border-radius:50%;animation:sp .7s linear infinite}
+  @keyframes sp{to{transform:rotate(360deg)}}
 
-  .cover-wrap {
-    position:relative; width:100%; aspect-ratio:3/4;
-    border-radius:var(--radius-sm); overflow:hidden;
-    background:linear-gradient(145deg,#ece8e0,#e0dad0);
-    margin-bottom:.7rem;
-    transition:transform var(--transition);
-    box-shadow:0 2px 8px rgba(0,0,0,.06);
-    transform-style:preserve-3d;
-  }
-  .book:hover .cover-wrap {
-    transform: rotateY(-4deg) scale(1.03);
-    box-shadow:4px 6px 20px rgba(0,0,0,.15);
-  }
-  .cover-wrap img {
-    width:100%; height:100%; object-fit:cover; display:block;
-    transition:opacity .4s;
-  }
-  .cover-wrap .fallback {
-    position:absolute; inset:0;
-    display:flex; align-items:center; justify-content:center;
-    background:linear-gradient(145deg,#ece8e0,#e0dad0);
-    opacity:0; transition:opacity .4s;
-  }
-  .cover-wrap .fallback svg { width:40px; height:40px; opacity:.35; }
-  .cover-wrap img[src=""] ~ .fallback,
-  .cover-wrap img.error ~ .fallback { opacity:1; }
-  .cover-wrap .ext-tag {
-    position:absolute; top:.4rem; right:.4rem;
-    font-size:.6rem; font-weight:700;
-    padding:.15rem .45rem; border-radius:4px;
-    background:rgba(255,255,255,.92);
-    color:var(--text-sec); backdrop-filter:blur(4px);
-  }
-  .cover-wrap .ext-tag.docx { color:#2563eb; }
-  .cover-wrap .ext-tag.txt { color:#64748b; }
-
-  .book .ttl {
-    font-size:.78rem; font-weight:600; line-height:1.4;
-    display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;
-    overflow:hidden; margin-bottom:.35rem; flex-shrink:0;
-  }
-  .book .tg { display:flex; flex-wrap:wrap; gap:.2rem; min-height:1.1rem; }
-  .book .tg span {
-    font-size:.6rem; padding:.08rem .4rem; border-radius:4px;
-    background:var(--primary-light); color:var(--primary); font-weight:500;
-    white-space:nowrap;
-  }
-
-  /* Empty */
-  .empty { grid-column:1/-1; text-align:center; padding:4rem 1rem; color:var(--text-ter); }
-  .empty i { font-size:3rem; display:block; margin-bottom:.75rem; }
-  .empty p { font-size:.9rem; }
-
-  /* ═══ READER MODAL (3D Flip) ═══ */
-  .reader {
-    position:fixed; inset:0; z-index:200;
-    display:flex; flex-direction:column;
-    opacity:0; pointer-events:none;
-    transition:opacity .35s ease;
-  }
-  .reader.open { opacity:1; pointer-events:auto; }
-
-  .reader-bg {
-    position:absolute; inset:0;
-    background:rgba(10,8,6,.65);
-    backdrop-filter:blur(6px); -webkit-backdrop-filter:blur(6px);
-  }
-
-  .reader-hd {
-    position:relative; z-index:2;
-    display:flex; align-items:center; gap:.6rem;
-    padding:.6rem 1.25rem;
-    background:var(--surface);
-    border-bottom:1px solid var(--border);
-    flex-shrink:0;
-  }
-  .reader-hd .rt {
-    flex:1; font-size:.85rem; font-weight:600;
-    overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
-  }
-  .reader-hd .close {
-    width:30px; height:30px; border:none; border-radius:50%;
-    background:var(--bg); color:var(--text-sec);
-    cursor:pointer; font-size:1rem;
-    display:flex; align-items:center; justify-content:center;
-    transition:all var(--transition); flex-shrink:0;
-  }
-  .reader-hd .close:hover { background:#fee2e2; color:#ef4444; }
-
-  .reader-bd {
-    position:relative; z-index:2;
-    flex:1; display:flex; align-items:stretch; justify-content:center;
-    padding:1rem;
-    perspective:2000px;
-  }
-
-  /* Realistic book spread */
-  .book-spread {
-    display:flex; align-items:stretch;
-    max-width:1100px; width:100%;
-    background:var(--surface);
-    border-radius:4px;
-    overflow:hidden;
-    box-shadow:0 8px 40px rgba(0,0,0,.25);
-    transform:rotateX(2deg);
-    transform-origin:center bottom;
-    animation:bookOpen .5s cubic-bezier(.22,1,.36,1) forwards;
-  }
-  @keyframes bookOpen {
-    0% { transform:rotateX(12deg) scale(.95); opacity:0; }
-    100% { transform:rotateX(2deg) scale(1); opacity:1; }
-  }
-
-  .book-left {
-    width:200px; flex-shrink:0;
-    display:flex; flex-direction:column;
-    align-items:center; justify-content:center;
-    background:linear-gradient(135deg,#f5f0e8,#efe8dc);
-    padding:1.25rem;
-    border-right:2px solid #e0d8cc;
-    position:relative;
-  }
-  .book-left::after {
-    content:''; position:absolute; right:-1px; top:0; bottom:0;
-    width:12px;
-    background:linear-gradient(to right,rgba(0,0,0,.06),transparent);
-  }
-  .book-left .thumb {
-    width:100%; aspect-ratio:3/4;
-    border-radius:4px; overflow:hidden;
-    box-shadow:0 2px 12px rgba(0,0,0,.12);
-    margin-bottom:.75rem;
-  }
-  .book-left .thumb img { width:100%; height:100%; object-fit:cover; display:block; }
-  .book-left .meta { text-align:center; }
-  .book-left .meta .mt { font-size:.7rem; font-weight:600; color:var(--text); }
-  .book-left .meta .me { font-size:.6rem; color:var(--text-ter); margin-top:2px; }
-
-  .book-right {
-    flex:1; display:flex; flex-direction:column;
-    position:relative; min-height:0;
-  }
-  .book-right iframe {
-    width:100%; flex:1; border:none;
-    background:#fff;
-  }
-  .book-right .loading {
-    position:absolute; inset:0;
-    display:flex; flex-direction:column; align-items:center; justify-content:center;
-    gap:.6rem; color:var(--text-ter); font-size:.8rem;
-    background:#faf8f5;
-    z-index:1;
-  }
-  .book-right .loading .spin {
-    width:24px; height:24px; border:3px solid var(--border);
-    border-top-color:var(--primary); border-radius:50%;
-    animation:spin .7s linear infinite;
-  }
-  @keyframes spin { to{transform:rotate(360deg)} }
-
-  /* ═══ FOOTER ═══ */
-  footer { text-align:center; padding:1.75rem; color:var(--text-ter); font-size:.75rem; border-top:1px solid var(--border); }
-  footer a { color:var(--primary); text-decoration:none; }
-  footer a:hover { text-decoration:underline; }
-
-  /* Scroll */
-  ::-webkit-scrollbar { width:5px; height:5px; }
-  ::-webkit-scrollbar-track { background:transparent; }
-  ::-webkit-scrollbar-thumb { background:#d4cec6; border-radius:3px; }
-  ::-webkit-scrollbar-thumb:hover { background:#a8a29e; }
-
-  /* Responsive */
-  @media(max-width:860px) {
-    .book-spread { flex-direction:column; }
-    .book-left { width:100%; flex-direction:row; padding:.75rem 1rem; border-right:none; border-bottom:2px solid #e0d8cc; }
-    .book-left::after { display:none; }
-    .book-left .thumb { width:70px; aspect-ratio:3/4; margin-bottom:0; margin-right:.75rem; flex-shrink:0; }
-    .book-left .meta .mt { font-size:.65rem; }
-    .book-left .meta .me { font-size:.55rem; }
-    .grid { grid-template-columns:repeat(auto-fill,minmax(155px,1fr)); gap:.75rem; }
-  }
-  @media(max-width:480px) {
-    .grid { grid-template-columns:repeat(2,1fr); gap:.6rem; }
-    .book-inner { padding:.6rem .6rem .6rem; }
-    .book .ttl { font-size:.68rem; }
-    .hdr { padding:.6rem 1rem .5rem; }
-    .hdr-top { gap:.5rem; }
-    .brand h1 { font-size:.9rem; }
-    .stat { font-size:.65rem; }
-    .reader-bd { padding:.5rem; }
-    .book-left .thumb { width:55px; }
-  }
+  @media(max-width:800px){.s-left{width:130px;padding:.75rem}.bk{flex:0 0 110px}.bk-ttl{font-size:.62rem}}
+  @media(max-width:480px){.hdr{padding:.6rem .75rem}.hdr-top{gap:.5rem}.brand h1{font-size:.85rem}.brand small{font-size:.6rem}.stat{font-size:.65rem}.bk{flex:0 0 95px}.bk-ttl{font-size:.58rem}.reader-bd{padding:.4rem}.s-left{width:100px;padding:.5rem}}
 </style>
 </head>
 <body>
 
-<!-- ═══ HEADER ═══ -->
 <header>
   <div class="hdr">
     <div class="hdr-top">
       <a class="brand" href="#">
         <div class="brand-ico">📖</div>
-        <div>
-          <h1>SovianaCSP</h1>
-          <small>Koleksi Ebook Digital</small>
-        </div>
+        <div><h1>SovianaCSP</h1><small>Koleksi Ebook Digital</small></div>
       </a>
-      <div class="srch">
-        <span class="ico">🔍</span>
-        <input type="text" id="q" placeholder="Cari judul ebook..." autocomplete="off" oninput="render()">
-      </div>
-      <div class="stat"><strong id="shown">0</strong> / <span id="total">0</span></div>
+      <div class="srch"><span class="ico">🔍</span><input type="text" id="q" placeholder="Cari ebook..." autocomplete="off" oninput="onSearch()"></div>
+      <div class="stat"><strong id="seen">0</strong> / <span id="all">0</span></div>
     </div>
-    <div class="cat-scroll"><div class="cats" id="cats"></div></div>
+    <div class="hdr-cats" id="cats"></div>
   </div>
 </header>
 
-<!-- ═══ MAIN ═══ -->
-<main>
-  <div class="sec-label" id="secLabel">Semua Ebook</div>
-  <div class="grid" id="grid"></div>
+<main id="main">
+  <div id="shelves"></div>
+  <div id="resView" style="display:none"></div>
 </main>
 
-<footer>
-  <p>Data dari <a href="https://drive.google.com/drive/folders/1_fFMqj47iydyqS6JlqzaekL_a8rD9D-S" target="_blank">Google Drive</a> · Hosting <a href="https://github.com/fariqsalafy/ebook-collection" target="_blank">GitHub Pages</a></p>
-</footer>
-
-<!-- ═══ READER ═══ -->
 <div class="reader" id="reader">
-  <div class="reader-bg" onclick="closeReader()"></div>
-  <div class="reader-hd">
-    <span class="rt" id="rTitle">Memuat...</span>
-    <button class="close" onclick="closeReader()" aria-label="Tutup">✕</button>
-  </div>
-  <div class="reader-bd" id="rBody">
-    <div class="book-spread" id="spread">
-      <div class="book-left">
-        <div class="thumb"><img id="rCover" src="" alt="cover"></div>
-        <div class="meta">
-          <div class="mt" id="rName">-</div>
-          <div class="me" id="rExt">PDF</div>
-        </div>
+  <div class="reader-bg" onclick="closeR()"></div>
+  <div class="reader-hd"><span class="rt" id="rT">Memuat...</span><button class="cl" onclick="closeR()">✕</button></div>
+  <div class="reader-bd">
+    <div class="spread" id="sp">
+      <div class="s-left">
+        <div class="thumb"><img id="rC" src="" alt="cover"></div>
+        <div class="nm" id="rN">-</div>
       </div>
-      <div class="book-right">
-        <div class="loading" id="rLoad"><div class="spin"></div><span>Memuat ebook...</span></div>
-        <iframe id="rFrame" allow="autoplay" allowfullscreen></iframe>
+      <div class="s-right">
+        <div class="load" id="rL"><div class="sp"></div><span>Memuat ebook...</span></div>
+        <iframe id="rF" allow="autoplay" allowfullscreen></iframe>
       </div>
     </div>
   </div>
 </div>
 
 <script>
-/* ═══ DATA ═══ */
-let all = [];
-let cat = 'Semua';
+let all=[],order=[],searchMode=false;
 
-fetch('books.json')
-  .then(r=>r.json())
-  .then(d=>{
-    all=d.books;
-    document.getElementById('total').textContent=d.total;
-    buildCats(); render();
-  })
-  .catch(()=>{
-    document.getElementById('grid').innerHTML='<div class="empty"><i>😵</i><p>Gagal memuat data. Coba refresh.</p></div>';
-  });
+fetch('books.json').then(r=>r.json()).then(d=>{
+  all=d.books;
+  document.getElementById('all').textContent=d.total;
+  // Build category order (non-'Umum' first, sorted by count desc)
+  const cm={};all.forEach(b=>b.categories.forEach(c=>cm[c]=(cm[c]||0)+1));
+  order=Object.entries(cm).filter(([c])=>c!=='Umum').sort((a,b)=>b[1]-a[1]).map(([c])=>c);
+  if(cm['Umum'])order.push('Umum');
+  buildCats();buildShelves();
+});
 
 function buildCats(){
-  const m={};
-  all.forEach(b=>b.categories.forEach(c=>{m[c]=(m[c]||0)+1}));
-  const s=Object.entries(m).sort((a,b)=>b[1]-a[1]);
   const el=document.getElementById('cats');
-  const a=document.createElement('button'); a.className='cat on'; a.textContent='Semua '+all.length; a.dataset.c='Semua'; a.onclick=()=>pick('Semua'); el.appendChild(a);
-  s.forEach(([c,n])=>{
-    const b=document.createElement('button'); b.className='cat'; b.textContent=c+' '+n; b.dataset.c=c;
-    b.onclick=()=>pick(c); el.appendChild(b);
+  const a=document.createElement('button');a.className='cat on';a.textContent='Semua';a.onclick=()=>{document.querySelectorAll('.cat').forEach(b=>b.classList.toggle('on',b===a));showAll()};el.appendChild(a);
+  order.forEach(c=>{
+    const n=all.filter(b=>b.categories.includes(c)).length;
+    const b=document.createElement('button');b.className='cat';b.textContent=c+' '+n;
+    b.onclick=()=>{document.querySelectorAll('.cat').forEach(x=>x.classList.toggle('on',x===b));filterCat(c)};el.appendChild(b);
   });
-}
-function pick(c){
-  cat=c;
-  document.querySelectorAll('.cat').forEach(b=>b.classList.toggle('on',b.dataset.c===c));
-  document.getElementById('secLabel').textContent=c==='Semua'?'Semua Ebook':c;
-  render();
 }
 
-function render(){
-  const q=document.getElementById('q').value.toLowerCase().trim();
-  const g=document.getElementById('grid');
-  let list=all.filter(b=>{
-    if(cat!=='Semua'&&!b.categories.includes(cat)) return false;
-    if(q&&!b.name.toLowerCase().includes(q)&&!b.file.toLowerCase().includes(q)) return false;
-    return true;
-  });
-  document.getElementById('shown').textContent=list.length;
-  if(!list.length){g.innerHTML='<div class="empty"><i>📭</i><p>Tidak ada ebook yang cocok.</p></div>';return;}
-  g.innerHTML=list.map(b=>{
-    const e=(b.ext||'pdf').toLowerCase();
-    return `<div class="book" onclick="openReader('${b.id}','${esc(b.name)}','${esc(b.thumb)}','${e}')">
-      <div class="book-inner">
-        <div class="cover-wrap">
-          <img src="${esc(b.thumb)}" alt="" loading="lazy" onerror="this.classList.add('error');this.src=''">
-          <div class="fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5A2.5 2.5 0 0 1 4 19.5Z"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/></svg></div>
-          <span class="ext-tag ${e}">${e.toUpperCase()}</span>
-        </div>
-        <div class="ttl">${esc(b.name)}</div>
-        <div class="tg">${b.categories.slice(0,2).map(c=>`<span>${esc(c)}</span>`).join('')}</div>
-      </div>
-    </div>`;
+function buildShelves(){
+  const el=document.getElementById('shelves');
+  el.innerHTML=order.map(c=>{
+    const books=all.filter(b=>b.categories.includes(c));
+    return `<div class="shelf"><div class="shelf-hd"><h2>📚 ${esc(c)}</h2><span>${books.length} ebook</span></div><div class="shelf-row">${books.map(b=>card(b)).join('')}</div></div>`;
   }).join('');
 }
+
+function card(b){
+  const e=(b.ext||'pdf').toLowerCase();
+  return `<div class="bk" onclick="openR('${b.id}','${esc(b.name)}','${esc(b.thumb)}','${e}')">
+    <div class="bk-cvr">
+      <img src="${esc(b.thumb)}" alt="" loading="lazy" onerror="this.classList.add('error');this.src=''">
+      <div class="bk-fb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5A2.5 2.5 0 0 1 4 19.5Z"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/></svg></div>
+    </div>
+    <div class="bk-ttl">${esc(b.name)}</div>
+    <div class="bk-sub">${b.categories.slice(0,1).join(', ')}</div>
+  </div>`;
+}
+
 function esc(s){const d=document.createElement('div');d.textContent=s;return d.innerHTML;}
 
-/* ═══ READER ═══ */
-function openReader(id,title,thumb,ext){
-  document.getElementById('rTitle').textContent=title;
-  document.getElementById('rCover').src=thumb;
-  document.getElementById('rName').textContent=title;
-  document.getElementById('rExt').textContent=ext.toUpperCase();
-  const f=document.getElementById('rFrame');
-  const l=document.getElementById('rLoad');
-  f.src=''; l.style.display='flex'; f.style.display='none';
-  document.getElementById('reader').classList.add('open');
-  document.body.style.overflow='hidden';
-  // Restart spread animation
-  const s=document.getElementById('spread');
-  s.style.animation='none'; void s.offsetWidth;
-  s.style.animation='bookOpen .5s cubic-bezier(.22,1,.36,1) forwards';
-  setTimeout(()=>{f.src=`https://drive.google.com/file/d/${id}/preview`;f.onload=()=>{l.style.display='none';f.style.display='block';}},350);
+/* Search & Filter */
+function onSearch(){
+  const q=document.getElementById('q').value.trim().toLowerCase();
+  if(!q.length){showAll();return}
+  searchMode=true;
+  document.getElementById('shelves').style.display='none';
+  document.getElementById('resView').style.display='block';
+  const res=all.filter(b=>b.name.toLowerCase().includes(q));
+  document.getElementById('seen').textContent=res.length;
+  document.getElementById('resView').innerHTML=res.length
+    ? `<div class="shelf"><div class="shelf-hd"><h2>🔍 Hasil Pencarian</h2><span>${res.length} ebook</span></div><div id="resGrid">${res.map(b=>card(b)).join('')}</div></div>`
+    : '<div class="empty"><i>📭</i><p>Tidak ditemukan.</p></div>';
 }
-function closeReader(){
-  document.getElementById('reader').classList.remove('open');
-  document.body.style.overflow='';
-  setTimeout(()=>{document.getElementById('rFrame').src='';},350);
+function showAll(){
+  searchMode=false;document.querySelectorAll('.cat').forEach(b=>b.classList.toggle('on',b.dataset.c==='Semua'||!b.dataset.c));
+  document.getElementById('q').value='';
+  document.getElementById('shelves').style.display='block';
+  document.getElementById('resView').style.display='none';
+  document.getElementById('seen').textContent=all.length;
 }
-document.addEventListener('keydown',e=>{if(e.key==='Escape')closeReader();});
+function filterCat(c){
+  searchMode=true;
+  document.getElementById('shelves').style.display='none';
+  document.getElementById('resView').style.display='block';
+  document.getElementById('q').value='';
+  const res=all.filter(b=>b.categories.includes(c));
+  document.getElementById('seen').textContent=res.length;
+  document.getElementById('resView').innerHTML=`<div class="shelf"><div class="shelf-hd"><h2>📚 ${esc(c)}</h2><span>${res.length} ebook</span></div><div id="resGrid">${res.map(b=>card(b)).join('')}</div></div>`;
+}
+
+/* Reader */
+function openR(id,title,thumb,ext){
+  document.getElementById('rT').textContent=title;
+  document.getElementById('rC').src=thumb;
+  document.getElementById('rN').textContent=title;
+  const f=document.getElementById('rF'),l=document.getElementById('rL');
+  f.src='';l.style.display='flex';f.style.display='none';
+  document.getElementById('reader').classList.add('open');document.body.style.overflow='hidden';
+  const s=document.getElementById('sp');s.style.animation='none';void s.offsetWidth;s.style.animation='pop .5s cubic-bezier(.22,1,.36,1) forwards';
+  setTimeout(()=>{f.src=`https://drive.google.com/file/d/${id}/preview?embedded=true`;f.onload=()=>{l.style.display='none';f.style.display='block'}},350);
+}
+function closeR(){
+  document.getElementById('reader').classList.remove('open');document.body.style.overflow='';
+  setTimeout(()=>{document.getElementById('rF').src=''},350);
+}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeR()});
 </script>
 </body>
 </html>
