@@ -81,7 +81,7 @@
   .reader-hd .cl:hover{background:#fee2e2;color:#ef4444}
   .reader-hd .rt{flex:1;font-size:.82rem;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:center;color:var(--text)}
   .reader-bd{position:relative;z-index:2;flex:1;display:flex;background:#e8e4df}
-  .reader-bd iframe{width:100%;border:none;background:#fff}
+  .reader-bd iframe{width:100%;border:none;background:#fff;display:none}
   .reader-bd .load{
     position:absolute;inset:0;z-index:1;
     display:flex;flex-direction:column;align-items:center;justify-content:center;
@@ -92,6 +92,11 @@
   .reader-bd .load .sp{width:24px;height:24px;border:3px solid var(--border);border-top-color:var(--primary);border-radius:50%;animation:sp .7s linear infinite}
   .reader-bd .load span{font-size:.78rem;color:var(--text-ter)}
   @keyframes sp{to{transform:rotate(360deg)}}
+  .reader-bd .fallback{display:none;position:absolute;inset:0;z-index:3;flex-direction:column;align-items:center;justify-content:center;gap:.75rem;background:var(--surface)}
+  .reader-bd .fallback.show{display:flex}
+  .reader-bd .fallback p{font-size:.82rem;color:var(--text-ter);text-align:center;max-width:300px}
+  .reader-bd .fallback a{display:inline-flex;align-items:center;gap:.4rem;padding:.5rem 1.2rem;background:var(--primary);color:#fff;border-radius:8px;text-decoration:none;font-size:.82rem;font-weight:500;transition:background var(--trans)}
+  .reader-bd .fallback a:hover{background:#4338ca}
 
   @media(max-width:800px){.bk{flex:0 0 110px}.bk-ttl{font-size:.62rem}}
   @media(max-width:480px){.hdr{padding:.6rem .75rem}.hdr-top{gap:.5rem}.brand h1{font-size:.85rem}.brand small{font-size:.6rem}.stat{font-size:.65rem}.bk{flex:0 0 95px}.bk-ttl{font-size:.58rem}}
@@ -128,6 +133,10 @@
       <span>Memuat ebook...</span>
     </div>
     <iframe id="rF" allow="autoplay" allowfullscreen></iframe>
+    <div class="fallback" id="rB">
+      <p>Gagal memuat. Buka langsung di tab baru?</p>
+      <a id="rDL" target="_blank" rel="noopener">📄 Buka Ebook</a>
+    </div>
   </div>
 </div>
 
@@ -210,10 +219,19 @@ function filterCat(c){
 function openR(id,title,thumb,ext){
   document.getElementById('rT').textContent=title;
   document.getElementById('rC').src=thumb;
-  const f=document.getElementById('rF'),l=document.getElementById('rL');
-  f.src='';l.style.display='flex';f.style.display='none';
+  const f=document.getElementById('rF'),l=document.getElementById('rL'),
+        b=document.getElementById('rB'),dl=document.getElementById('rDL');
+  const directUrl=`https://drive.usercontent.google.com/download?id=${id}&export=download&confirm=t`;
+  f.src='';l.style.display='flex';f.style.display='none';b.classList.remove('show');
   document.getElementById('reader').classList.add('open');document.body.style.overflow='hidden';
-  setTimeout(()=>{const dl=`https://drive.google.com/uc?export=download&id=${id}`;f.src=`https://docs.google.com/viewer?embedded=true&url=${encodeURIComponent(dl)}`;f.onload=()=>{l.style.display='none';f.style.display='block';l.querySelector('img').src=''}},400);
+  setTimeout(()=>{
+    f.src=directUrl;
+    dl.href=directUrl;
+    // Show fallback if iframe fails after 15s
+    let timer=setTimeout(()=>{if(l.style.display!='none'){b.classList.add('show');l.style.display='none'}},15000);
+    f.onload=()=>{clearTimeout(timer);l.style.display='none';f.style.display='block';b.classList.remove('show');l.querySelector('img').src=''};
+    f.onerror=()=>{clearTimeout(timer);b.classList.add('show');l.style.display='none'};
+  },400);
 }
 function closeR(){
   document.getElementById('reader').classList.remove('open');document.body.style.overflow='';
