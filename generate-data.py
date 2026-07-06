@@ -120,25 +120,63 @@ def extract_author(name):
     return title.strip(), author
 
 
-def gen_desc(cats, title):
-    """Generate short description based on categories"""
-    desc_map = {
-        'Memasak & Resep': 'Buku ini berisi berbagai resep dan panduan memasak.',
-        'Parenting & Anak': 'Panduan parenting, tumbuh kembang, dan perawatan anak.',
-        'Bisnis & Keuangan': 'Wawasan seputar bisnis, marketing, dan keuangan pribadi.',
-        'Psikologi & Self-Help': 'Buku pengembangan diri, psikologi, dan kesehatan mental.',
-        'Islam & Spiritual': 'Buku keislaman, spiritualitas, dan penguatan iman.',
-        'Psikotes & Bahasa': 'Buku latihan psikotes, CPNS, TOEFL, dan pembelajaran bahasa.',
-        'Novel & Fiksi': 'Karya fiksi dan novel dari berbagai genre.',
-        'Pendidikan & Sekolah': 'Buku pelajaran, kurikulum, dan referensi pendidikan.',
-        'Menjahit & Busana': 'Panduan menjahit, pola busana, dan desain pakaian.',
-        'Pengembangan Diri': 'Buku motivasi, keterampilan diri, dan pengembangan potensi.',
-        'Kesehatan & Kecantikan': 'Tips kesehatan, kecantikan, diet, dan gaya hidup sehat.',
+def gen_desc(cats, title, raw_name):
+    """Generate short description based on categories, title, and filename hints"""
+    # Try to extract subtitle from raw filename (text after colon or dash)
+    subtitle = None
+    m = re.search(r':\s*([^;(]+)', raw_name)
+    if m:
+        sub = m.group(1).strip()
+        if len(sub) > 8 and len(sub) < 120:
+            subtitle = sub
+    
+    if subtitle:
+        return subtitle.rstrip('.') + '.'
+    
+    # Keywords-based hints from title
+    hints = []
+    tl = title.lower()
+    if any(kw in tl for kw in ['resep', 'masak', 'kue', 'cake', 'sambal']):
+        hints.append('resep dan panduan memasak')
+    if any(kw in tl for kw in ['bisnis', 'keuangan', 'uang', 'kaya', 'saham']):
+        hints.append('wawasan bisnis dan keuangan')
+    if any(kw in tl for kw in ['psikologi', 'mindset', 'psikotes', 'self', 'healing']):
+        hints.append('pengembangan diri dan psikologi')
+    if any(kw in tl for kw in ['islam', 'allah', 'nabi', 'quran', 'doa', 'ibadah']):
+        hints.append('nilai-nilai keislaman')
+    if any(kw in tl for kw in ['parenting', 'bayi', 'anak', 'balita', 'asi']):
+        hints.append('parenting dan tumbuh kembang anak')
+    if any(kw in tl for kw in ['sehat', 'diet', 'fitness', 'kanker', 'kurus', 'langsing']):
+        hints.append('kesehatan dan gaya hidup')
+    if any(kw in tl for kw in ['menjahit', 'busana', 'pola', 'tailoring']):
+        hints.append('teknik menjahit dan pola busana')
+    if any(kw in tl for kw in ['bisnis', 'seni', 'how to', 'public speaking', 'komunikasi']):
+        hints.append('pengembangan potensi diri')
+    if any(kw in tl for kw in ['novel', 'fiksi']):
+        hints.append('karya fiksi yang menarik')
+    
+    if hints:
+        return f'{title} — buku {hints[0]}.'
+    
+    # Fallback: category-based with title
+    cat_desc = {
+        'Memasak & Resep': 'resep dan panduan memasak yang praktis',
+        'Parenting & Anak': 'parenting dan tumbuh kembang anak',
+        'Bisnis & Keuangan': 'wawasan bisnis dan keuangan',
+        'Psikologi & Self-Help': 'pengembangan diri dan psikologi',
+        'Islam & Spiritual': 'nilai-nilai keislaman dan spiritualitas',
+        'Psikotes & Bahasa': 'latihan psikotes dan bahasa',
+        'Novel & Fiksi': 'karya fiksi yang menarik',
+        'Pendidikan & Sekolah': 'bahan ajar dan referensi pendidikan',
+        'Menjahit & Busana': 'panduan menjahit dan pola busana',
+        'Pengembangan Diri': 'motivasi dan pengembangan potensi diri',
+        'Kesehatan & Kecantikan': 'tips kesehatan dan kecantikan',
     }
-    for cat in cats:
-        if cat in desc_map:
-            return desc_map[cat]
-    return f'Buku dengan kategori {", ".join(cats)}.'
+    cat = cats[0] if cats else 'Umum'
+    if cat in cat_desc:
+        return f'{title} — buku {cat_desc[cat]}.'
+    # Umum atau kategori tanpa deskripsi bermakna — skip
+    return ''
 
 def determine_categories(name_lower):
     cats = []
@@ -228,7 +266,7 @@ for f in files:
     categories = determine_categories(name_lower)
     
     # Description
-    desc = gen_desc(categories, display_name)
+    desc = gen_desc(categories, display_name, name)
     
     books.append({
         "id": f.id,
